@@ -1,0 +1,21 @@
+#FORM2
+
+[task_time]
+start_time : "2012-01-01-00:00:00"
+end_time   : "2012-01-31-23:59:59"
+
+[broadcast_setting]
+broadcast_list : ({ "during_task" })
+
+[during_task]
+broadcast_start : "start_time(0)"
+interval        : 7200
+broadcast_end   : "end_time(-1)"
+message         : "#R天降好礼活动#n开始了，前一天的#R今日活跃度#n达到#RB-#n以上的玩家可以到#P活动大使#P处领取#R天降好礼奖券#n，活跃度越高，领取的奖券越多。活动时间#RSTART_TIME#n至#REND_TIME#n，大家快到#P活动大使#P处领取#R天降好礼奖券#n吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[抽奖]
+name  : 抽奖
+rate  : 10000
+
+

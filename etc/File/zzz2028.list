@@ -1,0 +1,125 @@
+#FORM2
+#jinnang.list
+#create by caijz 09/20/2006
+#奖励物品        机率
+
+[奖励等级]
+name$: 特等奖
+
+
+[特等奖]
+法宝奖励1 : 5000
+法宝奖励2 : 5000
+法宝奖励3 : 5000
+法宝奖励4 : 5000
+法宝奖励5 : 5000
+法宝奖励6 : 5000
+法宝奖励7 : 5000
+法宝奖励8 : 5000
+法宝奖励9 : 5000
+法宝奖励10 : 5000
+
+[法宝奖励1]
+bonus$:  ({ 0, 0, 100, "属性道具", 50, 50, "番天印1" })
+
+[番天印1]
+name      : 番天印
+min_level : 1
+max_level : 1
+upgrade_type : 9
+attribs      : ({ "item_polar", 1 }) 
+
+
+[法宝奖励2]
+bonus$:  ({ 0, 0, 100, "属性道具", 50, 50, "定海珠1" })
+
+[定海珠1]
+name      : 定海珠
+min_level : 1
+max_level : 1
+upgrade_type : 9
+attribs      : ({ "item_polar", 1 }) 
+
+
+[法宝奖励3]
+bonus$:  ({ 0, 0, 100, "属性道具", 50, 50, "混元金斗1" })
+
+[混元金斗1]
+name      : 混元金斗
+min_level : 1
+max_level : 1
+upgrade_type : 9
+attribs      : ({ "item_polar", 1 }) 
+
+
+[法宝奖励4]
+bonus$:  ({ 0, 0, 100, "属性道具", 50, 50, "阴阳镜1" })
+
+[阴阳镜1]
+name      : 阴阳镜
+min_level : 1
+max_level : 1
+upgrade_type : 9
+attribs      : ({ "item_polar", 1 }) 
+
+
+[法宝奖励5]
+bonus$:  ({ 0, 0, 100, "属性道具", 50, 50, "九龙神火罩1" })
+
+[九龙神火罩1]
+name      : 九龙神火罩
+min_level : 1
+max_level : 1
+upgrade_type : 9
+attribs      : ({ "item_polar", 1 }) 
+
+[法宝奖励6]
+bonus$:  ({ 0, 0, 100, "属性道具", 50, 50, "金蛟剪1" })
+
+[金蛟剪1]
+name      : 金蛟剪
+min_level : 1
+max_level : 1
+upgrade_type : 9
+attribs      : ({ "item_polar", 1 }) 
+
+[法宝奖励7]
+bonus$:  ({ 0, 0, 100, "属性道具", 50, 50, "混沌钟1" })
+
+[混沌钟1]
+name      : 混沌钟
+min_level : 1
+max_level : 1
+upgrade_type : 9
+attribs      : ({ "item_polar", 1 }) 
+
+[法宝奖励8]
+bonus$:  ({ 0, 0, 100, "属性道具", 50, 50, "卸甲金葫2" })
+
+[卸甲金葫2]
+name      : 卸甲金葫
+min_level : 1
+max_level : 1
+upgrade_type : 9
+attribs      : ({ "item_polar", 2 }) 
+
+[法宝奖励9]
+bonus$:  ({ 0, 0, 100, "属性道具", 50, 50, "七宝妙树1" })
+
+[七宝妙树1]
+name      : 七宝妙树
+min_level : 1
+max_level : 1
+upgrade_type : 9
+attribs      : ({ "item_polar", 1 }) 
+
+
+[法宝奖励10]
+bonus$:  ({ 0, 0, 100, "属性道具", 50, 50, "十二品莲台1" })
+
+[十二品莲台1]
+name      : 十二品莲台
+min_level : 1
+max_level : 1
+upgrade_type : 9
+attribs      : ({ "item_polar", 1 }) 

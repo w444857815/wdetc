@@ -1,0 +1,191 @@
+#FORM2
+#怪物攻城配置文件（公测区）
+#
+
+[活动时间]
+time_list$ : ({ "2019-07-01-00:00:00", "EVERY_MIN(10)", "EVERY_DAY(1)", "2020-05-30-23:59:59" })
+time_list$ : ({ "2019-07-01-02:00:00", "EVERY_MIN(10)", "EVERY_DAY(1)", "2020-05-30-23:59:59" })
+time_list$ : ({ "2019-07-01-04:00:00", "EVERY_MIN(10)", "EVERY_DAY(1)", "2020-05-30-23:59:59" })
+time_list$ : ({ "2019-07-01-06:00:00", "EVERY_MIN(10)", "EVERY_DAY(1)", "2020-05-30-23:59:59" })
+time_list$ : ({ "2019-07-01-08:00:00", "EVERY_MIN(10)", "EVERY_DAY(1)", "2020-05-30-23:59:59" })
+time_list$ : ({ "2019-07-01-10:00:00", "EVERY_MIN(10)", "EVERY_DAY(1)", "2020-05-30-23:59:59" })
+time_list$ : ({ "2019-07-01-12:00:00", "EVERY_MIN(10)", "EVERY_DAY(1)", "2020-05-30-23:59:59" })
+time_list$ : ({ "2019-07-01-14:00:00", "EVERY_MIN(10)", "EVERY_DAY(1)", "2020-05-30-23:59:59" })
+time_list$ : ({ "2019-07-01-16:00:00", "EVERY_MIN(10)", "EVERY_DAY(1)", "2020-05-30-23:59:59" })
+time_list$ : ({ "2019-07-01-18:00:00", "EVERY_MIN(10)", "EVERY_DAY(1)", "2020-05-30-23:59:59" })
+time_list$ : ({ "2019-07-01-20:00:00", "EVERY_MIN(10)", "EVERY_DAY(1)", "2020-05-30-23:59:59" })
+time_list$ : ({ "2019-07-01-22:00:00", "EVERY_MIN(10)", "EVERY_DAY(1)", "2020-05-30-23:59:59" })
+
+[活动相关]
+default_duration : 7200
+
+#刷新怪物的间隔
+#活动中怪物刷新广播
+msg_fill_monster: "妖魔大军对#R中洲大陆#n发动了第$ROUND轮的攻击，请侠义之士迅速赶到$ROOM击杀妖魔。击杀BOSS类妖魔有几率获得珍稀的#R百年黑熊#n。"
+time_fill_monster: 600
+interval_fill_monster: 600
+duration_fill_monster: 6700
+
+#活动开始前广播
+msg_prev_start: "#R为感谢大家对#Y金猪鸾凤#R的支持，我们将于#Y今天$ST#R开放怪物攻城活动，欢迎大家参加。"
+time_prev_start: 1800
+interval_prev_start: 180
+
+#活动开始时广播
+msg_start: "大批的妖魔集结在一起，对#R中洲大陆#n发动了攻击，请侠义之士迅速赶到$ROOM击杀妖魔。击杀BOSS类妖魔有几率获得珍稀的#R百年黑熊#n。"
+
+#活动中广播
+msg_in_festival: "妖魔大军对#R中洲大陆#n发动了攻击，请侠义之士迅速赶到$ROOM击杀妖魔。击杀BOSS类妖魔有几率获得珍稀的#R百年黑熊#n。"
+interval_in_festival: 1200
+time_in_festival: 600
+
+#活动刷新怪物停止时的广播
+msg_stop_fill: "#R妖魔大军已有撤退之意，大家要加油了！#n"
+interval_stop_fill: 600
+
+#活动停止时广播
+msg_stop: "#R妖魔大军已经撤退了！感谢勇士们共同守护中洲大陆。#n"
+
+#活动正常停止时广播
+msg_normal_stop: "#R妖魔大军已经全部被消灭了！感谢勇士们共同守护中洲大陆。#n"
+
+#强制终止战斗的提示
+msg_retreat: "妖魔大军已经撤退了！"
+
+#怪物生成区域
+rooms$: 虚幻天墉城
+rooms$: 妖塔一层
+rooms$: 妖塔二层
+rooms$: 妖塔三层
+rooms$: 妖塔四层
+rooms$: 妖塔五层
+rooms$: 妖塔六层
+rooms$: 妖塔七层
+rooms$: 妖塔八层
+rooms$: 妖塔九层
+rooms$: 始祖战场
+rooms$: 神魔战场
+rooms$: 仙妖战场
+rooms$: 蛮荒战场
+
+
+[虚幻天墉城]
+monster_list$: 虚幻天墉城BOSS
+
+[妖塔一层]
+monster_list$: 妖塔一层boss
+
+[妖塔二层]
+monster_list$: 妖塔二层boss
+
+[妖塔三层]
+monster_list$: 妖塔三层boss
+
+[妖塔四层]
+monster_list$: 妖塔四层boss
+
+[妖塔五层]
+monster_list$: 妖塔五层boss
+
+[妖塔六层]
+monster_list$: 妖塔六层boss
+
+[妖塔七层]
+monster_list$: 妖塔七层boss
+
+[妖塔八层]
+monster_list$: 妖塔八层boss
+
+[妖塔九层]
+monster_list$: 妖塔九层boss
+
+[始祖战场]
+monster_list$: 始祖战场boss
+
+[神魔战场]
+monster_list$: 神魔战场boss
+
+[仙妖战场]
+monster_list$: 仙妖战场boss
+
+[蛮荒战场]
+monster_list$: 蛮荒战场boss
+
+
+[始祖战场boss]
+num : 0
+name$: 灭世黑熊
+type: "boss_monster"
+
+[神魔战场boss]
+num : 0
+name$: 狂暴天狮
+type: "boss_monster"
+
+[仙妖战场boss]
+num : 0
+name$: 虚无血刺
+type: "boss_monster"
+
+[蛮荒战场boss]
+num : 0
+name$: 霸者豪猪
+type: "boss_monster"
+
+
+
+
+[虚幻天墉城BOSS]
+num : 0
+name$: 荒装
+name$: 魔装
+type: "boss_monster"
+
+[妖塔一层boss]
+num : 10
+name$: 百花羞改
+type: "boss_monster"
+
+[妖塔二层boss]
+num : 10
+name$: 百花羞改
+type: "boss_monster"
+
+[妖塔三层boss]
+num : 10
+name$: 百花羞改
+type: "boss_monster"
+
+[妖塔四层boss]
+num : 10
+name$: 百花羞改
+type: "boss_monster"
+
+[妖塔五层boss]
+num : 10
+name$: 百花羞改
+type: "boss_monster"
+
+[妖塔六层boss]
+num : 10
+name$: 夜叉王改
+name$: 罗刹王改
+type: "boss_monster"
+
+[妖塔七层boss]
+num : 10
+name$: 夜叉王改
+name$: 罗刹王改
+type: "boss_monster"
+
+[妖塔八层boss]
+num : 10
+name$: 夜叉王改
+name$: 罗刹王改
+type: "boss_monster"
+
+[妖塔九层boss]
+num : 10
+name$: 夜叉王改
+name$: 罗刹王改
+type: "boss_monster"

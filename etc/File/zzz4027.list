@@ -1,0 +1,47 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/18/2006
+#奖励物品        概率
+ 
+[奖励等级]
+name$: 特等奖
+ 
+[特等奖]
+超級妖石 : 100
+ 
+[超級妖石]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "枯月流魂"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "凝香幻彩"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "炫影霜星"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "风寂云清"})
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "冰落残阳"})
+
+[凝香幻彩]
+name      : 凝香幻彩
+min_level : 16
+max_level : 16
+attribs      : ({ "prop/max_life", 60000})
+
+[枯月流魂]
+name      : 枯月流魂
+min_level : 16
+max_level : 16
+attribs      : ({ "prop/power", 40000, "prop/phy_power", 40000, "prop/mag_power", 40000})
+
+[炫影霜星]
+name      : 炫影霜星
+min_level : 16
+max_level : 16
+attribs      : ({ "prop/speed", 1200})
+
+[风寂云清]
+name      : 风寂云清
+min_level : 16
+max_level : 16
+attribs      : ({ "prop/def", 18000})
+
+[冰落残阳]
+name      : 冰落残阳
+min_level : 16
+max_level : 16
+attribs      : ({ "prop/max_mana", 40000})

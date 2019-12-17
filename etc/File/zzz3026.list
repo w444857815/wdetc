@@ -1,0 +1,25 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/18/2006
+#奖励物品        概率
+
+[奖励等级]
+name$: 特等奖
+
+[特等奖]
+元灵奖励1 : 1
+
+
+[元灵奖励1]
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "鱼"})
+
+
+[鱼]
+name$: ({鱼, 鱼})
+level: 60
+life_effect: ({ 80, 80 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 50, 50 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 45, 45 })
+channel_msg: "恭喜恭喜，#Y$PLAYER#n与#R萌新#n有缘，打开锦囊得到了一只#Y$EX_PET#n，赶快找天墉城 爱吃鱼的龟宝 提交鱼 获取各种奖励吧~~~#23"

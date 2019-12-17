@@ -1,0 +1,133 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/20/2006
+#奖励物品        概率
+
+[奖励等级]
+name$: 特等奖
+
+
+[特等奖]
+属性时装奖励1 : 1000
+属性时装奖励2 : 1000
+
+
+
+
+[属性时装奖励1]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "属性时装1", "属性时装2", "属性时装3", "属性时装4", "属性时装5", "属性时装6", "属性时装7", "属性时装8" })
+
+[属性时装奖励2]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "属性时装11", "属性时装12", "属性时装13", "属性时装14", "属性时装15", "属性时装16", "属性时装17", "属性时装18", "属性时装19", "属性时装20" })
+
+
+
+[属性时装1]
+name      : 酷夜行人女·时装
+min_level : 70
+max_level : 70
+attribs      : ({ "prop/all_polar", 10, "source", ★无名钱庄老板★, "extra_desc", #GPlus时装·无名钱庄老板出品#r#Y仙人推荐指数：★★★★★★#n#r#R注意：该类时装不可给宠物穿戴#r#R如出现异常后果自负#n })
+
+[属性时装2]
+name      : 酷金头陀女·时装
+min_level : 70
+max_level : 70
+attribs      : ({ "prop/all_polar", 10, "source", ★无名钱庄老板★, "extra_desc", #GPlus时装·无名钱庄老板出品#r#Y仙人推荐指数：★★★★★★#n#r#R注意：该类时装不可给宠物穿戴#r#R如出现异常后果自负#n })
+
+[属性时装3]
+name      : 酷剑魂女·时装
+min_level : 70
+max_level : 70
+attribs      : ({ "prop/all_polar", 10, "source", ★无名钱庄老板★, "extra_desc", #GPlus时装·无名钱庄老板出品#r#Y仙人推荐指数：★★★★★★#n#r#R注意：该类时装不可给宠物穿戴#r#R如出现异常后果自负#n })
+
+[属性时装4]
+name      : 酷疆良女·时装
+min_level : 70
+max_level : 70
+attribs      : ({ "prop/all_polar", 10, "source", ★无名钱庄老板★, "extra_desc", #GPlus时装·无名钱庄老板出品#r#Y仙人推荐指数：★★★★★★#n#r#R注意：该类时装不可给宠物穿戴#r#R如出现异常后果自负#n })
+
+[属性时装5]
+name      : 酷八戒女·时装
+min_level : 70
+max_level : 70
+attribs      : ({ "prop/all_polar", 10, "source", ★无名钱庄老板★, "extra_desc", #GPlus时装·无名钱庄老板出品#r#Y仙人推荐指数：★★★★★★#n#r#R注意：该类时装不可给宠物穿戴#r#R如出现异常后果自负#n })
+
+[属性时装6]
+name      : 酷地狱火女·时装
+min_level : 70
+max_level : 70
+attribs      : ({ "prop/all_polar", 10, "source", ★无名钱庄老板★, "extra_desc", #GPlus时装·无名钱庄老板出品#r#Y仙人推荐指数：★★★★★★#n#r#R注意：该类时装不可给宠物穿戴#r#R如出现异常后果自负#n })
+
+[属性时装7]
+name      : 酷熊猫女·时装
+min_level : 70
+max_level : 70
+attribs      : ({ "prop/all_polar", 10, "source", ★无名钱庄老板★, "extra_desc", #GPlus时装·无名钱庄老板出品#r#Y仙人推荐指数：★★★★★★#n#r#R注意：该类时装不可给宠物穿戴#r#R如出现异常后果自负#n })
+
+[属性时装8]
+name      : 酷昆仑女·时装
+min_level : 70
+max_level : 70
+attribs      : ({ "prop/all_polar", 10, "source", ★无名钱庄老板★, "extra_desc", #GPlus时装·无名钱庄老板出品#r#Y仙人推荐指数：★★★★★★#n#r#R注意：该类时装不可给宠物穿戴#r#R如出现异常后果自负#n })
+
+
+[属性时装11]
+name      : 新属金女·时装
+min_level : 70
+max_level : 70
+attribs      : ({ "prop/all_polar", 10, "source", ★无名钱庄老板★, "extra_desc", #GPlus时装·无名钱庄老板出品#r#Y仙人推荐指数：★★★★★★#n#r#R注意：该类时装不可给宠物穿戴#r#R如出现异常后果自负#n })
+
+[属性时装12]
+name      : 新属木女·时装
+min_level : 70
+max_level : 70
+attribs      : ({ "prop/all_polar", 10, "source", ★无名钱庄老板★, "extra_desc", #GPlus时装·无名钱庄老板出品#r#Y仙人推荐指数：★★★★★★#n#r#R注意：该类时装不可给宠物穿戴#r#R如出现异常后果自负#n })
+
+[属性时装13]
+name      : 新属水女·时装
+min_level : 70
+max_level : 70
+attribs      : ({ "prop/all_polar", 10, "source", ★无名钱庄老板★, "extra_desc", #GPlus时装·无名钱庄老板出品#r#Y仙人推荐指数：★★★★★★#n#r#R注意：该类时装不可给宠物穿戴#r#R如出现异常后果自负#n })
+
+[属性时装14]
+name      : 新属火女·时装
+min_level : 70
+max_level : 70
+attribs      : ({ "prop/all_polar", 10, "source", ★无名钱庄老板★, "extra_desc", #GPlus时装·无名钱庄老板出品#r#Y仙人推荐指数：★★★★★★#n#r#R注意：该类时装不可给宠物穿戴#r#R如出现异常后果自负#n })
+
+[属性时装15]
+name      : 新属土女·时装
+min_level : 70
+max_level : 70
+attribs      : ({ "prop/all_polar", 10, "source", ★无名钱庄老板★, "extra_desc", #GPlus时装·无名钱庄老板出品#r#Y仙人推荐指数：★★★★★★#n#r#R注意：该类时装不可给宠物穿戴#r#R如出现异常后果自负#n })
+
+[属性时装16]
+name      : 流金岁月属·女金
+min_level : 70
+max_level : 70
+attribs      : ({ "prop/all_polar", 10, "source", ★无名钱庄老板★, "extra_desc", #GPlus时装·无名钱庄老板出品#r#Y仙人推荐指数：★★★★★★#n#r#R注意：该类时装不可给宠物穿戴#r#R如出现异常后果自负#n })
+
+[属性时装17]
+name      : 流金岁月属·女木
+min_level : 70
+max_level : 70
+attribs      : ({ "prop/all_polar", 10, "source", ★无名钱庄老板★, "extra_desc", #GPlus时装·无名钱庄老板出品#r#Y仙人推荐指数：★★★★★★#n#r#R注意：该类时装不可给宠物穿戴#r#R如出现异常后果自负#n })
+
+[属性时装18]
+name      : 流金岁月属·女水
+min_level : 70
+max_level : 70
+attribs      : ({ "prop/all_polar", 10, "source", ★无名钱庄老板★, "extra_desc", #GPlus时装·无名钱庄老板出品#r#Y仙人推荐指数：★★★★★★#n#r#R注意：该类时装不可给宠物穿戴#r#R如出现异常后果自负#n })
+
+[属性时装19]
+name      : 流金岁月属·女火
+min_level : 70
+max_level : 70
+attribs      : ({ "prop/all_polar", 10, "source", ★无名钱庄老板★, "extra_desc", #GPlus时装·无名钱庄老板出品#r#Y仙人推荐指数：★★★★★★#n#r#R注意：该类时装不可给宠物穿戴#r#R如出现异常后果自负#n })
+
+[属性时装20]
+name      : 流金岁月属·女土
+min_level : 70
+max_level : 70
+attribs      : ({ "prop/all_polar", 10, "source", ★无名钱庄老板★, "extra_desc", #GPlus时装·无名钱庄老板出品#r#Y仙人推荐指数：★★★★★★#n#r#R注意：该类时装不可给宠物穿戴#r#R如出现异常后果自负#n })
+

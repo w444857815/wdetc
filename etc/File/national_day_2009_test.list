@@ -1,0 +1,137 @@
+#FORM2
+
+[活动时间]
+stage_time_list$ : ({ "2019-06-01-20:20:00", "2019-12-28-18:00:00", "2019-12-29-18:00:00" })
+time_list$ : ({ "2019-06-01-00:00:00", "EVERY_HOUR(24)", "EVERY_DAY(1)" })
+
+[game_info]
+bonus_item     : "随机数量大佬兑换"
+prepare_time   : 10800
+need_item      : "混元卡"
+#npc_huangdi    : ({ "黄帝", 6704, "天墉城", 208, 170, SOUTHEAST })
+npc_shenjiang$ : ({ "魔王头领", "6704|6704", "天墉城", 201, 175, SOUTHEAST })
+#npc_shenjiang$ : ({ "黄帝神将头领", "6223|6224", "风月谷", 78, 122, SOUTHEAST })
+#npc_shenjiang$ : ({ "黄帝神将头领", "6223|6224", "十里坡", 149, 178, SOUTHEAST })
+
+[monster_info]
+北海沙滩 : ({ 蚩尤魔军, 0 })
+十里坡 : ({ 蚩尤魔军, 0 })
+风月谷 : ({ 蚩尤魔军, 0 })
+
+[before_start]
+time     : 1200
+channel  : CHANNEL_SYSTEM
+duration : 1200
+content  : "#Y魔王头领#n已经入侵#Z天墉城（201，175）#Z、，请中洲大陆的广大英雄豪杰协助抵御#Y魔王头领#n的入侵。"
+
+[start]
+channel  : CHANNEL_SYSTEM
+content  : "#Y魔王头领#n已经入侵#Z天墉城（201，175）#Z、，请中洲大陆的广大英雄豪杰协助抵御#Y魔王头领#n的入侵。"
+
+[after_start]
+time     : 600
+channel  : CHANNEL_SYSTEM
+duration : 600
+content  : "#Y魔王头领#n已经入侵#Z天墉城（201，175）#Z、，请中洲大陆的广大英雄豪杰协助抵御#Y魔王头领#n的入侵。"
+
+[after_end]
+time     : 3100
+channel  : CHANNEL_SYSTEM
+duration : 600
+content  : "#Y魔王头领#n已经入侵#Z天墉城（201，175）#Z、，请中洲大陆的广大英雄豪杰协助抵御#Y魔王头领#n的入侵。"
+
+[stop_refresh]
+time     : 300
+channel  : CHANNEL_SYSTEM
+content  : "在广大英雄豪杰的协助下，#Y魔王头领#n的攻势开始减退。"
+
+[stop_submit]
+time     : 3600
+channel  : CHANNEL_SYSTEM
+content_match_end : "经过#R%d#n天的激战，大家总共上缴了#R%d#n枚#R荣誉勋章#n，当前犒赏物资为%s。其中#Y%s#n 暂时领先，明日他们五人将以#Y黄帝大将#n的身份协助诸位一同抵御#Y魔王头领#n的入侵。"
+content_stage_end : "经过#R%d#n天的激战，#Y魔王头领#n已经彻底被赶出中洲大陆，大家在此期间总共上缴了#R%d#n枚#R荣誉勋章#n。%s。请获得犒赏的人员在一日之内前往#P黄帝|天墉城（72，35）#P 处领取犒赏。感谢各位的鼎力协助，中洲大陆必将繁荣昌盛！"
+
+[stage_bonus]
+1 : ({ "#R道具套餐卡#n", "#R道具套餐卡#n", "#R超级女娲石#n", "#R超级女娲石#n", "#R超级女娲石#n" })
+2 : ({ "#R高级道具套餐卡#n", "#R高级道具套餐卡#n", "#R道具套餐卡#n", "#R道具套餐卡#n", "#R超级女娲石#n" })
+3 : ({ "#R神龙罩秘笈#n", "#R乾坤罩秘笈#n", "#R高级道具套餐卡#n", "#R高级道具套餐卡#n", "#R道具套餐卡#n" })
+4 : ({ "#Y酷酷龙#n|#Y威威虎#n", "#R神龙罩秘笈#n", "#R乾坤罩秘笈#n", "#R高级道具套餐卡#n", "#R高级道具套餐卡#n" })
+
+[纯阳正气丹]
+rate  : 25000
+name$ : 纯阳正气丹
+bonus$: ({ 0, 0, 100, 纯阳正气丹, 20, 20 })
+
+
+[蚩尤魔军]
+icon             : ({ 6703, 6703, 6703, 6703, 6703 })
+portrait         : ({ 6703, 6703, 6703, 6703, 6703 })
+polar            : -1
+no_capture       : 1
+life_effect      : 70000
+speed_effect     : 500
+phy_effect       : 1600
+mag_effect       : 1600
+tao_effect       : 600
+resist_poison    : 25
+resist_frozen    : 25
+resist_sleep     : 25
+resist_forgotten : 25
+resist_confusion : 25
+skills           : ({ "B3", "B4", "B5" })
+tactics          : "mojun_tactics"
+
+[投诚的蚩尤魔军]
+icon             : ({ 6272, 6140, 6141, 6148, 6151 })
+portrait         : ({ 6272, 6140, 6141, 6148, 6151 })
+polar            : -1
+speed_effect     : 500
+tactics          : "toucheng_mojun_tactics"
+
+[蚩尤精锐魔军]
+icon             : 6702
+portrait         : 6702
+polar            : -1
+no_capture       : 1
+life_effect      : 95000
+speed_effect     : 500
+phy_effect       : 2000
+mag_effect       : 2000
+tao_effect       : 900
+resist_poison    : 25
+resist_frozen    : 25
+resist_sleep     : 25
+resist_forgotten : 25
+resist_confusion : 25
+skills           : ({ "B3", "B4", "B5" })
+tactics          : "jingying_tactics"
+
+[魔神蚩尤]
+icon             : 6277
+portrait         : 6277
+polar            : -1
+no_capture       : 1
+life_effect      : 10000
+speed_effect     : 300
+phy_effect       : 500
+mag_effect       : 500
+stunt_rate       : 30
+tao_effect       : 1000
+resist_poison    : 300
+resist_frozen    : 300
+resist_sleep     : 300
+resist_forgotten : 300
+resist_confusion : 300
+artifact         : ({ -1, 18 })
+skills           : ({ "B3", "B4", "B5", "C5" })
+tactics          : "chiyou_tactics"
+
+[黄帝大将]
+polar            : -1
+no_capture       : 1
+life_effect      : 500
+speed_effect     : -30
+phy_effect       : 200
+mag_effect       : 200
+skills           : ({ "B3", "B4", "B5" })
+tactics          : "dajiang_tactics"

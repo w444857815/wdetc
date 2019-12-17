@@ -1,0 +1,28 @@
+#FORM2
+#jinnang.list
+#create by caijz 09/18/2006
+#奖励物品        概率
+
+[奖励等级]
+name$: 一等奖
+
+[一等奖]
+新手大礼包哦 : 3000
+
+
+[新手大礼包哦]
+
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "昆仑" })
+limit$: ({ "time_limit", "now", 5184000 })
+
+[昆仑]
+name$: ({昆仑, 昆仑})
+rank$: 仙元
+level: 60
+enchant_flag : 1
+life_effect: ({ 75, 75 })
+mana_effect: ({ -30, -30 })
+speed_effect: ({ 40, 40 })
+phy_effect: ({ 125, 125 })
+mag_effect: ({ -50, -50 })
+special_skill$: ({ 4, 游说之舌, 1, 如意圈, 1, 神圣之光, 1,仙云迷雾,1 })

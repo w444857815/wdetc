@@ -1,0 +1,1586 @@
+#FORM2
+
+# mount_item_attrib.list
+# create by yugq 16/02/2009
+# Æï³èµÀ¾ß¹¦ÄÜÁĞ±í
+
+# ¾«¹Ö¡¢ÓùÁéÄ¬ÈÏµÄÄÜÁ¦½×Êı
+[default_capacity_level]
+ÔÀÂ´½£ : 6
+´äÁé½£ : 5
+Ë®ÔÏ½£ : 4
+Ê¥Ì´½£ : 3
+ÏÉÑô½£ : 2
+¹ÅÂ¹ : 6
+ÁéÂ¹ : 5
+»ÃÂ¹ : 4
+ÑÅÂ¹ : 3
+ÔÆÂ¹ : 2
+ÔÆ±ª : 6
+Óñ±ª : 5
+Ë®¾§±ª : 4
+ÁèÑÒ±ª : 3
+Ñ©±ª : 2
+ËÙÁú±ª : 5
+ÈñÁú±ª : 5
+ôàÁú±ª : 5
+¶à²Ê¿­Ğı±ª : 5
+Ì«¼«ĞÜ : 8
+±±¼«ĞÜ : 6
+ÎŞ¼«ĞÜ : 5
+³à½õĞÜ : 3
+×ØÈ×ĞÜ : 2
+ôä´äºùÂ« : 6
+ÏÉºùÂ« : 5
+³àÑæºùÂ« : 4
+×ÏÌÙºùÂ« : 3
+ÁéºùÂ« : 2
+
+»ÃÁéĞÜ : 3
+±ÌÓñ½£ : 3
+ÒİÂ¹ : 3
+Ğı·ç±ª : 3
+ºèÓñºùÂ« : 3
+
+ĞùÔ¯Å£ : 4
+ÉñÎäÅ£ : 2
+Ï«Å£ : 3
+³àµ¨Å£ : 5
+Îå²ÊÉñÅ£ : 6
+½ğÁåÊ¨ : 5
+Ä½Ñ×Ê¨ : 6
+Âæ±ùÊ¨ : 4
+³àÑæÊ¨ : 3
+·æºğÊ¨ : 2
+ÑÅ³¾ºü : 6
+±ùÁéºü : 5
+É·»ğºü : 4
+ÊÈÑªºü : 3
+ĞşÌìºü : 2
+ÇáÌã : 2
+³¾Ìã : 3
+³ãÌã : 4
+Ä«Ìã : 5
+ÓñÌã : 6
+·É¿ÕÓã : 2
+³ÛÑæÓã : 3
+º®±ùÓã : 4
+ÍşÕğÓã : 5
+ÓñµûÓã : 6
+¾ŞÕÆÔ³ : 2
+¿ªÉ½Ô³ : 3
+ÁÑÊ¯Ô³ : 4
+ÈÛÑÒÔ³ : 5
+ÅÌ¹ÅÔ³ : 6
+ÖÁ×ğÌ«¼«ĞÜ : 9
+ÖÁ×ğÓñµûÓã : 9
+ÖÁ×ğÅÌ¹ÅÔ³ : 9
+¼ªÏéÍÜ : 8
+¾Ş¹Ç´Ì : 8
+ÖÁ×ğ¼ªÏéÍÜ : 9
+ÖÁ×ğ¾Ş¹Ç´Ì : 9
+Â³µÀ·ò : 10
+¾ÅÎ²ÏÉºü : 10
+±±¶·ÌìÅî : 10
+¼²·çÊ´ÈÕ : 10
+
+¾Ş¹Ç´Ì¡¤¿İ¹Ç : 10
+¾Ş¹Ç´Ì¡¤ÇàÑá : 10
+¾Ş¹Ç´Ì¡¤²×À¶ : 10
+¾Ş¹Ç´Ì¡¤³àÉ· : 10
+¾Ş¹Ç´Ì¡¤ÓÄ·Û : 10
+¾Ş¹Ç´Ì¡¤ÑŞÑô : 10
+¾Ş¹Ç´Ì¡¤ĞŞÂŞ : 10
+¾Ş¹Ç´Ì¡¤ÓÄ×Ï : 10
+¾ÅÎ²ÏÉºü¡¤ĞşÄ« : 10
+¾ÅÎ²ÏÉºü¡¤ÓÄÚ¤ : 10
+¾ÅÎ²ÏÉºü¡¤Çàâó : 10
+¾ÅÎ²ÏÉºü¡¤ë³ëµ : 10
+¾ÅÎ²ÏÉºü¡¤ÌìĞÇ : 10
+¾ÅÎ²ÏÉºü¡¤Òø³¾ : 10
+¾ÅÎ²ÏÉºü¡¤ÑªÉ· : 10
+¾ÅÎ²ÏÉºü¡¤×ÏÏ¼ : 10
+¾ÅÎ²ÏÉºü¡¤ÓÄÃÎ : 10
+¾ÅÎ²ÏÉºü¡¤µúÀ¼ : 10
+±±¶·ÌìÅî¡¤ÔªË§ : 10
+±±¶·ÌìÅî¡¤²ÊÔÆ : 10
+±±¶·ÌìÅî¡¤Õê×Ó : 10
+±±¶·ÌìÅî¡¤°Ô¸ç : 10
+±±¶·ÌìÅî¡¤ÈõË® : 10
+±±¶·ÌìÅî¡¤ÏÉ¾³ : 10
+±±¶·ÌìÅî¡¤Ñş³Ø : 10
+±±¶·ÌìÅî¡¤ó´ÌÒ : 10
+±±¶·ÌìÅî¡¤³àÏ¼ : 10
+±±¶·ÌìÅî¡¤ĞşÄ« : 10
+±±¶·ÌìÅî¡¤½ğÁ÷ : 10
+±±¶·ÌìÅî¡¤ÂÌÒâ : 10
+¼²·çÊ´ÈÕ¡¤À¶Ë¸ : 10
+¼²·çÊ´ÈÕ¡¤·ãÁå : 10
+¼²·çÊ´ÈÕ¡¤»ÃÒô : 10
+¼²·çÊ´ÈÕ¡¤°ÔµØ : 10
+¼²·çÊ´ÈÕ¡¤¶¾ÔÆ : 10
+¼²·çÊ´ÈÕ¡¤·ÉÓğ : 10
+¼²·çÊ´ÈÕ¡¤ÑªÓü : 10
+¼²·çÊ´ÈÕ¡¤Ú¤³Ø : 10
+¼²·çÊ´ÈÕ¡¤Òì¶¾ : 10
+¼²·çÊ´ÈÕ¡¤Á÷»ğ : 10
+Â³µÀ·ò¡¤×ÏÎ¢ : 10
+Â³µÀ·ò¡¤²Êºç : 10
+Â³µÀ·ò¡¤ó´ÌÒ : 10
+Â³µÀ·ò¡¤ÏÉ·ï : 10
+Â³µÀ·ò¡¤ÇïÏã : 10
+Â³µÀ·ò¡¤ÏêÄş : 10
+Â³µÀ·ò¡¤½ğÇï : 10
+Â³µÀ·ò¡¤É½»¨ : 10
+Â³µÀ·ò¡¤Éñ¼£ : 10
+Â³µÀ·ò¡¤Æ¯ÁÁ : 10
+ÇìÎèÊ¨¡¤ÒøÕµ : 10
+Ì«¼«ĞÜ¡¤¼²·ç : 10
+
+¾Ş¹Ç´Ì¡ï¿İ¹Ç : 12
+¾Ş¹Ç´Ì¡ïÇàÑá : 12
+¾Ş¹Ç´Ì¡ï²×À¶ : 12
+¾Ş¹Ç´Ì¡ï³àÉ· : 12
+¾Ş¹Ç´Ì¡ïÓÄ·Û : 12
+¾Ş¹Ç´Ì¡ïÑŞÑô : 12
+¾Ş¹Ç´Ì¡ïĞŞÂŞ : 12
+¾Ş¹Ç´Ì¡ïÓÄ×Ï : 12
+¾ÅÎ²ÏÉºü¡ïĞşÄ« : 12
+¾ÅÎ²ÏÉºü¡ïÓÄÚ¤ : 12
+¾ÅÎ²ÏÉºü¡ïÇàâó : 12
+¾ÅÎ²ÏÉºü¡ïë³ëµ : 12
+¾ÅÎ²ÏÉºü¡ïÌìĞÇ : 12
+¾ÅÎ²ÏÉºü¡ïÒø³¾ : 12
+¾ÅÎ²ÏÉºü¡ïÑªÉ· : 12
+¾ÅÎ²ÏÉºü¡ï×ÏÏ¼ : 12
+¾ÅÎ²ÏÉºü¡ïÓÄÃÎ : 12
+¾ÅÎ²ÏÉºü¡ïµúÀ¼ : 12
+±±¶·ÌìÅî¡ïÔªË§ : 12
+±±¶·ÌìÅî¡ï²ÊÔÆ : 12
+±±¶·ÌìÅî¡ïÕê×Ó : 12
+±±¶·ÌìÅî¡ï°Ô¸ç : 12
+±±¶·ÌìÅî¡ïÈõË® : 12
+±±¶·ÌìÅî¡ïÏÉ¾³ : 12
+±±¶·ÌìÅî¡ïÑş³Ø : 12
+±±¶·ÌìÅî¡ïó´ÌÒ : 12
+±±¶·ÌìÅî¡ï³àÏ¼ : 12
+±±¶·ÌìÅî¡ïĞşÄ« : 12
+±±¶·ÌìÅî¡ï½ğÁ÷ : 12
+±±¶·ÌìÅî¡ïÂÌÒâ : 12
+¼²·çÊ´ÈÕ¡ïÀ¶Ë¸ : 12
+¼²·çÊ´ÈÕ¡ï·ãÁå : 12
+¼²·çÊ´ÈÕ¡ï»ÃÒô : 12
+¼²·çÊ´ÈÕ¡ï°ÔµØ : 12
+¼²·çÊ´ÈÕ¡ï¶¾ÔÆ : 12
+¼²·çÊ´ÈÕ¡ï·ÉÓğ : 12
+¼²·çÊ´ÈÕ¡ïÑªÓü : 12
+¼²·çÊ´ÈÕ¡ïÚ¤³Ø : 12
+¼²·çÊ´ÈÕ¡ïÒì¶¾ : 12
+¼²·çÊ´ÈÕ¡ïÁ÷»ğ : 12
+Â³µÀ·ò¡ï×ÏÎ¢ : 12
+Â³µÀ·ò¡ï²Êºç : 12
+Â³µÀ·ò¡ïó´ÌÒ : 12
+Â³µÀ·ò¡ïÏÉ·ï : 12
+Â³µÀ·ò¡ïÇïÏã : 12
+Â³µÀ·ò¡ïÏêÄş : 12
+Â³µÀ·ò¡ï½ğÇï : 12
+Â³µÀ·ò¡ïÉ½»¨ : 12
+Â³µÀ·ò¡ïÉñ¼£ : 12
+Â³µÀ·ò¡ïÆ¯ÁÁ : 12
+ÇìÎèÊ¨¡ïÒøÕµ : 12
+Ì«¼«ĞÜ¡ï¼²·ç : 12
+
+ÖÁ×ğÀ¶Â³µÀ·ò : 12
+ÖÁ×ğºìÂ³µÀ·ò : 12
+ÖÁ×ğ½ğÂ³µÀ·ò : 12
+·ï»ËÄù˜„¡ïºÚ°µ : 12
+·ï»ËÄù˜„¡ï¹âÃ÷ : 12
+·ï»ËÄù˜„¡ï·ÉÓğ : 12
+·ï»ËÄù˜„¡ïÇåÂÌ : 12
+·ï»ËÄù˜„¡ïÇåÀ¶ : 12
+»ÃÁéĞÜ¡ï»Ã²Ê : 12
+ÏÉÒİÂ¹¡ï»Ã²Ê : 12
+À¼ÁêÂ¹¡ï»Ã²Ê : 12
+Ğı·ç±ª¡ï»Ã²Ê : 12
+Ğı·ç±ª¡ïÄ¾À¼ : 12
+±ÌÓñ½£¡ï»Ã²Ê : 12
+±ÌÓñ½£¡ïç³ºì : 12
+ºèÓñºù¡ï»Ã²Ê : 12
+ºèÓñºù¡ïÍõ×Ó : 12
+ºèÓñºù¡ï»ÊÊÒ : 12
+ËÙÁú±ª¡ïºÚÄ§ : 12
+»Ã²Ê¡ï¾ÅÎ²ÏÉºü : 12
+
+ÎŞ¼«ĞÜ£¨10£© : 10    
+±±¼«ĞÜ£¨10£© : 10    
+Ì«¼«ĞÜ£¨10£© : 10    
+»Æ½ğĞÜ£¨10£© : 10    
+»Æ½ğ´Ì£¨10£© : 10    
+Âæ±ùÊ¨£¨10£© : 10    
+½ğÁåÊ¨£¨10£© : 10    
+ôäºùÂ«£¨10£© : 10    
+ÏÉºùÂ«£¨10£© : 10    
+ÓñÌã£¨10£© : 10      
+Ä«Ìã£¨10£© : 10      
+»ÃÁéĞÜ£¨10£© : 10    
+±ÌÓñ½££¨10£© : 10    
+ÏÉÑô½££¨10£© : 10    
+ÒİÂ¹£¨10£© : 10      
+Ğı·ç±ª£¨10£© : 10    
+ºèÓñºùÂ«£¨10£© : 10
+Ä½Ñ×Ê¨£¨10£© : 10
+·Û·ï»Ë£¨10£© : 10
+×Ï·ï»Ë£¨10£© : 10
+½ğ·ï»Ë£¨10£© : 10
+ºÚ·ï»Ë£¨10£© : 10
+ËÙÁú±ª£¨10£© : 10
+²Ê·ï»Ë£¨12£© : 12
+Ñª·ï»Ë£¨12£© : 12
+·Û½££¨12£© : 12
+½ğÂ¹£¨12£© : 12
+·ÛÌ«¼«£¨12£© : 12
+×ÏÌ«¼«£¨12£© : 12
+ôä´ä£¨12£© : 12
+Éê¹«±ª£¨12£© : 12
+°×ÁúÂí£¨12£© : 12
+°×½ğÊ¨£¨12£© : 12
+
+ºìºùÂ« : 15
+ºÚºùÂ« : 15
+ÂÌºùÂ« : 10
+À¶ºùÂ« : 10
+·ÛºùÂ« : 10
+ÇàºùÂ« : 10
+×ÏºùÂ« : 10
+ÅÌ¹ÅºìÔ³ : 10
+ÅÌ¹ÅºÚÔ³ : 10
+ÅÌ¹ÅÂÌÔ³ : 10
+ÅÌ¹ÅÀ¶Ô³ : 10
+ÅÌ¹Å½ğÔ³ : 10
+ÅÌ¹ÅÇàÔ³ : 10
+ÅÌ¹Å×ÏÔ³ : 10
+ºì½£ : 15
+ºÚ½£ : 15
+ÂÌ½£ : 10
+À¶½£ : 10
+·Û½£ : 10
+Çà½£ : 10
+×Ï½£ : 10
+
+ÉîÀ¶¾ÅÎ²ÏÉºü : 12
+ÂÌÉ«¾ÅÎ²ÏÉºü : 12
+ºÚ°×¾ÅÎ²ÏÉºü : 12
+À¶É«¾ÅÎ²ÏÉºü : 12
+°×É«¾ÅÎ²ÏÉºü : 12
+·Ûºì¾ÅÎ²ÏÉºü : 12
+
+ÂÌ°×¹ÛÒô×øÁ« : 10
+»Æ·Û¹ÛÒô×øÁ« : 10
+ÌìÀ¶¹ÛÒô×øÁ« : 10
+½Û»Æ¹ÛÒô×øÁ« : 10
+Ç³·Û¹ÛÒô×øÁ« : 10
+ÂÌÀ¶¹ÛÒô×øÁ« : 10
+
+
+Ç³ºÚ¼²·çÊ´ÈÕ : 10
+ÉîÀ¶¼²·çÊ´ÈÕ : 10
+Ç³À¶¼²·çÊ´ÈÕ : 10
+ÂÌºì±±¶·ÌìÅî : 10
+À¶ºì±±¶·ÌìÅî : 10
+¹ÅÍ­±±¶·ÌìÅî : 10
+
+
+ÂÌÉ«Â³µÀ·ò : 12
+ÂÌÀ¶Â³µÀ·ò : 12
+À¶°×Â³µÀ·ò : 12
+ÂÌ°×Â³µÀ·ò : 12
+
+ÖÁ×ğÂ³µÀ·ò : 15
+¾ø°æÂ³µÀ·ò : 15
+
+Ç³ÂÌÔÀÂ´½£ : 12
+Ç³À¶ÔÀÂ´½£ : 12
+Ç³×ÏÔÀÂ´½£ : 12
+Ç³»ÆÔÀÂ´½£ : 12
+
+ÂÌÉ«¹ÅÂ¹ : 10
+À¶É«¹ÅÂ¹ : 10
+³ÈÉ«¹ÅÂ¹ : 10
+Ç³ÂÌ¹ÅÂ¹ : 10
+Ç³°×¹ÅÂ¹ : 10
+ºÚÀ¶ôä´äºùÂ« : 10
+ºìºÚôä´äºùÂ« : 10
+ºìÀ¶ôä´äºùÂ« : 10
+ÂÌºì¼ªÏéÍÜ : 10
+ÂÌÉ«¼ªÏéÍÜ : 10
+ÂÌÀ¶¼ªÏéÍÜ : 10
+À¶ºì¼ªÏéÍÜ : 10
+ºÚ»ÆÌ«¼«ĞÜ : 15
+ºÚÂÌÌ«¼«ĞÜ : 15
+°×ÂÌ±±¼«ĞÜ : 10
+°×À¶±±¼«ĞÜ : 10
+ºÚÀ¶ÎŞ¼«ĞÜ : 10
+ºÚºìÎŞ¼«ĞÜ : 10
+
+°×É«Õ½ÀÇ : 10
+
+ºìÉ«Õ½ÀÇ : 12
+ÂÌÉ«Õ½ÀÇ : 12
+À¶É«Õ½ÀÇ : 12
+×ÏÉ«Õ½ÀÇ : 12
+·ÛÉ«Õ½ÀÇ : 12
+
+ÓÄÚ¤Õ½ÀÇ : 15
+ÓÄÚ¤ÑªÀÇ : 15
+
+
+°×É«·ÉÁú : 10
+
+ºìÉ«·ÉÁú : 12
+ÂÌÉ«·ÉÁú : 12
+À¶É«·ÉÁú : 12
+×ÏÉ«·ÉÁú : 12
+·ÛÉ«·ÉÁú : 12
+
+ÓÄÚ¤·ÉÁú : 15
+ÓÄÚ¤ÑªÁú : 15
+
+
+# Æï³èÖÖÀà
+[mount_category]
+ÔÀÂ´½£ : 1
+´äÁé½£ : 1
+Ë®ÔÏ½£ : 1
+Ê¥Ì´½£ : 1
+ÏÉÑô½£ : 1
+¹ÅÂ¹ : 2
+ÁéÂ¹ : 2
+»ÃÂ¹ : 2
+ÑÅÂ¹ : 2
+ÔÆÂ¹ : 2
+ÔÆ±ª : 3
+Óñ±ª : 3
+Ë®¾§±ª : 3
+ÁèÑÒ±ª : 3
+Ñ©±ª : 3
+ËÙÁú±ª : 3
+ÈñÁú±ª : 3
+ôàÁú±ª : 3
+¶à²Ê¿­Ğı±ª : 3
+Ì«¼«ĞÜ : 4
+±±¼«ĞÜ : 4
+ÎŞ¼«ĞÜ : 4
+³à½õĞÜ : 4
+×ØÈ×ĞÜ : 4
+ôä´äºùÂ« : 5
+ÏÉºùÂ« : 5
+³àÑæºùÂ« : 5
+×ÏÌÙºùÂ« : 5
+ÁéºùÂ« : 5
+
+»ÃÁéĞÜ : 4
+±ÌÓñ½£ : 1
+ÒİÂ¹ : 2
+Ğı·ç±ª : 3
+ºèÓñºùÂ« : 5
+
+ĞùÔ¯Å£ : 6
+ÉñÎäÅ£ : 6
+Ï«Å£ : 6
+³àµ¨Å£ : 6
+Îå²ÊÉñÅ£ : 6
+½ğÁåÊ¨ : 7
+Ä½Ñ×Ê¨ : 7
+Âæ±ùÊ¨ : 7
+³àÑæÊ¨ : 7
+·æºğÊ¨ : 7
+ÑÅ³¾ºü : 8
+±ùÁéºü : 8
+É·»ğºü : 8
+ÊÈÑªºü : 8
+ĞşÌìºü : 8
+ÇáÌã : 9
+³¾Ìã : 9
+³ãÌã : 9
+Ä«Ìã : 9
+ÓñÌã : 9
+·É¿ÕÓã : 10
+³ÛÑæÓã : 10
+º®±ùÓã : 10
+ÍşÕğÓã : 10
+ÓñµûÓã : 10
+¾ŞÕÆÔ³ : 11
+¿ªÉ½Ô³ : 11
+ÁÑÊ¯Ô³ : 11
+ÈÛÑÒÔ³ : 11
+ÅÌ¹ÅÔ³ : 11
+¼ªÏéÍÜ : 12
+¾Ş¹Ç´Ì : 13
+ÖÁ×ğ¼ªÏéÍÜ : 12
+ÖÁ×ğ¾Ş¹Ç´Ì : 13
+ÖÁ×ğÓñµûÓã : 10
+ÖÁ×ğÅÌ¹ÅÔ³ : 11
+ÖÁ×ğÌ«¼«ĞÜ : 4
+
+Â³µÀ·ò : 10
+¾ÅÎ²ÏÉºü : 10
+±±¶·ÌìÅî : 10
+¼²·çÊ´ÈÕ : 10
+
+¾Ş¹Ç´Ì¡¤¿İ¹Ç : 10
+¾Ş¹Ç´Ì¡¤ÇàÑá : 10
+¾Ş¹Ç´Ì¡¤²×À¶ : 10
+¾Ş¹Ç´Ì¡¤³àÉ· : 10
+¾Ş¹Ç´Ì¡¤ÓÄ·Û : 10
+¾Ş¹Ç´Ì¡¤ÑŞÑô : 10
+¾Ş¹Ç´Ì¡¤ĞŞÂŞ : 10
+¾Ş¹Ç´Ì¡¤ÓÄ×Ï : 10
+¾ÅÎ²ÏÉºü¡¤ĞşÄ« : 10
+¾ÅÎ²ÏÉºü¡¤ÓÄÚ¤ : 10
+¾ÅÎ²ÏÉºü¡¤Çàâó : 10
+¾ÅÎ²ÏÉºü¡¤ë³ëµ : 10
+¾ÅÎ²ÏÉºü¡¤ÌìĞÇ : 10
+¾ÅÎ²ÏÉºü¡¤Òø³¾ : 10
+¾ÅÎ²ÏÉºü¡¤ÑªÉ· : 10
+¾ÅÎ²ÏÉºü¡¤×ÏÏ¼ : 10
+¾ÅÎ²ÏÉºü¡¤ÓÄÃÎ : 10
+¾ÅÎ²ÏÉºü¡¤µúÀ¼ : 10
+±±¶·ÌìÅî¡¤ÔªË§ : 10
+±±¶·ÌìÅî¡¤²ÊÔÆ : 10
+±±¶·ÌìÅî¡¤Õê×Ó : 10
+±±¶·ÌìÅî¡¤°Ô¸ç : 10
+±±¶·ÌìÅî¡¤ÈõË® : 10
+±±¶·ÌìÅî¡¤ÏÉ¾³ : 10
+±±¶·ÌìÅî¡¤Ñş³Ø : 10
+±±¶·ÌìÅî¡¤ó´ÌÒ : 10
+±±¶·ÌìÅî¡¤³àÏ¼ : 10
+±±¶·ÌìÅî¡¤ĞşÄ« : 10
+±±¶·ÌìÅî¡¤½ğÁ÷ : 10
+±±¶·ÌìÅî¡¤ÂÌÒâ : 10
+¼²·çÊ´ÈÕ¡¤À¶Ë¸ : 10
+¼²·çÊ´ÈÕ¡¤·ãÁå : 10
+¼²·çÊ´ÈÕ¡¤»ÃÒô : 10
+¼²·çÊ´ÈÕ¡¤°ÔµØ : 10
+¼²·çÊ´ÈÕ¡¤¶¾ÔÆ : 10
+¼²·çÊ´ÈÕ¡¤·ÉÓğ : 10
+¼²·çÊ´ÈÕ¡¤ÑªÓü : 10
+¼²·çÊ´ÈÕ¡¤Ú¤³Ø : 10
+¼²·çÊ´ÈÕ¡¤Òì¶¾ : 10
+¼²·çÊ´ÈÕ¡¤Á÷»ğ : 10
+Â³µÀ·ò¡¤×ÏÎ¢ : 10
+Â³µÀ·ò¡¤²Êºç : 10
+Â³µÀ·ò¡¤ó´ÌÒ : 10
+Â³µÀ·ò¡¤ÏÉ·ï : 10
+Â³µÀ·ò¡¤ÇïÏã : 10
+Â³µÀ·ò¡¤ÏêÄş : 10
+Â³µÀ·ò¡¤½ğÇï : 10
+Â³µÀ·ò¡¤É½»¨ : 10
+Â³µÀ·ò¡¤Éñ¼£ : 10
+Â³µÀ·ò¡¤Æ¯ÁÁ : 10
+ÇìÎèÊ¨¡¤ÒøÕµ : 10
+Ì«¼«ĞÜ¡¤¼²·ç : 10
+
+¾Ş¹Ç´Ì¡ï¿İ¹Ç : 12
+¾Ş¹Ç´Ì¡ïÇàÑá : 12
+¾Ş¹Ç´Ì¡ï²×À¶ : 12
+¾Ş¹Ç´Ì¡ï³àÉ· : 12
+¾Ş¹Ç´Ì¡ïÓÄ·Û : 12
+¾Ş¹Ç´Ì¡ïÑŞÑô : 12
+¾Ş¹Ç´Ì¡ïĞŞÂŞ : 12
+¾Ş¹Ç´Ì¡ïÓÄ×Ï : 12
+¾ÅÎ²ÏÉºü¡ïĞşÄ« : 12
+¾ÅÎ²ÏÉºü¡ïÓÄÚ¤ : 12
+¾ÅÎ²ÏÉºü¡ïÇàâó : 12
+¾ÅÎ²ÏÉºü¡ïë³ëµ : 12
+¾ÅÎ²ÏÉºü¡ïÌìĞÇ : 12
+¾ÅÎ²ÏÉºü¡ïÒø³¾ : 12
+¾ÅÎ²ÏÉºü¡ïÑªÉ· : 12
+¾ÅÎ²ÏÉºü¡ï×ÏÏ¼ : 12
+¾ÅÎ²ÏÉºü¡ïÓÄÃÎ : 12
+¾ÅÎ²ÏÉºü¡ïµúÀ¼ : 12
+±±¶·ÌìÅî¡ïÔªË§ : 12
+±±¶·ÌìÅî¡ï²ÊÔÆ : 12
+±±¶·ÌìÅî¡ïÕê×Ó : 12
+±±¶·ÌìÅî¡ï°Ô¸ç : 12
+±±¶·ÌìÅî¡ïÈõË® : 12
+±±¶·ÌìÅî¡ïÏÉ¾³ : 12
+±±¶·ÌìÅî¡ïÑş³Ø : 12
+±±¶·ÌìÅî¡ïó´ÌÒ : 12
+±±¶·ÌìÅî¡ï³àÏ¼ : 12
+±±¶·ÌìÅî¡ïĞşÄ« : 12
+±±¶·ÌìÅî¡ï½ğÁ÷ : 12
+±±¶·ÌìÅî¡ïÂÌÒâ : 12
+¼²·çÊ´ÈÕ¡ïÀ¶Ë¸ : 12
+¼²·çÊ´ÈÕ¡ï·ãÁå : 12
+¼²·çÊ´ÈÕ¡ï»ÃÒô : 12
+¼²·çÊ´ÈÕ¡ï°ÔµØ : 12
+¼²·çÊ´ÈÕ¡ï¶¾ÔÆ : 12
+¼²·çÊ´ÈÕ¡ï·ÉÓğ : 12
+¼²·çÊ´ÈÕ¡ïÑªÓü : 12
+¼²·çÊ´ÈÕ¡ïÚ¤³Ø : 12
+¼²·çÊ´ÈÕ¡ïÒì¶¾ : 12
+¼²·çÊ´ÈÕ¡ïÁ÷»ğ : 12
+Â³µÀ·ò¡ï×ÏÎ¢ : 12
+Â³µÀ·ò¡ï²Êºç : 12
+Â³µÀ·ò¡ïó´ÌÒ : 12
+Â³µÀ·ò¡ïÏÉ·ï : 12
+Â³µÀ·ò¡ïÇïÏã : 12
+Â³µÀ·ò¡ïÏêÄş : 12
+Â³µÀ·ò¡ï½ğÇï : 12
+Â³µÀ·ò¡ïÉ½»¨ : 12
+Â³µÀ·ò¡ïÉñ¼£ : 12
+Â³µÀ·ò¡ïÆ¯ÁÁ : 12
+ÇìÎèÊ¨¡ïÒøÕµ : 12
+Ì«¼«ĞÜ¡ï¼²·ç : 12
+
+ÖÁ×ğÀ¶Â³µÀ·ò : 12
+ÖÁ×ğºìÂ³µÀ·ò : 12
+ÖÁ×ğ½ğÂ³µÀ·ò : 12
+·ï»ËÄù˜„¡ïºÚ°µ : 12
+·ï»ËÄù˜„¡ï¹âÃ÷ : 12
+·ï»ËÄù˜„¡ï·ÉÓğ : 12
+·ï»ËÄù˜„¡ïÇåÂÌ : 12
+·ï»ËÄù˜„¡ïÇåÀ¶ : 12
+»ÃÁéĞÜ¡ï»Ã²Ê : 12
+ÏÉÒİÂ¹¡ï»Ã²Ê : 12
+À¼ÁêÂ¹¡ï»Ã²Ê : 12
+Ğı·ç±ª¡ï»Ã²Ê : 12
+Ğı·ç±ª¡ïÄ¾À¼ : 12
+±ÌÓñ½£¡ï»Ã²Ê : 12
+±ÌÓñ½£¡ïç³ºì : 12
+ºèÓñºù¡ï»Ã²Ê : 12
+ºèÓñºù¡ïÍõ×Ó : 12
+ºèÓñºù¡ï»ÊÊÒ : 12
+ËÙÁú±ª¡ïºÚÄ§ : 12
+»Ã²Ê¡ï¾ÅÎ²ÏÉºü : 12
+
+ÎŞ¼«ĞÜ£¨10£© : 10    
+±±¼«ĞÜ£¨10£© : 10    
+Ì«¼«ĞÜ£¨10£© : 10    
+»Æ½ğĞÜ£¨10£© : 10    
+»Æ½ğ´Ì£¨10£© : 10    
+Âæ±ùÊ¨£¨10£© : 10    
+½ğÁåÊ¨£¨10£© : 10    
+ôäºùÂ«£¨10£© : 10    
+ÏÉºùÂ«£¨10£© : 10    
+ÓñÌã£¨10£© : 10      
+Ä«Ìã£¨10£© : 10      
+»ÃÁéĞÜ£¨10£© : 10    
+±ÌÓñ½££¨10£© : 10    
+ÏÉÑô½££¨10£© : 10    
+ÒİÂ¹£¨10£© : 10      
+Ğı·ç±ª£¨10£© : 10    
+ºèÓñºùÂ«£¨10£© : 10
+Ä½Ñ×Ê¨£¨10£© : 10
+·Û·ï»Ë£¨10£© : 10
+×Ï·ï»Ë£¨10£© : 10
+½ğ·ï»Ë£¨10£© : 10
+ºÚ·ï»Ë£¨10£© : 10
+ËÙÁú±ª£¨10£© : 10
+²Ê·ï»Ë£¨12£© : 12
+Ñª·ï»Ë£¨12£© : 12
+·Û½££¨12£© : 12
+½ğÂ¹£¨12£© : 12
+·ÛÌ«¼«£¨12£© : 12
+×ÏÌ«¼«£¨12£© : 12
+ôä´ä£¨12£© : 12
+Éê¹«±ª£¨12£© : 12
+°×ÁúÂí£¨12£© : 12
+°×½ğÊ¨£¨12£© : 12
+
+ºìºùÂ« : 15
+ºÚºùÂ« : 15
+ÂÌºùÂ« : 10
+À¶ºùÂ« : 10
+·ÛºùÂ« : 10
+ÇàºùÂ« : 10
+×ÏºùÂ« : 10
+ÅÌ¹ÅºìÔ³ : 10
+ÅÌ¹ÅºÚÔ³ : 10
+ÅÌ¹ÅÂÌÔ³ : 10
+ÅÌ¹ÅÀ¶Ô³ : 10
+ÅÌ¹Å½ğÔ³ : 10
+ÅÌ¹ÅÇàÔ³ : 10
+ÅÌ¹Å×ÏÔ³ : 10
+ºì½£ : 15
+ºÚ½£ : 15
+ÂÌ½£ : 10
+À¶½£ : 10
+·Û½£ : 10
+Çà½£ : 10
+×Ï½£ : 10
+
+ÉîÀ¶¾ÅÎ²ÏÉºü : 12
+ÂÌÉ«¾ÅÎ²ÏÉºü : 12
+ºÚ°×¾ÅÎ²ÏÉºü : 12
+À¶É«¾ÅÎ²ÏÉºü : 12
+°×É«¾ÅÎ²ÏÉºü : 12
+·Ûºì¾ÅÎ²ÏÉºü : 12
+
+ÂÌ°×¹ÛÒô×øÁ« : 10
+»Æ·Û¹ÛÒô×øÁ« : 10
+ÌìÀ¶¹ÛÒô×øÁ« : 10
+½Û»Æ¹ÛÒô×øÁ« : 10
+Ç³·Û¹ÛÒô×øÁ« : 10
+ÂÌÀ¶¹ÛÒô×øÁ« : 10
+
+Éñ»ú·ÉÅô : 10
+Éñ»úÍõĞ« : 10
+
+
+Ç³ºÚ¼²·çÊ´ÈÕ : 10
+ÉîÀ¶¼²·çÊ´ÈÕ : 10
+Ç³À¶¼²·çÊ´ÈÕ : 10
+ÂÌºì±±¶·ÌìÅî : 10
+À¶ºì±±¶·ÌìÅî : 10
+¹ÅÍ­±±¶·ÌìÅî : 10
+Éñ»ú¹áÓÂ : 6
+Éñ»úÍõÕß : 6
+
+ÂÌÉ«Â³µÀ·ò : 12
+ÂÌÀ¶Â³µÀ·ò : 12
+À¶°×Â³µÀ·ò : 12
+ÂÌ°×Â³µÀ·ò : 12
+
+ÖÁ×ğÂ³µÀ·ò : 15
+¾ø°æÂ³µÀ·ò : 15
+
+Ç³ÂÌÔÀÂ´½£ : 12
+Ç³À¶ÔÀÂ´½£ : 12
+Ç³×ÏÔÀÂ´½£ : 12
+Ç³»ÆÔÀÂ´½£ : 12
+
+ÂÌÉ«¹ÅÂ¹ : 10
+À¶É«¹ÅÂ¹ : 10
+³ÈÉ«¹ÅÂ¹ : 10
+Ç³ÂÌ¹ÅÂ¹ : 10
+Ç³°×¹ÅÂ¹ : 10
+ºÚÀ¶ôä´äºùÂ« : 10
+ºìºÚôä´äºùÂ« : 10
+ºìÀ¶ôä´äºùÂ« : 10
+ÂÌºì¼ªÏéÍÜ : 10
+ÂÌÉ«¼ªÏéÍÜ : 10
+ÂÌÀ¶¼ªÏéÍÜ : 10
+À¶ºì¼ªÏéÍÜ : 10
+ºÚ»ÆÌ«¼«ĞÜ : 15
+ºÚÂÌÌ«¼«ĞÜ : 15
+°×ÂÌ±±¼«ĞÜ : 10
+°×À¶±±¼«ĞÜ : 10
+ºÚÀ¶ÎŞ¼«ĞÜ : 10
+ºÚºìÎŞ¼«ĞÜ : 10
+
+°×É«Õ½ÀÇ : 10
+
+ºìÉ«Õ½ÀÇ : 12
+ÂÌÉ«Õ½ÀÇ : 12
+À¶É«Õ½ÀÇ : 12
+×ÏÉ«Õ½ÀÇ : 12
+·ÛÉ«Õ½ÀÇ : 12
+
+ÓÄÚ¤Õ½ÀÇ : 15
+ÓÄÚ¤ÑªÀÇ : 15
+
+
+°×É«·ÉÁú : 10
+
+ºìÉ«·ÉÁú : 12
+ÂÌÉ«·ÉÁú : 12
+À¶É«·ÉÁú : 12
+×ÏÉ«·ÉÁú : 12
+·ÛÉ«·ÉÁú : 12
+
+ÓÄÚ¤·ÉÁú : 15
+ÓÄÚ¤ÑªÁú : 15
+
+
+# Æï³èÖÖÀàÎª1 ÄÜÁ¦½×Êı6
+[CATEGORY_1_7]
+max_speed       : 35
+all_attrib      : 9
+power           : 22
+def             : 16
+upgrade_point   : 9
+gremlin_cost    : 150000
+mount_cost      : 152000
+gremlin_cost_senior : 150000
+mount_cost_senior   : 152000
+
+[CATEGORY_1_6]
+max_speed       : 30
+all_attrib      : 10
+power           : 20
+def             : 15
+upgrade_point   : 10
+gremlin_cost    : 100000
+mount_cost      : 102000
+gremlin_cost_senior : 50000
+mount_cost_senior   : 52000
+
+[CATEGORY_1_5]
+max_speed       : 25
+all_attrib      : 12
+power           : 16
+def             : 12
+upgrade_point   : 12
+gremlin_cost    : 35000
+mount_cost      : 37000
+gremlin_cost_senior : 20000
+mount_cost_senior   : 22000
+
+[CATEGORY_1_4]
+max_speed       : 20
+all_attrib      : 15
+power           : 12
+def             : 9
+upgrade_point   : 15
+gremlin_cost    : 5000
+mount_cost      : 7000
+gremlin_cost_senior : 2000
+mount_cost_senior   : 4000
+
+[CATEGORY_1_3]
+max_speed       : 15
+all_attrib      : 18
+power           : 8
+def             : 6
+upgrade_point   : 18
+gremlin_cost    : 2000
+mount_cost      : 4000
+gremlin_cost_senior : 700
+mount_cost_senior   : 2700
+
+[CATEGORY_1_2]
+max_speed       : 10
+all_attrib      : 20
+power           : 4
+def             : 3
+upgrade_point   : 20
+gremlin_cost    : 1000
+mount_cost      : 3000
+gremlin_cost_senior : 340
+mount_cost_senior   : 2340
+
+[CATEGORY_2_7]
+max_speed       : 35
+all_attrib      : 9
+power           : 22
+def             : 16
+upgrade_point   : 9
+gremlin_cost    : 150000
+mount_cost      : 152000
+gremlin_cost_senior : 150000
+mount_cost_senior   : 152000
+
+[CATEGORY_2_6]
+max_speed       : 30
+all_attrib      : 10
+power           : 20
+def             : 15
+upgrade_point   : 10
+gremlin_cost    : 100000
+mount_cost      : 102000
+gremlin_cost_senior : 50000
+mount_cost_senior   : 52000
+
+[CATEGORY_2_5]
+max_speed       : 25
+all_attrib      : 12
+power           : 16
+def             : 12
+upgrade_point   : 12
+gremlin_cost    : 40000
+mount_cost      : 42000
+gremlin_cost_senior : 20000
+mount_cost_senior   : 22000
+
+[CATEGORY_2_4]
+max_speed       : 20
+all_attrib      : 15
+power           : 12
+def             : 9
+upgrade_point   : 15
+gremlin_cost    : 7500
+mount_cost      : 9500
+gremlin_cost_senior : 2000
+mount_cost_senior   : 4000
+
+[CATEGORY_2_3]
+max_speed       : 15
+all_attrib      : 18
+power           : 8
+def             : 6
+upgrade_point   : 18
+gremlin_cost    : 3000
+mount_cost      : 5000
+gremlin_cost_senior : 700
+mount_cost_senior   : 2700
+
+[CATEGORY_2_2]
+max_speed       : 10
+all_attrib      : 20
+power           : 4
+def             : 3
+upgrade_point   : 20
+gremlin_cost    : 1200
+mount_cost      : 3200
+gremlin_cost_senior : 340
+mount_cost_senior   : 2340
+
+[CATEGORY_3_7]
+max_speed       : 35
+all_attrib      : 9
+power           : 22
+def             : 16
+upgrade_point   : 9
+gremlin_cost    : 150000
+mount_cost      : 152000
+gremlin_cost_senior : 150000
+mount_cost_senior   : 152000
+
+[CATEGORY_3_6]
+max_speed       : 30
+all_attrib      : 10
+power           : 20
+def             : 15
+upgrade_point   : 10
+gremlin_cost    : 100000
+mount_cost      : 102000
+gremlin_cost_senior : 50000
+mount_cost_senior   : 52000
+
+[CATEGORY_3_5]
+max_speed       : 25
+all_attrib      : 12
+power           : 16
+def             : 12
+upgrade_point   : 12
+gremlin_cost    : 35000
+mount_cost      : 37000
+gremlin_cost_senior : 20000
+mount_cost_senior   : 22000
+
+[CATEGORY_3_4]
+max_speed       : 20
+all_attrib      : 15
+power           : 12
+def             : 9
+upgrade_point   : 15
+gremlin_cost    : 5000
+mount_cost      : 7000
+gremlin_cost_senior : 2000
+mount_cost_senior   : 4000
+
+[CATEGORY_3_3]
+max_speed       : 15
+all_attrib      : 18
+power           : 8
+def             : 6
+upgrade_point   : 18
+gremlin_cost    : 2000
+mount_cost      : 4000
+gremlin_cost_senior : 700
+mount_cost_senior   : 2700
+
+[CATEGORY_3_2]
+max_speed       : 10
+all_attrib      : 20
+power           : 4
+def             : 3
+upgrade_point   : 20
+gremlin_cost    : 1000
+mount_cost      : 3000
+gremlin_cost_senior : 340
+mount_cost_senior   : 2340
+
+[CATEGORY_4_9]
+max_speed       : 45
+all_attrib      : 6
+power           : 28
+def             : 21
+upgrade_point   : 6
+gremlin_cost    : 2300000
+mount_cost      : 2302000
+gremlin_cost_senior : 2300000
+mount_cost_senior   : 2302000
+
+[CATEGORY_4_8]
+max_speed       : 40
+all_attrib      : 8
+power           : 24
+def             : 18
+upgrade_point   : 8
+gremlin_cost    : 350000
+mount_cost      : 352000
+gremlin_cost_senior : 2000000
+mount_cost_senior   : 2002000
+
+[CATEGORY_4_7]
+max_speed       : 35
+all_attrib      : 9
+power           : 22
+def             : 16
+upgrade_point   : 9
+gremlin_cost    : 150000
+mount_cost      : 152000
+gremlin_cost_senior : 150000
+mount_cost_senior   : 152000
+
+[CATEGORY_4_6]
+max_speed       : 30
+all_attrib      : 10
+power           : 20
+def             : 15
+upgrade_point   : 10
+gremlin_cost    : 150000
+mount_cost      : 152000
+gremlin_cost_senior : 50000
+mount_cost_senior   : 52000
+
+[CATEGORY_4_5]
+max_speed       : 25
+all_attrib      : 12
+power           : 16
+def             : 12
+upgrade_point   : 12
+gremlin_cost    : 50000
+mount_cost      : 52000
+gremlin_cost_senior : 20000
+mount_cost_senior   : 22000
+
+[CATEGORY_4_4]
+max_speed       : 20
+all_attrib      : 15
+power           : 12
+def             : 9
+upgrade_point   : 15
+gremlin_cost    : 20000
+mount_cost      : 22000
+gremlin_cost_senior : 3000
+mount_cost_senior   : 5000
+
+[CATEGORY_4_3]
+max_speed       : 15
+all_attrib      : 18
+power           : 8
+def             : 6
+upgrade_point   : 18
+gremlin_cost    : 8000
+mount_cost      : 10000
+gremlin_cost_senior : 1000
+mount_cost_senior   : 3000
+
+[CATEGORY_4_2]
+max_speed       : 10
+all_attrib      : 20
+power           : 4
+def             : 3
+upgrade_point   : 20
+gremlin_cost    : 3000
+mount_cost      : 5000
+gremlin_cost_senior : 250
+mount_cost_senior   : 2250
+
+[CATEGORY_5_7]
+max_speed       : 35
+all_attrib      : 9
+power           : 22
+def             : 16
+upgrade_point   : 9
+gremlin_cost    : 150000
+mount_cost      : 152000
+gremlin_cost_senior : 150000
+mount_cost_senior   : 152000
+
+[CATEGORY_5_6]
+max_speed       : 30
+all_attrib      : 10
+power           : 20
+def             : 15
+upgrade_point   : 10
+gremlin_cost    : 100000
+mount_cost      : 102000
+gremlin_cost_senior : 50000
+mount_cost_senior   : 52000
+
+[CATEGORY_5_5]
+max_speed       : 25
+all_attrib      : 12
+power           : 16
+def             : 12
+upgrade_point   : 12
+gremlin_cost    : 35000
+mount_cost      : 37000
+gremlin_cost_senior : 20000
+mount_cost_senior   : 22000
+
+[CATEGORY_5_4]
+max_speed       : 20
+all_attrib      : 15
+power           : 12
+def             : 9
+upgrade_point   : 15
+gremlin_cost    : 5000
+mount_cost      : 7000
+gremlin_cost_senior : 2000
+mount_cost_senior   : 4000
+
+[CATEGORY_5_3]
+max_speed       : 15
+all_attrib      : 18
+power           : 8
+def             : 6
+upgrade_point   : 18
+gremlin_cost    : 2000
+mount_cost      : 4000
+gremlin_cost_senior : 700
+mount_cost_senior   : 2700
+
+[CATEGORY_5_2]
+max_speed       : 10
+all_attrib      : 20
+power           : 4
+def             : 3
+upgrade_point   : 20
+gremlin_cost    : 1000
+mount_cost      : 3000
+gremlin_cost_senior : 340
+mount_cost_senior   : 2340
+
+[CATEGORY_6_7]
+max_speed       : 35
+all_attrib      : 9
+power           : 22
+def             : 16
+upgrade_point   : 9
+gremlin_cost    : 164000
+mount_cost      : 166000
+gremlin_cost_senior : 164000
+mount_cost_senior   : 166000
+
+[CATEGORY_6_6]
+max_speed       : 30
+all_attrib      : 10
+power           : 20
+def             : 15
+upgrade_point   : 10
+gremlin_cost    : 200000
+mount_cost      : 202000
+gremlin_cost_senior : 64000
+mount_cost_senior   : 66000
+
+[CATEGORY_6_5]
+max_speed       : 25
+all_attrib      : 12
+power           : 16
+def             : 12
+upgrade_point   : 12
+gremlin_cost    : 60000
+mount_cost      : 62000
+gremlin_cost_senior : 34000
+mount_cost_senior   : 36000
+
+[CATEGORY_6_4]
+max_speed       : 20
+all_attrib      : 15
+power           : 12
+def             : 9
+upgrade_point   : 15
+gremlin_cost    : 8000
+mount_cost      : 10000
+gremlin_cost_senior : 3400
+mount_cost_senior   : 5400
+
+[CATEGORY_6_3]
+max_speed       : 15
+all_attrib      : 18
+power           : 8
+def             : 6
+upgrade_point   : 18
+gremlin_cost    : 4000
+mount_cost      : 6000
+gremlin_cost_senior : 1170
+mount_cost_senior   : 3170
+
+[CATEGORY_6_2]
+max_speed       : 10
+all_attrib      : 20
+power           : 4
+def             : 3
+upgrade_point   : 20
+gremlin_cost    : 1700
+mount_cost      : 3700
+gremlin_cost_senior : 560
+mount_cost_senior   : 2560
+
+[CATEGORY_7_7]
+max_speed       : 35
+all_attrib      : 9
+power           : 22
+def             : 16
+upgrade_point   : 9
+gremlin_cost    : 164000
+mount_cost      : 166000
+gremlin_cost_senior : 164000
+mount_cost_senior   : 166000
+
+[CATEGORY_7_6]
+max_speed       : 30
+all_attrib      : 10
+power           : 20
+def             : 15
+upgrade_point   : 10
+gremlin_cost    : 200000
+mount_cost      : 202000
+gremlin_cost_senior : 64000
+mount_cost_senior   : 66000
+
+[CATEGORY_7_5]
+max_speed       : 25
+all_attrib      : 12
+power           : 16
+def             : 12
+upgrade_point   : 12
+gremlin_cost    : 60000
+mount_cost      : 62000
+gremlin_cost_senior : 34000
+mount_cost_senior   : 36000
+
+[CATEGORY_7_4]
+max_speed       : 20
+all_attrib      : 15
+power           : 12
+def             : 9
+upgrade_point   : 15
+gremlin_cost    : 8000
+mount_cost      : 10000
+gremlin_cost_senior : 3400
+mount_cost_senior   : 5400
+
+[CATEGORY_7_3]
+max_speed       : 15
+all_attrib      : 18
+power           : 8
+def             : 6
+upgrade_point   : 18
+gremlin_cost    : 4000
+mount_cost      : 6000
+gremlin_cost_senior : 1170
+mount_cost_senior   : 3170
+
+[CATEGORY_7_2]
+max_speed       : 10
+all_attrib      : 20
+power           : 4
+def             : 3
+upgrade_point   : 20
+gremlin_cost    : 1700
+mount_cost      : 3700
+gremlin_cost_senior : 560
+mount_cost_senior   : 2560
+
+[CATEGORY_8_7]
+max_speed       : 35
+all_attrib      : 9
+power           : 22
+def             : 16
+upgrade_point   : 9
+gremlin_cost    : 164000
+mount_cost      : 166000
+gremlin_cost_senior : 164000
+mount_cost_senior   : 166000
+
+[CATEGORY_8_6]
+max_speed       : 30
+all_attrib      : 10
+power           : 20
+def             : 15
+upgrade_point   : 10
+gremlin_cost    : 200000
+mount_cost      : 202000
+gremlin_cost_senior : 64000
+mount_cost_senior   : 66000
+
+[CATEGORY_8_5]
+max_speed       : 25
+all_attrib      : 12
+power           : 16
+def             : 12
+upgrade_point   : 12
+gremlin_cost    : 60000
+mount_cost      : 62000
+gremlin_cost_senior : 34000
+mount_cost_senior   : 36000
+
+[CATEGORY_8_4]
+max_speed       : 20
+all_attrib      : 15
+power           : 12
+def             : 9
+upgrade_point   : 15
+gremlin_cost    : 8000
+mount_cost      : 10000
+gremlin_cost_senior : 3400
+mount_cost_senior   : 5400
+
+[CATEGORY_8_3]
+max_speed       : 15
+all_attrib      : 18
+power           : 8
+def             : 6
+upgrade_point   : 18
+gremlin_cost    : 4000
+mount_cost      : 6000
+gremlin_cost_senior : 1170
+mount_cost_senior   : 3170
+
+[CATEGORY_8_2]
+max_speed       : 10
+all_attrib      : 20
+power           : 4
+def             : 3
+upgrade_point   : 20
+gremlin_cost    : 1700
+mount_cost      : 3700
+gremlin_cost_senior : 560
+mount_cost_senior   : 2560
+
+[CATEGORY_9_7]
+max_speed       : 35
+all_attrib      : 9
+power           : 22
+def             : 16
+upgrade_point   : 9
+gremlin_cost    : 164000
+mount_cost      : 166000
+gremlin_cost_senior : 164000
+mount_cost_senior   : 166000
+
+[CATEGORY_9_6]
+max_speed       : 30
+all_attrib      : 10
+power           : 20
+def             : 15
+upgrade_point   : 10
+gremlin_cost    : 200000
+mount_cost      : 202000
+gremlin_cost_senior : 64000
+mount_cost_senior   : 66000
+
+[CATEGORY_9_5]
+max_speed       : 25
+all_attrib      : 12
+power           : 16
+def             : 12
+upgrade_point   : 12
+gremlin_cost    : 60000
+mount_cost      : 62000
+gremlin_cost_senior : 34000
+mount_cost_senior   : 36000
+
+[CATEGORY_9_4]
+max_speed       : 20
+all_attrib      : 15
+power           : 12
+def             : 9
+upgrade_point   : 15
+gremlin_cost    : 8000
+mount_cost      : 10000
+gremlin_cost_senior : 3400
+mount_cost_senior   : 5400
+
+[CATEGORY_9_3]
+max_speed       : 15
+all_attrib      : 18
+power           : 8
+def             : 6
+upgrade_point   : 18
+gremlin_cost    : 4000
+mount_cost      : 6000
+gremlin_cost_senior : 1170
+mount_cost_senior   : 3170
+
+[CATEGORY_9_2]
+max_speed       : 10
+all_attrib      : 20
+power           : 4
+def             : 3
+upgrade_point   : 20
+gremlin_cost    : 1700
+mount_cost      : 3700
+gremlin_cost_senior : 560
+mount_cost_senior   : 2560
+
+[CATEGORY_10_7]
+max_speed       : 35
+all_attrib      : 9
+power           : 22
+def             : 16
+upgrade_point   : 9
+gremlin_cost    : 164000
+mount_cost      : 166000
+gremlin_cost_senior : 164000
+mount_cost_senior   : 166000
+
+[CATEGORY_10_6]
+max_speed       : 30
+all_attrib      : 10
+power           : 20
+def             : 15
+upgrade_point   : 10
+gremlin_cost    : 200000
+mount_cost      : 202000
+gremlin_cost_senior : 64000
+mount_cost_senior   : 66000
+
+[CATEGORY_10_5]
+max_speed       : 25
+all_attrib      : 12
+power           : 16
+def             : 12
+upgrade_point   : 12
+gremlin_cost    : 60000
+mount_cost      : 62000
+gremlin_cost_senior : 34000
+mount_cost_senior   : 36000
+
+[CATEGORY_10_4]
+max_speed       : 20
+all_attrib      : 15
+power           : 12
+def             : 9
+upgrade_point   : 15
+gremlin_cost    : 8000
+mount_cost      : 10000
+gremlin_cost_senior : 3400
+mount_cost_senior   : 5400
+
+[CATEGORY_10_3]
+max_speed       : 15
+all_attrib      : 18
+power           : 8
+def             : 6
+upgrade_point   : 18
+gremlin_cost    : 4000
+mount_cost      : 6000
+gremlin_cost_senior : 1170
+mount_cost_senior   : 3170
+
+[CATEGORY_10_2]
+max_speed       : 10
+all_attrib      : 20
+power           : 4
+def             : 3
+upgrade_point   : 20
+gremlin_cost    : 1700
+mount_cost      : 3700
+gremlin_cost_senior : 560
+mount_cost_senior   : 2560
+
+[CATEGORY_11_7]
+max_speed       : 35
+all_attrib      : 9
+power           : 22
+def             : 16
+upgrade_point   : 9
+gremlin_cost    : 164000
+mount_cost      : 166000
+gremlin_cost_senior : 164000
+mount_cost_senior   : 166000
+
+[CATEGORY_11_6]
+max_speed       : 30
+all_attrib      : 10
+power           : 20
+def             : 15
+upgrade_point   : 10
+gremlin_cost    : 200000
+mount_cost      : 202000
+gremlin_cost_senior : 64000
+mount_cost_senior   : 66000
+
+[CATEGORY_11_5]
+max_speed       : 25
+all_attrib      : 12
+power           : 16
+def             : 12
+upgrade_point   : 12
+gremlin_cost    : 60000
+mount_cost      : 62000
+gremlin_cost_senior : 34000
+mount_cost_senior   : 36000
+
+[CATEGORY_11_4]
+max_speed       : 20
+all_attrib      : 15
+power           : 12
+def             : 9
+upgrade_point   : 15
+gremlin_cost    : 8000
+mount_cost      : 10000
+gremlin_cost_senior : 3400
+mount_cost_senior   : 5400
+
+[CATEGORY_11_3]
+max_speed       : 15
+all_attrib      : 18
+power           : 8
+def             : 6
+upgrade_point   : 18
+gremlin_cost    : 4000
+mount_cost      : 6000
+gremlin_cost_senior : 1170
+mount_cost_senior   : 3170
+
+[CATEGORY_11_2]
+max_speed       : 10
+all_attrib      : 20
+power           : 4
+def             : 3
+upgrade_point   : 20
+gremlin_cost    : 1700
+mount_cost      : 3700
+gremlin_cost_senior : 560
+mount_cost_senior   : 2560
+
+[CATEGORY_10_9]
+max_speed       : 45
+all_attrib      : 6
+power           : 28
+def             : 21
+upgrade_point   : 6
+gremlin_cost    : 2300000
+mount_cost      : 2302000
+gremlin_cost_senior : 2300000
+mount_cost_senior   : 2302000
+
+[CATEGORY_11_9]
+max_speed       : 45
+all_attrib      : 6
+power           : 28
+def             : 21
+upgrade_point   : 6
+gremlin_cost    : 2300000
+mount_cost      : 2302000
+gremlin_cost_senior : 2300000
+mount_cost_senior   : 2302000
+
+[CATEGORY_12_8]
+max_speed       : 40
+all_attrib      : 8
+power           : 24
+def             : 18
+upgrade_point   : 8
+gremlin_cost    : 350000
+mount_cost      : 352000
+gremlin_cost_senior : 2000000
+mount_cost_senior   : 2002000
+
+[CATEGORY_13_8]
+max_speed       : 40
+all_attrib      : 8
+power           : 24
+def             : 18
+upgrade_point   : 8
+gremlin_cost    : 350000
+mount_cost      : 352000
+gremlin_cost_senior : 2000000
+mount_cost_senior   : 2002000
+
+[CATEGORY_12_9]
+max_speed       : 45
+all_attrib      : 6
+power           : 28
+def             : 21
+upgrade_point   : 6
+gremlin_cost    : 2300000
+mount_cost      : 2302000
+gremlin_cost_senior : 2300000
+mount_cost_senior   : 2302000
+
+[CATEGORY_13_9]
+max_speed       : 45
+all_attrib      : 6
+power           : 28
+def             : 21
+upgrade_point   : 6
+gremlin_cost    : 2300000
+mount_cost      : 2302000
+gremlin_cost_senior : 2300000
+mount_cost_senior   : 2302000
+
+
+[CATEGORY_10_10]
+max_speed       : 50
+all_attrib      : 4
+power           : 32
+def             : 24
+upgrade_point   : 4
+gremlin_cost    : 5000000
+mount_cost      : 5002000
+gremlin_cost_senior : 5000000
+mount_cost_senior   : 5002000
+
+
+[CATEGORY_15_10]
+max_speed       : 50
+all_attrib      : 4
+power           : 32
+def             : 24
+upgrade_point   : 4
+gremlin_cost    : 5000000
+mount_cost      : 5002000
+gremlin_cost_senior : 5000000
+mount_cost_senior   : 5002000
+
+
+[CATEGORY_20_12]
+max_speed       : 60
+all_attrib      : 3
+power           : 64
+def             : 48
+upgrade_point   : 3
+gremlin_cost    : 5000000
+mount_cost      : 5002000
+gremlin_cost_senior : 5000000
+mount_cost_senior   : 5002000
+
+
+[CATEGORY_12_12]
+max_speed       : 60
+all_attrib      : 3
+power           : 64
+def             : 48
+upgrade_point   : 3
+gremlin_cost    : 5000000
+mount_cost      : 5002000
+gremlin_cost_senior : 5000000
+mount_cost_senior   : 5002000
+
+
+[CATEGORY_15_15]
+max_speed       : 70
+all_attrib      : 2
+power           : 128
+def             : 96
+upgrade_point   : 2
+gremlin_cost    : 5000000
+mount_cost      : 5002000
+gremlin_cost_senior : 5000000
+mount_cost_senior   : 5002000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

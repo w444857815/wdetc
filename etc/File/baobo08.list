@@ -1,0 +1,30 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/18/2006
+#奖励物品        概率
+
+[奖励等级]
+name$: 特等奖
+
+
+[特等奖]
+仙元奖励 : 1
+
+
+[仙元奖励]
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "通天大圣3"})
+
+[通天大圣3]
+name$: ({ 通天大圣, 通天大圣 })
+rank$: 仙元
+level: 60
+life_effect: ({ 85, 85 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 40, 40 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 70, 70 })
+special_skill$: ({ 4,翻转乾坤, 1,舍命一击, 1,死亡缠绵, 1,七十二变,1})
+martial: ({ 10000000, 10000000 })
+channel_msg: "恭喜恭喜，#Y$PLAYER#n与#R通天大圣#n有缘，打开宝物的时候得到了一只四天技#Y$EX_PET#n，真是羡煞旁人啊！#23"
+
+

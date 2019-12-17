@@ -1,0 +1,575 @@
+#FORM2
+
+#dujiachoujianghuodong.list
+#created by huangw2 Aug/25/2008
+#独家抽奖游戏活动
+
+[task_time]
+start_time : "2008-11-13-12:00:00"
+maf_time$ :  ({ "2008-11-13-12:00:00", "2028-11-13-12:00:00" })
+
+
+
+[一六三版精美称号]
+rate : 200
+log_to_db:  1
+name$ : 一六三版精美称号
+bonus$: ({ 0, 0, 100, "一六三版精美称号", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y一六三版精美称号#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[天空石]
+rate : 1500
+log_to_db:  1
+name$ : 天空石
+bonus$: ({ 0, 0, 100, "天空石", 1, 6 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y天空石#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[新电母·时装]
+rate : 1000
+log_to_db:  1
+name$ : 新电母·时装
+bonus$: ({ 0, 0, 100, "新电母·时装", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y新电母·时装#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[新雷公·时装]
+rate : 1000
+log_to_db:  1
+name$ : 新雷公·时装
+bonus$: ({ 0, 0, 100, "新雷公·时装", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y新雷公·时装#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[新疆大切糕]
+rate : 500
+log_to_db:  1
+name$ : 新疆大切糕
+bonus$: ({ 0, 0, 100, "新疆吐鲁番大切糕", 1, 5 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y赐福切糕#n#G1440~2304块#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[独家大佬兑换神器]
+rate : 2000
+log_to_db:  1
+name$ : 独家大佬兑换神器
+bonus$: ({ 0, 0, 100, "大佬兑换神器", 10, 20 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y大佬兑换神器#n#G1-2张#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[独家大佬兑换神器]
+rate : 1000
+log_to_db:  1
+name$ : 独家大佬兑换神器
+bonus$: ({ 0, 0, 100, "大佬兑换神器", 1, 10 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y大佬兑换神器#n#G10-20张#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[降妖令]
+rate : 1000
+log_to_db:  1
+name$ : 降妖令
+bonus$: ({ 0, 0, 100, "降妖令", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y降妖令#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[酒葫芦]
+rate : 1000
+log_to_db:  1
+name$ : 酒葫芦
+bonus$: ({ 0, 0, 100, "酒葫芦", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y酒葫芦#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[仙元珠]
+rate : 10
+log_to_db:  1
+name$ : 仙元珠
+bonus$: ({ 0, 0, 100, "仙元珠", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y仙元珠#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[形象转换珠]
+rate : 1000
+log_to_db:  1
+name$ : 形象转换珠
+bonus$: ({ 0, 0, 100, "形象转换珠", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y形象转换珠#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[爱宠染色丹]
+rate : 1000
+log_to_db:  1
+name$ : 爱宠染色丹
+bonus$: ({ 0, 0, 100, "爱宠染色丹", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y爱宠染色丹#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[精品野生宠物时装]
+rate : 1000
+log_to_db:  1
+name$ : 精品野生宠物时装
+bonus$: ({ 0, 0, 100, "精品野生宠物时装", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y精品野生宠物时装#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[精品变异宠物时装]
+rate : 1000
+log_to_db:  1
+name$ : 精品变异宠物时装
+bonus$: ({ 0, 0, 100, "精品变异宠物时装", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y精品变异宠物时装#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[精品最新宠物时装]
+rate : 1000
+log_to_db:  1
+name$ : 精品最新宠物时装
+bonus$: ({ 0, 0, 100, "精品最新宠物时装", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y精品最新宠物时装#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[混元卡]
+rate : 1000
+log_to_db:  1
+name$ : 混元卡
+bonus$: ({ 0, 0, 100, "混元卡", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y混元卡#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[上古召唤材料礼包]
+rate : 100
+log_to_db:  1
+name$ : 上古召唤材料礼包
+bonus$: ({ 0, 0, 100, "上古召唤材料礼包", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y上古召唤材料礼包#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[战云宫·超级传送符]
+rate : 10
+log_to_db:  1
+name$ : 战云宫·超级传送符
+bonus$: ({ 0, 0, 100, "战云宫·超级传送符", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y战云宫·超级传送符#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[七十二变秘笈]
+rate : 10
+log_to_db:  1
+name$ : 七十二变秘笈
+bonus$: ({ 0, 0, 100, "七十二变秘笈", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y七十二变秘笈#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[大呲花]
+rate : 1000
+log_to_db:  1
+name$ : 大呲花
+bonus$: ({ 0, 0, 100, "大呲花", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y大呲花#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[雁翼回翔]
+rate : 500
+log_to_db:  1
+name$ : 雁翼回翔
+bonus$: ({ 0, 0, 100, "雁翼回翔", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y雁翼回翔#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[凤翼燎原]
+rate : 500
+log_to_db:  1
+name$ : 凤翼燎原
+bonus$: ({ 0, 0, 100, "凤翼燎原", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y凤翼燎原#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[神物任化]
+rate : 500
+log_to_db:  1
+name$ : 神物任化
+bonus$: ({ 0, 0, 100, "神物任化", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y神物任化#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[精品最新宠物时装]
+rate : 1000
+log_to_db:  1
+name$ : 精品最新宠物时装
+bonus$: ({ 0, 0, 100, "精品最新宠物时装", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y精品最新宠物时装#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[大吉大利太古仙六]
+rate : 500
+log_to_db:  1
+name$ : 大吉大利太古仙六
+bonus$: ({ 0, 0, 100, "大吉大利太古仙六", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y大吉大利太古仙六#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[大吉大利太古仙七]
+rate : 500
+log_to_db:  1
+name$ : 大吉大利太古仙七
+bonus$: ({ 0, 0, 100, "大吉大利太古仙七", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y大吉大利太古仙七#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[极品满属金书惊雷]
+rate : 1000
+log_to_db:  1
+name$ : 极品满属金书惊雷
+bonus$: ({ 0, 0, 100, "极品满属金书惊雷", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y极品满属金书惊雷#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[极品满属金书怒击]
+rate : 1000
+log_to_db:  1
+name$ : 极品满属金书怒击
+bonus$: ({ 0, 0, 100, "极品满属金书怒击", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y极品满属金书怒击#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[极品满属金书云体]
+rate : 1000
+log_to_db:  1
+name$ : 极品满属金书云体
+bonus$: ({ 0, 0, 100, "极品满属金书云体", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y极品满属金书云体#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[娃娃的无级别装备]
+rate : 1000
+log_to_db:  1
+name$ : 娃娃的无级别装备
+bonus$: ({ 0, 0, 100, "娃娃的无级别装备", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y娃娃的无级别装备#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[鸿运签]
+rate : 1000
+log_to_db:  1
+name$ : 鸿运签
+bonus$: ({ 0, 0, 100, "鸿运签", 10, 50 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y鸿运签#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[精品一个魂兽石袋]
+rate : 1000
+log_to_db:  1
+name$ : 精品一个魂兽石袋
+bonus$: ({ 0, 0, 100, "精品一个魂兽石袋", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y精品一个魂兽石袋#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[精品一个技能石袋]
+rate : 1000
+log_to_db:  1
+name$ : 精品一个技能石袋
+bonus$: ({ 0, 0, 100, "精品一个技能石袋", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y精品一个技能石袋#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[一只满属性幻化宠]
+rate : 1000
+log_to_db:  1
+name$ : 一只满属性幻化宠
+bonus$: ({ 0, 0, 100, "一只满属性幻化宠", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y一只满属性幻化宠#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[玲珑笔·幻彩九尾]
+rate : 100
+log_to_db:  1
+name$ : 玲珑笔·幻彩九尾
+bonus$: ({ 0, 0, 100, "玲珑笔·幻彩九尾", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y玲珑笔·幻彩九尾#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[特级异兽躯干]
+rate : 100
+log_to_db:  1
+name$ : 特级异兽躯干
+bonus$: ({ 0, 0, 100, "特级异兽躯干", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y特级异兽躯干#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[天卷·瑶池荒]
+rate : 100
+log_to_db:  1
+name$ : 天卷·瑶池荒
+bonus$: ({ 0, 0, 100, "天卷·瑶池荒", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y天卷·瑶池荒#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[天卷·通天荒]
+rate : 100
+log_to_db:  1
+name$ : 天卷·通天荒
+bonus$: ({ 0, 0, 100, "天卷·通天荒", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y天卷·通天荒#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[天卷·祸斗荒]
+rate : 100
+log_to_db:  1
+name$ : 天卷·祸斗荒
+bonus$: ({ 0, 0, 100, "天卷·祸斗荒", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y天卷·祸斗荒#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[极品转世法宝斗子]
+rate : 500
+log_to_db:  1
+name$ : 极品转世法宝斗子
+bonus$: ({ 0, 0, 100, "极品转世法宝斗子", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y极品转世法宝斗子#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[极品转世法宝珠子]
+rate : 500
+log_to_db:  1
+name$ : 极品转世法宝珠子
+bonus$: ({ 0, 0, 100, "极品转世法宝珠子", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y极品转世法宝珠子#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[极品转世法宝沌钟]
+rate : 500
+log_to_db:  1
+name$ : 极品转世法宝沌钟
+bonus$: ({ 0, 0, 100, "极品转世法宝沌钟", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y极品转世法宝沌钟#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[极品转世法宝番天]
+rate : 500
+log_to_db:  1
+name$ : 极品转世法宝番天
+bonus$: ({ 0, 0, 100, "极品转世法宝番天", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y极品转世法宝番天#n#G1440~2304块#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[极品转世法宝卸甲]
+rate : 500
+log_to_db:  1
+name$ : 极品转世法宝卸甲
+bonus$: ({ 0, 0, 100, "极品转世法宝卸甲", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y极品转世法宝卸甲#n#G1-2张#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[极品转世法宝金蛟]
+rate : 500
+log_to_db:  1
+name$ : 极品转世法宝金蛟
+bonus$: ({ 0, 0, 100, "极品转世法宝金蛟", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y极品转世法宝金蛟#n#G10-20张#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[极品转世法宝九龙]
+rate : 500
+log_to_db:  1
+name$ : 极品转世法宝九龙
+bonus$: ({ 0, 0, 100, "极品转世法宝九龙", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y极品转世法宝九龙#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[极品转世法宝阴阳]
+rate : 500
+log_to_db:  1
+name$ : 极品转世法宝阴阳
+bonus$: ({ 0, 0, 100, "极品转世法宝阴阳", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y极品转世法宝阴阳#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[极品满属金书惊雷]
+rate : 1000
+log_to_db:  1
+name$ : 极品满属金书惊雷
+bonus$: ({ 0, 0, 100, "极品满属金书惊雷", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y极品满属金书惊雷#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[极品满属金书青木]
+rate : 1000
+log_to_db:  1
+name$ : 极品满属金书青木
+bonus$: ({ 0, 0, 100, "极品满属金书青木", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y极品满属金书青木#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[极品满属金书寒冰]
+rate : 1000
+log_to_db:  1
+name$ : 极品满属金书寒冰
+bonus$: ({ 0, 0, 100, "极品满属金书寒冰", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y极品满属金书寒冰#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[极品满属金书烈炎]
+rate : 1000
+log_to_db:  1
+name$ : 极品满属金书烈炎
+bonus$: ({ 0, 0, 100, "极品满属金书烈炎", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y极品满属金书烈炎#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[极品满属金书碎石]
+rate : 1000
+log_to_db:  1
+name$ : 极品满属金书碎石
+bonus$: ({ 0, 0, 100, "极品满属金书碎石", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y极品满属金书碎石#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[极品满属金书狂暴]
+rate : 1000
+log_to_db:  1
+name$ : 极品满属金书狂暴
+bonus$: ({ 0, 0, 100, "极品满属金书狂暴", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y极品满属金书狂暴#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[极品满属金书反击]
+rate : 1000
+log_to_db:  1
+name$ : 极品满属金书反击
+bonus$: ({ 0, 0, 100, "极品满属金书反击", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y极品满属金书反击#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[极品满属金书破天]
+rate : 1000
+log_to_db:  1
+name$ : 极品满属金书破天
+bonus$: ({ 0, 0, 100, "极品满属金书破天", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y极品满属金书破天#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[极品满属金书怒击]
+rate : 1000
+log_to_db:  1
+name$ : 极品满属金书怒击
+bonus$: ({ 0, 0, 100, "极品满属金书怒击", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y极品满属金书怒击#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[极品满属金书修罗]
+rate : 1000
+log_to_db:  1
+name$ : 极品满属金书修罗
+bonus$: ({ 0, 0, 100, "极品满属金书修罗", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y极品满属金书修罗#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[极品满属金书魔斩]
+rate : 1000
+log_to_db:  1
+name$ : 极品满属金书魔斩
+bonus$: ({ 0, 0, 100, "极品满属金书魔斩", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y极品满属金书魔斩#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[极品满属金书云体]
+rate : 1000
+log_to_db:  1
+name$ : 极品满属金书云体
+bonus$: ({ 0, 0, 100, "极品满属金书云体", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y极品满属金书云体#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[极品满属金书仙风]
+rate : 1000
+log_to_db:  1
+name$ : 极品满属金书仙风
+bonus$: ({ 0, 0, 100, "极品满属金书仙风", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y极品满属金书仙风#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[极品满属金书尽忠]
+rate : 1000
+log_to_db:  1
+name$ : 极品满属金书尽忠
+bonus$: ({ 0, 0, 100, "极品满属金书尽忠", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y极品满属金书尽忠#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[超级苍穹荒卡]
+rate : 1000
+log_to_db:  1
+name$ : 超级苍穹荒卡
+bonus$: ({ 0, 0, 100, "超级苍穹荒卡", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y超级苍穹荒卡#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[超级八戒荒卡]
+rate : 1000
+log_to_db:  1
+name$ : 超级八戒荒卡
+bonus$: ({ 0, 0, 100, "超级八戒荒卡", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y超级八戒荒卡#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[超级巨力荒卡]
+rate : 1000
+log_to_db:  1
+name$ : 超级巨力荒卡
+bonus$: ({ 0, 0, 100, "超级巨力荒卡", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y超级巨力荒卡#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[超级净瓶荒卡]
+rate : 1000
+log_to_db:  1
+name$ : 超级净瓶荒卡
+bonus$: ({ 0, 0, 100, "超级净瓶荒卡", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y超级净瓶荒卡#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[超级无名荒卡]
+rate : 1000
+log_to_db:  1
+name$ : 超级无名荒卡
+bonus$: ({ 0, 0, 100, "超级无名荒卡", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y超级无名荒卡#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[超级逐鹿荒卡]
+rate : 1000
+log_to_db:  1
+name$ : 超级逐鹿荒卡
+bonus$: ({ 0, 0, 100, "超级逐鹿荒卡", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y超级逐鹿荒卡#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+[超级昆仑荒卡]
+rate : 1000
+log_to_db:  1
+name$ : 超级昆仑荒卡
+bonus$: ({ 0, 0, 100, "超级昆仑荒卡", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y超级昆仑荒卡#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

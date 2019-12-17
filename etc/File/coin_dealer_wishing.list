@@ -1,0 +1,567 @@
+#FORM2
+
+[活动时间]
+# 任务开始时间，持续时间，开启频率
+time_list$ : ({ "2019-05-20-20:00:00", "EVERY_DAY(365)", "EVERY_WEEK(0)", "2020-05-20-23:59:59" })
+
+[broadcast_setting]
+broadcast_list:   ({ "start_task", "end_task" })
+
+[start_task]
+broadcast_start : "start_time"
+interval        : 7200
+broadcast_end   : "end_time(-60)"
+message         : "#P元宝商人#P许愿活动开始了，大家快来参与吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[end_task]
+broadcast_start : "end_time"
+interval        : 0
+broadcast_end   : "end_time(+60)"
+message         : "#P元宝商人#P许愿活动结束了，感谢大家的参与。"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+#奖励配置
+[bonus_set]
+bonus$ : "白金狮（12）"
+bonus$ : "白龙马（12）"
+bonus$ : "申公豹（12）"
+bonus$ : "翡翠（12）"
+bonus$ : "紫太极（12）"
+bonus$ : "粉太极（12）"
+bonus$ : "金鹿（12）"
+bonus$ : "粉剑（12）"
+bonus$ : "血凤凰（12）"
+bonus$ : "彩凤凰（12）"
+bonus$ : "粉色战狼"
+bonus$ : "粉色飞龙"
+bonus$ : "超级八戒荒卡"
+bonus$ : "超级昆仑荒卡"
+bonus$ : "超级净瓶荒卡"
+bonus$ : "超级苍穹荒卡"
+bonus$ : "降妖令"
+bonus$ : "酒葫芦"
+bonus$ : "形象转换珠"
+bonus$ : "爱宠染色丹"
+bonus$ : "混元卡"
+bonus$ : "大吉大利太古仙六"
+bonus$ : "大吉大利太古仙七"
+bonus$ : "极品满属金书仙风"
+bonus$ : "极品满属金书魔斩"
+bonus$ : "极品满属金书狂暴"
+bonus$ : "极品满属金书反击"
+bonus$ : "极品满属金书修罗"
+bonus$ : "九转仙灵露"
+bonus$ : "潜金散"
+bonus$ : "神木丸"
+bonus$ : "柔水丹"
+bonus$ : "烈火散"
+bonus$ : "三土丸"
+bonus$ : "喇叭"
+bonus$ : "盛世鲜花雨"
+bonus$ : "超级八戒卡"
+bonus$ : "超级昆仑卡"
+bonus$ : "超级巨力卡"
+bonus$ : "超级苍穹卡"
+bonus$ : "天空石"
+
+# 新服许愿和元宝商人许愿共用以下配置
+[weapon_rate]
+power                    : 300
+str                      : 1000
+con                      : 1000
+wiz                      : 1000
+dex                      : 1000
+double_hit_rate          : 1000
+counter_attack_rate      : 1000
+stunt_rate               : 1000
+metal                    : 1000
+wood                     : 1500
+water                    : 1500
+fire                     : 1500
+earth                    : 1000
+all_polar                : 200
+all_skill                : 500
+ignore_all_resist_polar  : 300
+ignore_all_resist_except : 200
+
+[armor_rate]
+def                      : 1000
+max_life                 : 1000
+max_mana                 : 1000
+str                      : 1000
+con                      : 1000
+wiz                      : 1000
+dex                      : 1000
+resist_poison            : 1500
+resist_frozen            : 1500
+resist_sleep             : 1500
+resist_forgotten         : 1500
+resist_confusion         : 1500
+resist_repress           : 1500
+resist_melt              : 1500
+resist_cage              : 1500
+resist_lock              : 1500
+resist_lost              : 1500
+all_resist_polar         : 500
+all_resist_except        : 500
+all_attrib               : 300
+
+[helmet_rate]
+def                      : 1000
+max_life                 : 1000
+max_mana                 : 1000
+str                      : 1000
+con                      : 1000
+wiz                      : 1000
+dex                      : 1000
+double_hit               : 1000
+counter_attack           : 1000
+damage_sel               : 1500
+all_attrib               : 200
+
+[boot_rate]
+def                      : 1000
+speed                    : 1000
+str                      : 1000
+con                      : 1000
+wiz                      : 1000
+dex                      : 1000
+double_hit               : 1000
+counter_attack           : 1000
+damage_sel               : 1500
+all_attrib               : 200
+
+[belt_rate]
+def                      : 1000
+max_life                 : 1000
+max_mana                 : 1000
+base_dodge               : 1000
+str                      : 1000
+con                      : 1000
+wiz                      : 1000
+dex                      : 1000
+resist_poison            : 1500
+resist_frozen            : 1500
+resist_sleep             : 1500
+resist_forgotten         : 1500
+resist_confusion         : 1500
+resist_repress           : 1500
+resist_melt              : 1500
+resist_cage              : 1500
+resist_lock              : 1500
+resist_lost              : 1500
+all_resist_polar         : 500
+all_resist_except        : 500
+all_attrib               : 300
+
+[粉色战狼]
+rate_base : 2000000
+max_num   : 2222
+limit_num : 1
+type      : "pet"
+sub_type  : "mount"
+
+[粉色飞龙]
+rate_base : 2000000
+max_num   : 2222
+limit_num : 1
+type      : "pet"
+sub_type  : "mount"
+
+[白龙马（12）]
+rate_base : 2000000
+max_num   : 889
+limit_num : 10
+type      : "pet"
+sub_type  : "mount"
+
+[白金狮（12）]
+rate_base : 2000000
+max_num   : 889
+limit_num : 10
+type      : "pet"
+sub_type  : "mount"
+
+[至尊彩凤凰（12）]
+rate_base : 2000000
+max_num   : 889
+limit_num : 10
+type      : "pet"
+sub_type  : "mount"
+
+[至尊粉剑（12）]
+rate_base : 2000000
+max_num   : 889
+limit_num : 10
+type      : "pet"
+sub_type  : "mount"
+
+[巨骨刺]
+rate_base : 2000000
+max_num   : 444
+limit_num : 10
+type      : "pet"
+sub_type  : "mount"
+
+[申公豹（12）]
+rate_base : 2000000
+max_num   : 444
+limit_num : 10
+type      : "pet"
+sub_type  : "mount"
+
+[紫太极（12）]
+rate_base : 2000000
+max_num   : 89
+limit_num : 10
+type      : "pet"
+sub_type  : "mount"
+
+[超级八戒荒卡]
+rate_base : 100000
+max_num   : 89
+limit_num : 10
+type      : "pet"
+sub_type  : "mount"
+
+[粉色飞龙]
+rate_base : 2000000
+max_num   : 89
+limit_num : 10
+type      : "pet"
+sub_type  : "mount"
+
+[粉色战狼]
+rate_base : 2000000
+max_num   : 89
+limit_num : 10
+type      : "pet"
+sub_type  : "mount"
+
+[超级昆仑荒卡]
+rate_base : 100000
+max_num   : 89
+limit_num : 10
+type      : "pet"
+sub_type  : "mount"
+
+[翡翠（12）]
+rate_base : 2000000
+max_num   : 89
+limit_num : 10
+type      : "pet"
+sub_type  : "mount"
+
+[金鹿（12）]
+rate_base : 2000000
+max_num   : 89
+limit_num : 10
+type      : "pet"
+sub_type  : "mount"
+
+[粉太极（12）]
+rate_base : 2000000
+max_num   : 89
+limit_num : 10
+type      : "pet"
+sub_type  : "mount"
+
+[粉剑（12）]
+rate_base : 2000000
+max_num   : 89
+limit_num : 10
+type      : "pet"
+sub_type  : "mount"
+
+[彩凤凰（12）]
+rate_base : 2000000
+max_num   : 89
+limit_num : 10
+type      : "pet"
+sub_type  : "mount"
+
+[血凤凰（12）]
+rate_base : 2000000
+max_num   : 89
+limit_num : 10
+type      : "pet"
+sub_type  : "mount"
+
+[血丹狂魂]
+rate_base : 200000
+max_num   : 89
+limit_num : 1
+type      : "pet"
+sub_type  : "ghost_pet"
+strengthen_type  : "phy"
+strengthen_times : 5
+
+[阎摩]
+rate_base : 200000
+max_num   : 89
+limit_num : 1
+type      : "pet"
+sub_type  : "ghost_pet"
+strengthen_type  : "phy"
+strengthen_times : 5
+
+[牛头狱卒]
+rate_base : 200000
+max_num   : 89
+limit_num : 1
+type      : "pet"
+sub_type  : "ghost_pet"
+strengthen_type  : "mag"
+strengthen_times : 5
+
+[马面罗刹]
+rate_base : 200000
+max_num   : 89
+limit_num : 1
+type      : "pet"
+sub_type  : "ghost_pet"
+strengthen_type  : "mag"
+strengthen_times : 5
+
+[范无救]
+rate_base : 200000
+max_num   : 89
+limit_num : 1
+type      : "pet"
+sub_type  : "ghost_pet"
+strengthen_type  : "mag"
+strengthen_times : 5
+
+[谢必安]
+rate_base : 200000
+max_num   : 89
+limit_num : 1
+type      : "pet"
+sub_type  : "ghost_pet"
+strengthen_type  : "mag"
+strengthen_times : 5
+
+[地府守卫]
+rate_base : 200000
+max_num   : 89
+limit_num : 1
+type      : "pet"
+sub_type  : "ghost_pet"
+strengthen_type  : "mag"
+strengthen_times : 5
+
+[元灵精魄]
+rate_base : 200000
+max_num   : 88
+limit_num : 1
+
+[神兽精魄]
+rate_base : 100000
+max_num   : 44
+limit_num : 1
+
+[变异精魄]
+rate_base : 50000
+max_num   : 22
+limit_num : 5
+
+[骑宠魂兽石]
+rate_base : 50000
+max_num   : 111
+show_name : "骑宠魂兽石"
+name      : "冰天雪地魂兽石·绿色"
+limit_num : 100
+color     : "绿色"
+item_type : "mount_stone"
+
+[超级净瓶荒卡]
+rate_base : 100000
+limit_num : 10
+max_num   : 50
+
+[超级苍穹荒卡]
+rate_base : 100000
+limit_num : 10
+max_num   : 50
+
+[降妖令]
+rate_base : 500000
+limit_num : 10
+max_num   : 50
+
+[酒葫芦]
+rate_base : 500000
+limit_num : 10
+max_num   : 50
+
+[形象转换珠]
+rate_base : 700000
+limit_num : 10
+max_num   : 50
+
+[爱宠染色丹]
+rate_base : 700000
+limit_num : 10
+max_num   : 50
+
+[大吉大利太古仙六]
+rate_base : 700000
+max_num   : 50
+
+[大吉大利太古仙七]
+rate_base : 700000
+max_num   : 50
+
+[极品满属金书仙风]
+rate_base : 700000
+max_num   : 50
+
+[翻转乾坤秘笈]
+rate_base : 2000000
+max_num   : 50
+
+[极品满属金书魔斩]
+rate_base : 700000
+max_num   : 50
+
+[死亡缠绵秘笈]
+rate_base : 2000000
+max_num   : 50
+
+[极品满属金书狂暴]
+rate_base : 700000
+max_num   : 50
+
+[极品满属金书反击]
+rate_base : 7000000
+max_num   : 50
+
+[极品满属金书修罗]
+rate_base : 7000000
+max_num   : 50
+
+[超级女娲石]
+rate_base : 2000000
+max_num   : 50
+
+[混元卡]
+rate_base : 500000
+max_num   : 50
+
+
+[番天印]
+rate_base : 3000
+max_num   : 20
+item_type : "skill_artifact"
+
+[阴阳镜]
+rate_base : 3000
+max_num   : 20
+item_type : "skill_artifact"
+
+[定海珠]
+rate_base : 3000
+max_num   : 20
+item_type : "skill_artifact"
+
+[混元金斗]
+rate_base : 3000
+max_num   : 20
+item_type : "skill_artifact"
+
+[金蛟剪]
+rate_base : 3000
+max_num   : 20
+item_type : "skill_artifact"
+
+[九龙神火罩]
+rate_base : 3000
+max_num   : 20
+item_type : "skill_artifact"
+
+[卸甲金葫]
+rate_base : 3000
+max_num   : 20
+item_type : "skill_artifact"
+
+
+[九转仙灵露]
+rate_base : 30000
+max_num   : 50
+
+
+[潜金散]
+rate_base : 30000
+max_num   : 50
+
+
+[神木丸]
+rate_base : 30000
+max_num   : 50
+
+
+[柔水丹]
+rate_base : 30000
+max_num   : 50
+
+
+[烈火散]
+rate_base : 30000
+max_num   : 50
+
+
+[三土丸]
+rate_base : 30000
+max_num   : 50
+
+
+[超级八戒卡]
+rate_base : 30000
+max_num   : 50
+
+
+[盛世鲜花雨]
+rate_base : 30000
+max_num   : 50
+
+
+[喇叭]
+rate_base : 30000
+max_num   : 50
+
+
+[超级昆仑卡]
+rate_base : 30000
+max_num   : 50
+
+[超级巨力卡]
+rate_base : 30000
+max_num   : 50
+
+
+[超级苍穹卡]
+rate_base : 30000
+max_num   : 50
+
+
+[天空石]
+rate_base : 30000
+max_num   : 50
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[超级粉水晶]
+rate_base : 2800
+max_num   : 62

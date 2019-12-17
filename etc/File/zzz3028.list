@@ -1,0 +1,150 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/22/2706
+#奖励物品        概率
+
+[奖励等级]
+name$: 特等奖
+
+[特等奖]
+金系装备奖励 : 100
+
+
+[金系装备奖励]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "装备1" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "装备2" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "装备3" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "装备4" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "装备5" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "装备6" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "装备7" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "装备8" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "装备9" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "装备10" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "装备11" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "装备12" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "装备13" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "装备14" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "装备15" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "装备16" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "装备17" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "装备18" })
+bonus$:  ({ 0, 0, 100, "属性道具", 2, 2, "装备19" })
+
+[装备1]
+name      : 双翼灵枭冠
+min_level : 140
+max_level : 140
+attribs      : ({ "prop/all_attrib", 520,"prop/accurate", 5,"prop/super_excluse_earth", 10,"prop/super_excluse_wood", 10,"prop/super_excluse_metal", 10,"prop/super_excluse_water", 10,"prop/super_excluse_fire", 10, "prop/wiz", 520, "prop/dex", 520, "prop2/all_attrib", 520,"prop/metal", 18,"prop/wood", 18,"prop/water", 18,"prop/fire", 18,"prop/earth", 18, "seal_flag",1,"prop_seal/chase",10, "prop_seal_base/mstunt_rate",10, "prop4/wiz", 520, "prop3/penetrate_rate",30,"color", 绿色,"suit_polar", 8,"rebuild_level", 12,"prop_suit/speed",520,"prop_rebuild/def", 8888, "prop_rebuild/max_life", 18888,"prop_resonance", "dex", "evolve_level", 19, "req_level", 140,"suit_level", 140,"suit_name", 140级火系套装 })
+
+[装备2]
+name      : 惊虹战靴
+min_level : 140
+max_level : 140
+attribs      : ({ "prop/all_attrib", 520,"prop/accurate", 5,"prop/super_excluse_earth", 10,"prop/super_excluse_wood", 10,"prop/super_excluse_metal", 10,"prop/super_excluse_water", 10,"prop/super_excluse_fire", 10, "prop/wiz", 520, "prop/dex", 520, "prop2/all_attrib", 520,"prop/metal", 18,"prop/wood", 18,"prop/water", 18,"prop/fire", 18,"prop/earth", 18, "seal_flag",1,"prop_seal/chase",10, "prop_seal_base/mstunt_rate",10, "prop4/wiz", 520, "prop3/penetrate_rate",30,"color", 绿色,"suit_polar", 8,"rebuild_level", 12,"prop_suit/speed",520,"prop_rebuild/def", 8888, "prop_rebuild/max_life", 18888,"prop_resonance", "dex", "evolve_level", 19, "req_level", 140,"suit_level", 140,"suit_name", 140级火系套装 })
+
+[装备3]
+name      : 赤鸾翎羽冠
+min_level : 140
+max_level : 140
+attribs      : ({ "prop/all_attrib", 520,"prop/accurate", 5,"prop/super_excluse_earth", 10,"prop/super_excluse_wood", 10,"prop/super_excluse_metal", 10,"prop/super_excluse_water", 10,"prop/super_excluse_fire", 10, "prop/wiz", 520, "prop/dex", 520, "prop2/all_attrib", 520,"prop/metal", 18,"prop/wood", 18,"prop/water", 18,"prop/fire", 18,"prop/earth", 18, "seal_flag",1,"prop_seal/chase",10, "prop_seal_base/mstunt_rate",10, "prop4/wiz", 520, "prop3/penetrate_rate",30,"color", 绿色,"suit_polar", 8,"rebuild_level", 12,"prop_suit/speed",520,"prop_rebuild/def", 8888, "prop_rebuild/max_life", 18888,"prop_resonance", "dex", "evolve_level", 19, "req_level", 140,"suit_level", 140,"suit_name", 140级火系套装 })
+
+[装备4]
+name      : 紫金八叉带
+min_level : 140
+max_level : 140
+attribs      : ({ "prop/all_attrib", 520,"prop/accurate", 5,"prop/super_excluse_earth", 10,"prop/super_excluse_wood", 10,"prop/super_excluse_metal", 10,"prop/super_excluse_water", 10,"prop/super_excluse_fire", 10, "prop/wiz", 520, "prop/dex", 520, "prop2/all_attrib", 520,"prop/metal", 18,"prop/wood", 18,"prop/water", 18,"prop/fire", 18,"prop/earth", 18, "seal_flag",1,"prop_seal/chase",10, "prop_seal_base/mstunt_rate",10, "prop4/wiz", 520, "prop3/penetrate_rate",30,"color", 绿色,"suit_polar", 8,"rebuild_level", 12,"prop_suit/speed",520,"prop_rebuild/def", 8888, "prop_rebuild/max_life", 18888,"prop_resonance", "dex", "evolve_level", 19, "req_level", 140,"suit_level", 140,"suit_name", 140级火系套装 })
+
+[装备5]
+name      : 赤金磐龙甲
+min_level : 140
+max_level : 140
+attribs      : ({ "prop/all_attrib", 520,"prop/accurate", 5,"prop/super_excluse_earth", 10,"prop/super_excluse_wood", 10,"prop/super_excluse_metal", 10,"prop/super_excluse_water", 10,"prop/super_excluse_fire", 10, "prop/wiz", 520, "prop/dex", 520, "prop2/all_attrib", 520,"prop/metal", 18,"prop/wood", 18,"prop/water", 18,"prop/fire", 18,"prop/earth", 18, "seal_flag",1,"prop_seal/chase",10, "prop_seal_base/mstunt_rate",10, "prop4/wiz", 520, "prop3/penetrate_rate",30,"color", 绿色,"suit_polar", 8,"rebuild_level", 12,"prop_suit/speed",520,"prop_rebuild/def", 8888, "prop_rebuild/max_life", 18888,"prop_resonance", "dex", "evolve_level", 19, "req_level", 140,"suit_level", 140,"suit_name", 140级火系套装 })
+
+[装备6]
+name      : 玄女绛绡衣
+min_level : 140
+max_level : 140
+attribs      : ({ "prop/all_attrib", 520,"prop/accurate", 5,"prop/super_excluse_earth", 10,"prop/super_excluse_wood", 10,"prop/super_excluse_metal", 10,"prop/super_excluse_water", 10,"prop/super_excluse_fire", 10, "prop/wiz", 520, "prop/dex", 520, "prop2/all_attrib", 520,"prop/metal", 18,"prop/wood", 18,"prop/water", 18,"prop/fire", 18,"prop/earth", 18, "seal_flag",1,"prop_seal/chase",10, "prop_seal_base/mstunt_rate",10, "prop4/wiz", 520, "prop3/penetrate_rate",30,"color", 绿色,"suit_polar", 8,"rebuild_level", 12,"prop_suit/speed",520,"prop_rebuild/def", 8888, "prop_rebuild/max_life", 18888,"prop_resonance", "dex", "evolve_level", 19, "req_level", 140,"suit_level", 140,"suit_name", 140级火系套装 })
+
+[装备7]
+name      : 玄天火龙锤
+min_level : 140
+max_level : 140
+attribs      : ({ "prop/all_polar", 59,"prop/super_excluse_earth", 20,"prop/super_excluse_wood", 20,"prop/super_excluse_metal", 20,"prop/super_excluse_water", 20,"prop/super_excluse_fire", 20,"prop/all_attrib", 520, "prop/wiz", 520, "prop/dex", 520, "prop/metal", 39,"prop/wood", 39,"prop/water", 39,"prop/fire", 19,"prop/earth", 39, "prop/phy_power", 255555, "prop/mag_power", 255555, "prop2/all_polar", 39,"prop2_color",1, "prop_seal/chase",20, "prop_seal_base/mstunt_rate",20, "seal_flag",1, "prop4/phy_power", 8888, "prop4/mag_power", 8888, "prop3/enhanced_earth",20,"color", 绿色,"prop3/enhanced_metal",20,"color", 绿色,"prop3/enhanced_wood",20,"color", 绿色,"prop3/enhanced_water",20,"color", 绿色,"prop3/enhanced_fire",20,"color", 绿色,"suit_polar", 8,"rebuild_level", 12,"prop_suit/speed",520,"prop_rebuild/all_attrib", 520,"prop_rebuild/phy_power", 88888,"prop_rebuild/mag_power", 88888,"prop_resonance", "dex", "evolve_level", 19, "req_level", 140,"suit_level", 140,"suit_name", 140级火系套装 })
+
+[装备8]
+name      : 烈焰屠魔斧
+min_level : 140
+max_level : 140
+attribs      : ({ "prop/all_polar", 59,"prop/super_excluse_earth", 20,"prop/super_excluse_wood", 20,"prop/super_excluse_metal", 20,"prop/super_excluse_water", 20,"prop/super_excluse_fire", 20,"prop/all_attrib", 520, "prop/wiz", 520, "prop/dex", 520, "prop/metal", 39,"prop/wood", 39,"prop/water", 39,"prop/fire", 19,"prop/earth", 39, "prop/phy_power", 255555, "prop/mag_power", 255555, "prop2/all_polar", 39,"prop2_color",1, "prop_seal/chase",20, "prop_seal_base/mstunt_rate",20, "seal_flag",1, "prop4/phy_power", 8888, "prop4/mag_power", 8888, "prop3/enhanced_earth",20,"color", 绿色,"prop3/enhanced_metal",20,"color", 绿色,"prop3/enhanced_wood",20,"color", 绿色,"prop3/enhanced_water",20,"color", 绿色,"prop3/enhanced_fire",20,"color", 绿色,"suit_polar", 8,"rebuild_level", 12,"prop_suit/speed",520,"prop_rebuild/all_attrib", 520,"prop_rebuild/phy_power", 88888,"prop_rebuild/mag_power", 88888,"prop_resonance", "dex", "evolve_level", 19, "req_level", 140,"suit_level", 140,"suit_name", 140级火系套装 })
+
+[装备9]
+name      : 熠焰通灵扇
+min_level : 140
+max_level : 140
+attribs      : ({ "prop/all_polar", 59,"prop/super_excluse_earth", 20,"prop/super_excluse_wood", 20,"prop/super_excluse_metal", 20,"prop/super_excluse_water", 20,"prop/super_excluse_fire", 20,"prop/all_attrib", 520, "prop/wiz", 520, "prop/dex", 520, "prop/metal", 39,"prop/wood", 39,"prop/water", 39,"prop/fire", 19,"prop/earth", 39, "prop/phy_power", 255555, "prop/mag_power", 255555, "prop2/all_polar", 39,"prop2_color",1, "prop_seal/chase",20, "prop_seal_base/mstunt_rate",20, "seal_flag",1, "prop4/phy_power", 8888, "prop4/mag_power", 8888, "prop3/enhanced_earth",20,"color", 绿色,"prop3/enhanced_metal",20,"color", 绿色,"prop3/enhanced_wood",20,"color", 绿色,"prop3/enhanced_water",20,"color", 绿色,"prop3/enhanced_fire",20,"color", 绿色,"suit_polar", 8,"rebuild_level", 12,"prop_suit/speed",520,"prop_rebuild/all_attrib", 520,"prop_rebuild/phy_power", 88888,"prop_rebuild/mag_power", 88888,"prop_resonance", "dex", "evolve_level", 19, "req_level", 140,"suit_level", 140,"suit_name", 140级火系套装 })
+
+[装备10]
+name      : 流月飞星弓
+min_level : 140
+max_level : 140
+attribs      : ({ "prop/all_polar", 59,"prop/super_excluse_earth", 20,"prop/super_excluse_wood", 20,"prop/super_excluse_metal", 20,"prop/super_excluse_water", 20,"prop/super_excluse_fire", 20,"prop/all_attrib", 520, "prop/wiz", 520, "prop/dex", 520, "prop/metal", 39,"prop/wood", 39,"prop/water", 39,"prop/fire", 19,"prop/earth", 39, "prop/phy_power", 255555, "prop/mag_power", 255555, "prop2/all_polar", 39,"prop2_color",1, "prop_seal/chase",20, "prop_seal_base/mstunt_rate",20, "seal_flag",1, "prop4/phy_power", 8888, "prop4/mag_power", 8888, "prop3/enhanced_earth",20,"color", 绿色,"prop3/enhanced_metal",20,"color", 绿色,"prop3/enhanced_wood",20,"color", 绿色,"prop3/enhanced_water",20,"color", 绿色,"prop3/enhanced_fire",20,"color", 绿色,"suit_polar", 8,"rebuild_level", 12,"prop_suit/speed",520,"prop_rebuild/all_attrib", 520,"prop_rebuild/phy_power", 88888,"prop_rebuild/mag_power", 88888,"prop_resonance", "dex", "evolve_level", 19, "req_level", 140,"suit_level", 140,"suit_name", 140级火系套装 })
+
+[装备11]
+name      : 赤魇遁龙剑
+min_level : 140
+max_level : 140
+attribs      : ({ "prop/all_polar", 59,"prop/super_excluse_earth", 20,"prop/super_excluse_wood", 20,"prop/super_excluse_metal", 20,"prop/super_excluse_water", 20,"prop/super_excluse_fire", 20,"prop/all_attrib", 520, "prop/wiz", 520, "prop/dex", 520, "prop/metal", 39,"prop/wood", 39,"prop/water", 39,"prop/fire", 19,"prop/earth", 39, "prop/phy_power", 255555, "prop/mag_power", 255555, "prop2/all_polar", 39,"prop2_color",1, "prop_seal/chase",20, "prop_seal_base/mstunt_rate",20, "seal_flag",1, "prop4/phy_power", 8888, "prop4/mag_power", 8888, "prop3/enhanced_earth",20,"color", 绿色,"prop3/enhanced_metal",20,"color", 绿色,"prop3/enhanced_wood",20,"color", 绿色,"prop3/enhanced_water",20,"color", 绿色,"prop3/enhanced_fire",20,"color", 绿色,"suit_polar", 8,"rebuild_level", 12,"prop_suit/speed",520,"prop_rebuild/all_attrib", 520,"prop_rebuild/phy_power", 88888,"prop_rebuild/mag_power", 88888,"prop_resonance", "dex", "evolve_level", 19, "req_level", 140,"suit_level", 140,"suit_name", 140级火系套装 })
+
+[装备12]
+name      : 鬼神烈双钩
+min_level : 140
+max_level : 140
+attribs      : ({ "prop/all_polar", 59,"prop/super_excluse_earth", 20,"prop/super_excluse_wood", 20,"prop/super_excluse_metal", 20,"prop/super_excluse_water", 20,"prop/super_excluse_fire", 20,"prop/all_attrib", 520, "prop/wiz", 520, "prop/dex", 520, "prop/metal", 39,"prop/wood", 39,"prop/water", 39,"prop/fire", 19,"prop/earth", 39, "prop/phy_power", 255555, "prop/mag_power", 255555, "prop2/all_polar", 39,"prop2_color",1, "prop_seal/chase",20, "prop_seal_base/mstunt_rate",20, "seal_flag",1, "prop4/phy_power", 8888, "prop4/mag_power", 8888, "prop3/enhanced_earth",20,"color", 绿色,"prop3/enhanced_metal",20,"color", 绿色,"prop3/enhanced_wood",20,"color", 绿色,"prop3/enhanced_water",20,"color", 绿色,"prop3/enhanced_fire",20,"color", 绿色,"suit_polar", 8,"rebuild_level", 12,"prop_suit/speed",520,"prop_rebuild/all_attrib", 520,"prop_rebuild/phy_power", 88888,"prop_rebuild/mag_power", 88888,"prop_resonance", "dex", "evolve_level", 19, "req_level", 140,"suit_level", 140,"suit_name", 140级火系套装 })
+
+[装备13]
+name      : 九幽伏魔爪
+min_level : 140
+max_level : 140
+attribs      : ({ "prop/all_polar", 59,"prop/super_excluse_earth", 20,"prop/super_excluse_wood", 20,"prop/super_excluse_metal", 20,"prop/super_excluse_water", 20,"prop/super_excluse_fire", 20,"prop/all_attrib", 520, "prop/wiz", 520, "prop/dex", 520, "prop/metal", 39,"prop/wood", 39,"prop/water", 39,"prop/fire", 19,"prop/earth", 39, "prop/phy_power", 255555, "prop/mag_power", 255555, "prop2/all_polar", 39,"prop2_color",1, "prop_seal/chase",20, "prop_seal_base/mstunt_rate",20, "seal_flag",1, "prop4/phy_power", 8888, "prop4/mag_power", 8888, "prop3/enhanced_earth",20,"color", 绿色,"prop3/enhanced_metal",20,"color", 绿色,"prop3/enhanced_wood",20,"color", 绿色,"prop3/enhanced_water",20,"color", 绿色,"prop3/enhanced_fire",20,"color", 绿色,"suit_polar", 8,"rebuild_level", 12,"prop_suit/speed",520,"prop_rebuild/all_attrib", 520,"prop_rebuild/phy_power", 88888,"prop_rebuild/mag_power", 88888,"prop_resonance", "dex", "evolve_level", 19, "req_level", 140,"suit_level", 140,"suit_name", 140级火系套装 })
+
+[装备14]
+name      : 九天祥云戟
+min_level : 140
+max_level : 140
+attribs      : ({ "prop/all_polar", 59,"prop/super_excluse_earth", 20,"prop/super_excluse_wood", 20,"prop/super_excluse_metal", 20,"prop/super_excluse_water", 20,"prop/super_excluse_fire", 20,"prop/all_attrib", 520, "prop/wiz", 520, "prop/dex", 520, "prop/metal", 39,"prop/wood", 39,"prop/water", 39,"prop/fire", 19,"prop/earth", 39, "prop/phy_power", 255555, "prop/mag_power", 255555, "prop2/all_polar", 39,"prop2_color",1, "prop_seal/chase",20, "prop_seal_base/mstunt_rate",20, "seal_flag",1, "prop4/phy_power", 8888, "prop4/mag_power", 8888, "prop3/enhanced_earth",20,"color", 绿色,"prop3/enhanced_metal",20,"color", 绿色,"prop3/enhanced_wood",20,"color", 绿色,"prop3/enhanced_water",20,"color", 绿色,"prop3/enhanced_fire",20,"color", 绿色,"suit_polar", 8,"rebuild_level", 12,"prop_suit/speed",520,"prop_rebuild/all_attrib", 520,"prop_rebuild/phy_power", 88888,"prop_rebuild/mag_power", 88888,"prop_resonance", "dex", "evolve_level", 19, "req_level", 140,"suit_level", 140,"suit_name", 140级火系套装 })
+
+[装备15]
+name      : 烈焰之心拳套
+min_level : 140
+max_level : 140
+attribs      : ({ "prop/all_polar", 59,"prop/super_excluse_earth", 20,"prop/super_excluse_wood", 20,"prop/super_excluse_metal", 20,"prop/super_excluse_water", 20,"prop/super_excluse_fire", 20,"prop/all_attrib", 520, "prop/wiz", 520, "prop/dex", 520, "prop/metal", 39,"prop/wood", 39,"prop/water", 39,"prop/fire", 19,"prop/earth", 39, "prop/phy_power", 255555, "prop/mag_power", 255555, "prop2/all_polar", 39,"prop2_color",1, "prop_seal/chase",20, "prop_seal_base/mstunt_rate",20, "seal_flag",1, "prop4/phy_power", 8888, "prop4/mag_power", 8888, "prop3/enhanced_earth",20,"color", 绿色,"prop3/enhanced_metal",20,"color", 绿色,"prop3/enhanced_wood",20,"color", 绿色,"prop3/enhanced_water",20,"color", 绿色,"prop3/enhanced_fire",20,"color", 绿色,"suit_polar", 8,"rebuild_level", 12,"prop_suit/speed",520,"prop_rebuild/all_attrib", 520,"prop_rebuild/phy_power", 88888,"prop_rebuild/mag_power", 88888,"prop_resonance", "dex", "evolve_level", 19, "req_level", 140,"suit_level", 140,"suit_name", 140级火系套装 })
+
+[装备16]
+name      : 洪荒苍龙刀
+min_level : 140
+max_level : 140
+attribs      : ({ "prop/all_polar", 59,"prop/super_excluse_earth", 20,"prop/super_excluse_wood", 20,"prop/super_excluse_metal", 20,"prop/super_excluse_water", 20,"prop/super_excluse_fire", 20,"prop/all_attrib", 520, "prop/wiz", 520, "prop/dex", 520, "prop/metal", 39,"prop/wood", 39,"prop/water", 39,"prop/fire", 19,"prop/earth", 39, "prop/phy_power", 255555, "prop/mag_power", 255555, "prop2/all_polar", 39,"prop2_color",1, "prop_seal/chase",20, "prop_seal_base/mstunt_rate",20, "seal_flag",1, "prop4/phy_power", 8888, "prop4/mag_power", 8888, "prop3/enhanced_earth",20,"color", 绿色,"prop3/enhanced_metal",20,"color", 绿色,"prop3/enhanced_wood",20,"color", 绿色,"prop3/enhanced_water",20,"color", 绿色,"prop3/enhanced_fire",20,"color", 绿色,"suit_polar", 8,"rebuild_level", 12,"prop_suit/speed",520,"prop_rebuild/all_attrib", 520,"prop_rebuild/phy_power", 88888,"prop_rebuild/mag_power", 88888,"prop_resonance", "dex", "evolve_level", 19, "req_level", 140,"suit_level", 140,"suit_name", 140级火系套装 })
+
+[装备17]
+name      : 炫元玲珑
+min_level : 140
+max_level : 140
+upgrade_type : 99
+attribs      : ({ "prop/all_polar", 59,"prop3/penetrate",30,  "prop/child_ir_all", 25,"prop/ignore_mag_dodge", 25 ,"prop/wiz", 520,"prop/str", 520,"prop2/str", 520,"prop/dex", 520, "prop2/wiz", 520, "prop2/dex", 520,"prop/metal", 39,"prop/wood", 39,"prop/water", 39,"prop/fire", 39,"prop/earth", 39,"prop/enhanced_metal", 20,"prop/enhanced_wood", 20, "prop/enhanced_water", 20, "prop/enhanced_fire", 20, "prop/enhanced_earth", 20, "prop_seal_base/mstunt_rate",20, "prop_seal_base/stunt_rate",20,"prop/phy_power", 155555, "prop/mag_power", 155555,  "prop/all_skill", 88, "extra_desc", #Y特效：#G人上人 #r#L╔═══════════╗#r#L╠#Y装备品阶：#G100阶段顶级 #L╣#r#L╠#Y装备产出：#G逍遥宫 锻造 #L╣#r#L╠#Y装备指数：#G★★★★★★#L#L╣#r#L╚═══════════╝ })
+
+[装备18]
+name      : 掠虹宝坠
+min_level : 140
+max_level : 140
+upgrade_type : 99
+attribs      : ({ "prop/all_polar", 59,"prop3/penetrate",30, "prop/child_ir_all", 25,"prop/ignore_mag_dodge", 25 ,"prop/wiz", 520,"prop/str", 520,"prop2/str", 520,"prop/dex", 520, "prop2/wiz", 520, "prop2/dex", 520,"prop/metal", 39,"prop/wood", 39,"prop/water", 39,"prop/fire", 39,"prop/earth", 39,"prop/enhanced_metal", 20,"prop/enhanced_wood", 20, "prop/enhanced_water", 20, "prop/enhanced_fire", 20, "prop/enhanced_earth", 20, "prop_seal_base/mstunt_rate",20, "prop_seal_base/stunt_rate",20,"prop/phy_power", 155555, "prop/mag_power", 155555,"prop/all_skill", 88, "extra_desc", #Y特效：#G人上人 #r#L╔═══════════╗#r#L╠#Y装备品阶：#G100阶段顶级 #L╣#r#L╠#Y装备产出：#G逍遥宫 锻造 #L╣#r#L╠#Y装备指数：#G★★★★★★#L#L╣#r#L╚═══════════╝#r#R注意：#R荒装不可粉黄绿#r#B如出现异常 后果自负#n#r#M可直接镶嵌宝石和共鸣#n })
+
+[装备19]
+name      : 龙御七星
+min_level : 140
+max_level : 140
+upgrade_type : 99
+attribs      : ({ "prop/all_polar", 59,"prop3/penetrate",30, "prop/child_ir_all", 25,"prop/ignore_mag_dodge", 25 ,"prop/wiz", 520,"prop/str", 520,"prop2/str", 520,"prop/dex", 520, "prop2/wiz", 520, "prop2/dex", 520,"prop/metal", 39,"prop/wood", 39,"prop/water", 39,"prop/fire", 39,"prop/earth", 39,"prop/enhanced_metal", 20,"prop/enhanced_wood", 20, "prop/enhanced_water", 20, "prop/enhanced_fire", 20, "prop/enhanced_earth", 20, "prop_seal_base/mstunt_rate",20, "prop_seal_base/stunt_rate",20,"prop/phy_power", 155555, "prop/mag_power", 155555,  "prop/all_skill", 88, "extra_desc", #Y特效：#G人上人 #r#L╔═══════════╗#r#L╠#Y装备品阶：#G100阶段顶级 #L╣#r#L╠#Y装备产出：#G逍遥宫 锻造 #L╣#r#L╠#Y装备指数：#G★★★★★★#L#L╣#r#L╚═══════════╝#r#R注意：#R荒装不可粉黄绿#r#B如出现异常 后果自负#n#r#M可直接镶嵌宝石和共鸣#n })
+

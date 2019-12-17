@@ -1,0 +1,19 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/18/2006
+#奖励物品        概率
+
+[奖励等级]
+name$: 特等奖
+
+[特等奖]
+魂兽石 : 1000
+
+[魂兽石]
+bonus$  : ({ 0, 0, 100, "属性道具", 1, 1,"封心锁灵魂兽石" })
+
+[封心锁灵魂兽石]
+name      : 封心锁灵魂兽石·绿色
+min_level : 248
+max_level : 248
+upgrade_type : 5

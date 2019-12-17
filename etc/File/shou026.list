@@ -1,0 +1,36 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/18/2006
+#奖励物品        概率
+
+[奖励等级]
+name$: 特等奖
+
+[特等奖]
+首饰150 : 1000
+
+[首饰150]
+bonus$: ({ 0, 0, 100, "属性道具", 2, 2, "贪狼破日_力" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "七杀固元_力" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "破军捆灵_力" })
+
+[贪狼破日_力]
+name      : 贪狼破日
+min_level : 150
+max_level : 150
+upgrade_type : 6
+attribs      : ({ "prop/all_polar", 5, "prop2/all_skill", 10, "prop/str", 38, "prop/dex", 38, "prop2/str", 38, "prop2/dex", 38 })
+
+[七杀固元_力]
+name      : 七杀固元
+min_level : 150
+max_level : 150
+upgrade_type : 6
+attribs      : ({ "prop/all_polar", 5, "prop2/all_skill", 10, "prop/str", 38, "prop/dex", 38, "prop2/str", 38, "prop2/dex", 38 })
+
+[破军捆灵_力]
+name      : 破军捆灵
+min_level : 150
+max_level : 150
+upgrade_type : 6
+attribs      : ({ "prop/all_polar", 5, "prop2/all_skill", 10, "prop/str", 38, "prop/dex", 38, "prop2/str", 38, "prop2/dex", 38 })

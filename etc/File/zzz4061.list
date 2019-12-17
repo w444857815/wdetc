@@ -1,0 +1,131 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/26/3506
+#奖励物品        概率
+
+[奖励等级]
+name$: 特等奖
+
+[特等奖]
+金系装备奖励 : 130
+
+
+[金系装备奖励]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "装备1" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "装备2" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "装备3" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "装备4" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "装备5" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "装备6" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "装备7" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "装备8" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "装备9" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "装备10" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "装备11" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "装备12" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "装备13" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "装备14" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "装备15" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "装备16"})
+
+
+[装备1]
+name      : 九星珠仙冠·魔
+min_level : 140
+max_level : 140
+attribs      : ({ "prop/all_attrib", 50, "prop/wiz", 50, "prop/dex", 50, "prop2/all_attrib", 50,"prop2_color",1, "prop_seal/super_obstruct",5, "prop_seal_base/mstunt_rate",10, "seal_flag",1, "prop4/wiz", 50, "prop3/penetrate",30,"color", 绿色,"suit_polar", 1,"rebuild_level", 12,"prop_suit/mag_power", 1500,"prop_rebuild/def", 9000, "prop_rebuild/max_life", 12000,"prop_resonance", "power", "evolve_level", 19, "req_level", 149,"suit_level", 140,"suit_name",20级金系套装, "source", #M★战云界仙人★, "extra_desc", #Y特效：#G天外天 #r#L╔═══════════╗#r#L╠#Y装备品阶：#G140阶段顶级 #L╣#r#L╠#Y装备产出：#M战云宫 #G锻造 #L╣#r#L╠#Y装备指数：#G★★★★★★#L#L╣#r#L╚═══════════╝#r#R注意：#R魔装不可粉黄绿#r#B如出现异常 后果自负 })
+
+[装备2]
+name      : 九星珠玄冠·魔
+min_level : 140
+max_level : 140
+attribs      : ({ "prop/all_attrib", 50, "prop/wiz", 50, "prop/dex", 50, "prop2/all_attrib", 50,"prop2_color",1, "prop_seal/super_obstruct",5, "prop_seal_base/mstunt_rate",10, "seal_flag",1, "prop4/wiz", 50, "prop3/penetrate",30,"color", 绿色,"suit_polar", 1,"rebuild_level", 12,"prop_suit/mag_power", 1500,"prop_rebuild/def", 9000, "prop_rebuild/max_life", 12000,"prop_resonance", "power", "evolve_level", 19, "req_level", 149,"suit_level", 140,"suit_name",20级金系套装, "source", #M★战云界仙人★, "extra_desc", #Y特效：#G天外天 #r#L╔═══════════╗#r#L╠#Y装备品阶：#G140阶段顶级 #L╣#r#L╠#Y装备产出：#M战云宫 #G锻造 #L╣#r#L╠#Y装备指数：#G★★★★★★#L#L╣#r#L╚═══════════╝#r#R注意：#R魔装不可粉黄绿#r#B如出现异常 后果自负 })
+
+[装备3]
+name      : 明灭星光铠·魔
+min_level : 140
+max_level : 140
+attribs      : ({ "prop/all_attrib", 50, "prop/wiz", 50, "prop/dex", 50, "prop2/all_attrib", 50,"prop2_color",1, "prop_seal/super_obstruct",5, "prop_seal_base/mstunt_rate",10, "seal_flag",1, "prop4/wiz", 50, "prop3/penetrate",30,"color", 绿色,"suit_polar", 1,"rebuild_level", 12,"prop_suit/mag_power", 1500,"prop_rebuild/def", 9000, "prop_rebuild/max_life", 12000,"prop_resonance", "power", "evolve_level", 19, "req_level", 149,"suit_level", 140,"suit_name",20级金系套装, "source", #M★战云界仙人★, "extra_desc", #Y特效：#G天外天 #r#L╔═══════════╗#r#L╠#Y装备品阶：#G140阶段顶级 #L╣#r#L╠#Y装备产出：#M战云宫 #G锻造 #L╣#r#L╠#Y装备指数：#G★★★★★★#L#L╣#r#L╚═══════════╝#r#R注意：#R魔装不可粉黄绿#r#B如出现异常 后果自负 })
+
+[装备4]
+name      : 明灭星光绡·魔
+min_level : 140
+max_level : 140
+attribs      : ({ "prop/all_attrib", 50, "prop/wiz", 50, "prop/dex", 50, "prop2/all_attrib", 50,"prop2_color",1, "prop_seal/super_obstruct",5, "prop_seal_base/mstunt_rate",10, "seal_flag",1, "prop4/wiz", 50, "prop3/penetrate",30,"color", 绿色,"suit_polar", 1,"rebuild_level", 12,"prop_suit/mag_power", 1500,"prop_rebuild/def", 9000, "prop_rebuild/max_life", 12000,"prop_resonance", "power", "evolve_level", 19, "req_level", 149,"suit_level", 140,"suit_name",20级金系套装, "source", #M★战云界仙人★, "extra_desc", #Y特效：#G天外天 #r#L╔═══════════╗#r#L╠#Y装备品阶：#G140阶段顶级 #L╣#r#L╠#Y装备产出：#M战云宫 #G锻造 #L╣#r#L╠#Y装备指数：#G★★★★★★#L#L╣#r#L╚═══════════╝#r#R注意：#R魔装不可粉黄绿#r#B如出现异常 后果自负 })
+
+[装备5]
+name      : 碎星裂空靴·魔
+min_level : 140
+max_level : 140
+attribs      : ({ "prop/all_attrib", 50, "prop/wiz", 50, "prop/dex", 50, "prop2/all_attrib", 50,"prop2_color",1, "prop_seal/super_obstruct",5, "prop_seal_base/mstunt_rate",10, "seal_flag",1, "prop4/wiz", 50, "prop3/mag_dodge",30,"color", 绿色,"suit_polar", 1,"rebuild_level", 12,"prop_suit/mag_power", 1500,"prop_rebuild/def", 9000, "prop_rebuild/max_life", 12000,"prop_resonance", "power", "evolve_level", 19, "req_level", 149,"suit_level", 140,"suit_name",20级金系套装, "source", #M★战云界仙人★, "extra_desc", #Y特效：#G天外天 #r#L╔═══════════╗#r#L╠#Y装备品阶：#G140阶段顶级 #L╣#r#L╠#Y装备产出：#M战云宫 #G锻造 #L╣#r#L╠#Y装备指数：#G★★★★★★#L#L╣#r#L╚═══════════╝#r#R注意：#R魔装不可粉黄绿#r#B如出现异常 后果自负 })
+
+[装备6]
+name      : 星痕无极带·魔
+min_level : 140
+max_level : 140
+attribs      : ({ "prop/all_attrib", 50, "prop/wiz", 50, "prop/dex", 50, "prop2/all_attrib", 50,"prop2_color",1, "prop_seal/super_obstruct",5, "prop_seal_base/mstunt_rate",10, "seal_flag",1, "prop4/wiz", 50, "prop3/penetrate",30,"color", 绿色,"suit_polar", 1,"rebuild_level", 12,"prop_suit/mag_power", 1500,"prop_rebuild/def", 9000, "prop_rebuild/max_life", 12000,"prop_resonance", "power", "evolve_level", 19, "req_level", 149,"suit_level", 140,"suit_name",20级金系套装, "source", #M★战云界仙人★, "extra_desc", #Y特效：#G天外天 #r#L╔═══════════╗#r#L╠#Y装备品阶：#G140阶段顶级 #L╣#r#L╠#Y装备产出：#M战云宫 #G锻造 #L╣#r#L╠#Y装备指数：#G★★★★★★#L#L╣#r#L╚═══════════╝#r#R注意：#R魔装不可粉黄绿#r#B如出现异常 后果自负 })
+
+
+
+
+
+[装备7]
+name      : 嚣张跋扈枪·魔
+min_level : 140
+max_level : 140
+attribs      : ({ "prop/all_polar", 5, "prop/metal", 5, "prop/phy_power", 6500, "prop/mag_power", 6500, "prop2/all_polar", 5,"prop2_color",1, "prop_seal/super_obstruct",5, "prop_seal_base/mstunt_rate",10, "seal_flag",1, "prop4/phy_power", 6500, "prop4/mag_power", 6500, "prop3/enhanced_metal",10,"color", 绿色,"suit_polar", 1,"rebuild_level", 12,"prop_suit/mag_power", 1500,"prop_rebuild/all_attrib", 50,"prop_rebuild/phy_power", 20000,"prop_rebuild/mag_power", 20000,"prop_resonance", "power", "evolve_level", 19, "req_level", 149,"suit_level", 140,"suit_name",20级金系套装,  "source", #M★战云界仙人★, "extra_desc", #Y特效：#G天外天 #r#L╔═══════════╗#r#L╠#Y装备品阶：#G140阶段顶级 #L╣#r#L╠#Y装备产出：#M战云宫 #G锻造 #L╣#r#L╠#Y装备指数：#G★★★★★★#L#L╣#r#L╚═══════════╝#r#R注意：#R魔装不可粉黄绿#r#B如出现异常 后果自负 })
+
+
+[装备8]
+name      : 嚣张跋扈刀·魔
+min_level : 140
+max_level : 140
+attribs      : ({ "prop/all_polar", 5, "prop/metal", 5, "prop/phy_power", 6500, "prop/mag_power", 6500, "prop2/all_polar", 5,"prop2_color",1, "prop_seal/super_obstruct",5, "prop_seal_base/mstunt_rate",10, "seal_flag",1, "prop4/phy_power", 6500, "prop4/mag_power", 6500, "prop3/enhanced_metal",10,"color", 绿色,"suit_polar", 1,"rebuild_level", 12,"prop_suit/mag_power", 1500,"prop_rebuild/all_attrib", 50,"prop_rebuild/phy_power", 20000,"prop_rebuild/mag_power", 20000,"prop_resonance", "power", "evolve_level", 19, "req_level", 149,"suit_level", 140,"suit_name",20级金系套装,  "source", #M★战云界仙人★, "extra_desc", #Y特效：#G天外天 #r#L╔═══════════╗#r#L╠#Y装备品阶：#G140阶段顶级 #L╣#r#L╠#Y装备产出：#M战云宫 #G锻造 #L╣#r#L╠#Y装备指数：#G★★★★★★#L#L╣#r#L╚═══════════╝#r#R注意：#R魔装不可粉黄绿#r#B如出现异常 后果自负 })
+
+[装备9]
+name      : 任意妄为爪·魔
+min_level : 140
+max_level : 140
+attribs      : ({ "prop/all_polar", 5, "prop/metal", 5, "prop/phy_power", 6500, "prop/mag_power", 6500, "prop2/all_polar", 5,"prop2_color",1, "prop_seal/super_obstruct",5, "prop_seal_base/mstunt_rate",10, "seal_flag",1, "prop4/phy_power", 6500, "prop4/mag_power", 6500, "prop3/enhanced_wood",10,"color", 绿色,"suit_polar", 1,"rebuild_level", 12,"prop_suit/mag_power", 1500,"prop_rebuild/all_attrib", 50,"prop_rebuild/phy_power", 20000,"prop_rebuild/mag_power", 20000,"prop_resonance", "power", "evolve_level", 19, "req_level", 149,"suit_level", 140,"suit_name",20级金系套装,  "source", #M★战云界仙人★, "extra_desc", #Y特效：#G天外天 #r#L╔═══════════╗#r#L╠#Y装备品阶：#G140阶段顶级 #L╣#r#L╠#Y装备产出：#M战云宫 #G锻造 #L╣#r#L╠#Y装备指数：#G★★★★★★#L#L╣#r#L╚═══════════╝#r#R注意：#R魔装不可粉黄绿#r#B如出现异常 后果自负 })
+
+[装备10]
+name      : 任意妄为拳·魔
+min_level : 140
+max_level : 140
+attribs      : ({ "prop/all_polar", 5, "prop/metal", 5, "prop/phy_power", 6500, "prop/mag_power", 6500, "prop2/all_polar", 5,"prop2_color",1, "prop_seal/super_obstruct",5, "prop_seal_base/mstunt_rate",10, "seal_flag",1, "prop4/phy_power", 6500, "prop4/mag_power", 6500, "prop3/enhanced_wood",10,"color", 绿色,"suit_polar", 1,"rebuild_level", 12,"prop_suit/mag_power", 1500,"prop_rebuild/all_attrib", 50,"prop_rebuild/phy_power", 20000,"prop_rebuild/mag_power", 20000,"prop_resonance", "power", "evolve_level", 19, "req_level", 149,"suit_level", 140,"suit_name",20级金系套装,  "source", #M★战云界仙人★, "extra_desc", #Y特效：#G天外天 #r#L╔═══════════╗#r#L╠#Y装备品阶：#G140阶段顶级 #L╣#r#L╠#Y装备产出：#M战云宫 #G锻造 #L╣#r#L╠#Y装备指数：#G★★★★★★#L#L╣#r#L╚═══════════╝#r#R注意：#R魔装不可粉黄绿#r#B如出现异常 后果自负 })
+
+[装备11]
+name      : 噬灭星空剑·魔
+min_level : 140
+max_level : 140
+attribs      : ({ "prop/all_polar", 5, "prop/metal", 5, "prop/phy_power", 6500, "prop/mag_power", 6500, "prop2/all_polar", 5,"prop2_color",1, "prop_seal/super_obstruct",5, "prop_seal_base/mstunt_rate",10, "seal_flag",1, "prop4/phy_power", 6500, "prop4/mag_power", 6500, "prop3/enhanced_water",10,"color", 绿色,"suit_polar", 1,"rebuild_level", 12,"prop_suit/mag_power", 1500,"prop_rebuild/all_attrib", 50,"prop_rebuild/phy_power", 20000,"prop_rebuild/mag_power", 20000,"prop_resonance", "power", "evolve_level", 19, "req_level", 149,"suit_level", 140,"suit_name",20级金系套装,  "source", #M★战云界仙人★, "extra_desc", #Y特效：#G天外天 #r#L╔═══════════╗#r#L╠#Y装备品阶：#G140阶段顶级 #L╣#r#L╠#Y装备产出：#M战云宫 #G锻造 #L╣#r#L╠#Y装备指数：#G★★★★★★#L#L╣#r#L╚═══════════╝#r#R注意：#R魔装不可粉黄绿#r#B如出现异常 后果自负 })
+
+[装备12]
+name      : 噬灭星空戟·魔
+min_level : 140
+max_level : 140
+attribs      : ({ "prop/all_polar", 5, "prop/metal", 5, "prop/phy_power", 6500, "prop/mag_power", 6500, "prop2/all_polar", 5,"prop2_color",1, "prop_seal/super_obstruct",5, "prop_seal_base/mstunt_rate",10, "seal_flag",1, "prop4/phy_power", 6500, "prop4/mag_power", 6500, "prop3/enhanced_water",10,"color", 绿色,"suit_polar", 1,"rebuild_level", 12,"prop_suit/mag_power", 1500,"prop_rebuild/all_attrib", 50,"prop_rebuild/phy_power", 20000,"prop_rebuild/mag_power", 20000,"prop_resonance", "power", "evolve_level", 19, "req_level", 149,"suit_level", 140,"suit_name",20级金系套装,  "source", #M★战云界仙人★, "extra_desc", #Y特效：#G天外天 #r#L╔═══════════╗#r#L╠#Y装备品阶：#G140阶段顶级 #L╣#r#L╠#Y装备产出：#M战云宫 #G锻造 #L╣#r#L╠#Y装备指数：#G★★★★★★#L#L╣#r#L╚═══════════╝#r#R注意：#R魔装不可粉黄绿#r#B如出现异常 后果自负 })
+
+[装备13]
+name      : 目中无人扇·魔
+min_level : 140
+max_level : 140
+attribs      : ({ "prop/all_polar", 5, "prop/metal", 5, "prop/phy_power", 6500, "prop/mag_power", 6500, "prop2/all_polar", 5,"prop2_color",1, "prop_seal/super_obstruct",5, "prop_seal_base/mstunt_rate",10, "seal_flag",1, "prop4/phy_power", 6500, "prop4/mag_power", 6500, "prop3/enhanced_fire",10,"color", 绿色,"suit_polar", 1,"rebuild_level", 12,"prop_suit/mag_power", 1500,"prop_rebuild/all_attrib", 50,"prop_rebuild/phy_power", 20000,"prop_rebuild/mag_power", 20000,"prop_resonance", "power", "evolve_level", 19, "req_level", 149,"suit_level", 140,"suit_name",20级金系套装,  "source", #M★战云界仙人★, "extra_desc", #Y特效：#G天外天 #r#L╔═══════════╗#r#L╠#Y装备品阶：#G140阶段顶级 #L╣#r#L╠#Y装备产出：#M战云宫 #G锻造 #L╣#r#L╠#Y装备指数：#G★★★★★★#L#L╣#r#L╚═══════════╝#r#R注意：#R魔装不可粉黄绿#r#B如出现异常 后果自负 })
+
+[装备14]
+name      : 目中无人弓·魔
+min_level : 140
+max_level : 140
+attribs      : ({ "prop/all_polar", 5, "prop/metal", 5, "prop/phy_power", 6500, "prop/mag_power", 6500, "prop2/all_polar", 5,"prop2_color",1, "prop_seal/super_obstruct",5, "prop_seal_base/mstunt_rate",10, "seal_flag",1, "prop4/phy_power", 6500, "prop4/mag_power", 6500, "prop3/enhanced_fire",10,"color", 绿色,"suit_polar", 1,"rebuild_level", 12,"prop_suit/mag_power", 1500,"prop_rebuild/all_attrib", 50,"prop_rebuild/phy_power", 20000,"prop_rebuild/mag_power", 20000,"prop_resonance", "power", "evolve_level", 19, "req_level", 149,"suit_level", 140,"suit_name",20级金系套装,  "source", #M★战云界仙人★, "extra_desc", #Y特效：#G天外天 #r#L╔═══════════╗#r#L╠#Y装备品阶：#G140阶段顶级 #L╣#r#L╠#Y装备产出：#M战云宫 #G锻造 #L╣#r#L╠#Y装备指数：#G★★★★★★#L#L╣#r#L╚═══════════╝#r#R注意：#R魔装不可粉黄绿#r#B如出现异常 后果自负 })
+
+[装备15]
+name      : 天马流星锤·魔
+min_level : 140
+max_level : 140
+attribs      : ({ "prop/all_polar", 5, "prop/metal", 5, "prop/phy_power", 6500, "prop/mag_power", 6500, "prop2/all_polar", 5,"prop2_color",1, "prop_seal/super_obstruct",5, "prop_seal_base/mstunt_rate",10, "seal_flag",1, "prop4/phy_power", 6500, "prop4/mag_power", 6500, "prop3/enhanced_earth",10,"color", 绿色,"suit_polar", 1,"rebuild_level", 12,"prop_suit/mag_power", 1500,"prop_rebuild/all_attrib", 50,"prop_rebuild/phy_power", 20000,"prop_rebuild/mag_power", 20000,"prop_resonance", "power", "evolve_level", 19, "req_level", 149,"suit_level", 140,"suit_name",20级金系套装,  "source", #M★战云界仙人★, "extra_desc", #Y特效：#G天外天 #r#L╔═══════════╗#r#L╠#Y装备品阶：#G140阶段顶级 #L╣#r#L╠#Y装备产出：#M战云宫 #G锻造 #L╣#r#L╠#Y装备指数：#G★★★★★★#L#L╣#r#L╚═══════════╝#r#R注意：#R魔装不可粉黄绿#r#B如出现异常 后果自负 })
+
+[装备16]
+name      : 天马流星斧·魔
+min_level : 140
+max_level : 140
+attribs      : ({ "prop/all_polar", 5, "prop/metal", 5, "prop/phy_power", 6500, "prop/mag_power", 6500, "prop2/all_polar", 5,"prop2_color",1, "prop_seal/super_obstruct",5, "prop_seal_base/mstunt_rate",10, "seal_flag",1, "prop4/phy_power", 6500, "prop4/mag_power", 6500, "prop3/enhanced_earth",10,"color", 绿色,"suit_polar", 1,"rebuild_level", 12,"prop_suit/mag_power", 1500,"prop_rebuild/all_attrib", 50,"prop_rebuild/phy_power", 20000,"prop_rebuild/mag_power", 20000,"prop_resonance", "power", "evolve_level", 19, "req_level", 149,"suit_level", 140,"suit_name",20级金系套装,  "source", #M★战云界仙人★, "extra_desc", #Y特效：#G天外天 #r#L╔═══════════╗#r#L╠#Y装备品阶：#G140阶段顶级 #L╣#r#L╠#Y装备产出：#M战云宫 #G锻造 #L╣#r#L╠#Y装备指数：#G★★★★★★#L#L╣#r#L╚═══════════╝#r#R注意：#R魔装不可粉黄绿#r#B如出现异常 后果自负 })

@@ -1,0 +1,617 @@
+#FORM2
+#jinnang.list
+#create by caijz 09/18/2006
+#奖励物品        概率
+
+[奖励等级]
+name$: 末等奖
+
+[末等奖]
+变异 : 3000
+
+
+[变异]
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "重明", "球球", "白泽", "当康", "龟宝", "乘黄", "招财猪", "伶俐鼠", "笨笨牛", "威威虎", "跳跳兔", "酷酷龙", "花花蛇", "溜溜马", "咩咩羊", "帅帅猴", "蛋蛋鸡", "乖乖狗", "独角仙", "饕餮", "囚牛", "鳌鱼", "桂花", "南瓜头杰克", "花玉簪", "君子幽兰", "豆蔻", "狴犴", "英招", "牡丹花", "莲花", "茉莉", "幻化月蓝兔", "幻化月蓝兔", "药兽", "昙花", "幻化赤焰兔", "飞廉", "幻化锦辰兔", "禾雀", "蒲牢", "方相", "貔貅", "风狸", "幻化碧玉兔", "嘲风", "月见草", "幻化紫云兔", "月季", "睚眦", "霸下", "玉兰", "比翼鸟", "飞天鼠", "玄灵兔", "腓腓"})
+
+[重明]
+name$: ({ 重明, 重明 })
+rank$: 变异
+level: 60
+life_effect: ({ 60, 60 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 40, 40 })
+special_skill$: ({ 3, 游说之舌, 1, 如意圈, 1, 天生神力, 1 })
+
+[球球]
+name$: ({球球, 球球})
+rank$: 变异
+level: 60
+life_effect: ({ 60, 60 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 15, 15 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 45, 45 })
+special_skill$: ({ 3, 游说之舌, 1, 如意圈, 1, 防微杜渐, 1 })
+
+[白泽]
+name$: ({ 白泽, 白泽 })
+rank$: 变异
+level: 60
+life_effect: ({ 65, 65 })
+mana_effect: ({ -10, -10 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ 60, 60 })
+mag_effect: ({ -35, -35 })
+special_skill$: ({ 3, 神圣之光, 1, 如意圈, 1, 死亡缠绵, 1 })
+
+
+[当康]
+name$: ({ 当康, 当康 })
+rank$: 变异
+level: 60
+life_effect: ({ 70, 70 })
+mana_effect: ({ -10, -10 })
+speed_effect: ({ 5, 5 })
+phy_effect: ({ 40, 40 })
+mag_effect: ({ -35, -35 })
+special_skill$: ({ 3, 漫天血舞, 1, 乾坤罩, 1, 神圣之光, 1 })
+
+[龟宝]
+name$: ({ 龟宝, 龟宝 })
+rank$: 变异
+level: 60
+life_effect: ({ 70, 70 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 15, 15 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 35, 35 })
+special_skill$: ({ 3, 漫天血舞, 1, 如意圈, 1, 防微杜渐, 1 })
+
+[乘黄]
+name$: ({ 乘黄, 乘黄 })
+rank$: 变异
+level: 60
+life_effect: ({ 60, 60 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 40, 40 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 20, 20 })
+special_skill$: ({ 3, 死亡缠绵, 1, 神龙罩, 1, 十万火急, 1 })
+
+[招财猪]
+name$: ({ 招财猪, 招财猪 })
+rank$: 变异
+level: 60
+life_effect: ({ 75, 75 })
+mana_effect: ({ 35, 35 })
+speed_effect: ({ 5, 5 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 35, 35 })
+special_skill$: ({ 3, 鞭长莫及, 1, 如意圈, 1, 舍命一击, 1 })
+
+[伶俐鼠]
+name$: ({ 伶俐鼠, 伶俐鼠 })
+rank$: 变异
+level: 60
+life_effect: ({ 60, 60 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 40, 40 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 30, 30 })
+special_skill$: ({ 3, 翻转乾坤, 1, 如意圈, 1, 十万火急, 1 })
+
+[笨笨牛]
+name$: ({ 笨笨牛, 笨笨牛 })
+rank$: 变异
+level: 60
+life_effect: ({ 70, 70 })
+mana_effect: ({ -10, -10 })
+speed_effect: ({ 00, 00 })
+phy_effect: ({ 70, 70 })
+mag_effect: ({ -30, -30 })
+special_skill$: ({ 3, 游说之舌, 1, 神龙罩, 1, 死亡缠绵, 1 })
+
+[威威虎]
+name$: ({ 威威虎, 威威虎 })
+rank$: 变异
+level: 60
+life_effect: ({ 50, 50 })
+mana_effect: ({ -10, -10 })
+speed_effect: ({ 10, 10 })
+phy_effect: ({ 80, 80 })
+mag_effect: ({ -30, -30 })
+special_skill$: ({ 3, 游说之舌, 1, 乾坤罩, 1, 翻转乾坤, 1 })
+
+[跳跳兔]
+name$: ({ 跳跳兔, 跳跳兔 })
+rank$: 变异
+level: 60
+life_effect: ({ 60, 60 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 45, 45 })
+special_skill$: ({ 3, 拔苗助长, 1, 乾坤罩, 1, 舍命一击, 1 })
+
+[酷酷龙]
+name$: ({ 酷酷龙, 酷酷龙 })
+rank$: 变异
+level: 60
+life_effect: ({ 60, 60 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 45, 45 })
+special_skill$: ({ 3, 翻转乾坤, 1, 神龙罩, 1, 天生神力, 1 })
+
+[花花蛇]
+name$: ({ 花花蛇, 花花蛇 })
+rank$: 变异
+level: 60
+life_effect: ({ 60, 60 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 25, 25 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 35, 35 })
+special_skill$: ({ 3, 防微杜渐, 1, 神龙罩, 1, 舍命一击, 1 })
+
+[溜溜马]
+name$: ({ 溜溜马, 溜溜马 })
+rank$: 变异
+level: 60
+life_effect: ({ 65, 65 })
+mana_effect: ({ -10, -10 })
+speed_effect: ({ 25, 25 })
+phy_effect: ({ 50, 50 })
+mag_effect: ({ -30, -30 })
+special_skill$: ({ 3, 死亡缠绵, 1, 神龙罩, 1, 神圣之光, 1 })
+
+[咩咩羊]
+name$: ({ 咩咩羊, 咩咩羊 })
+rank$: 变异
+level: 60
+life_effect: ({ 70, 70 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 15, 15 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 35, 35 })
+special_skill$: ({ 3, 神圣之光, 1, 如意圈, 1, 防微杜渐, 1 })
+
+[帅帅猴]
+name$: ({ 帅帅猴, 帅帅猴 })
+rank$: 变异
+level: 60
+life_effect: ({ 55, 55 })
+mana_effect: ({ -10, -10 })
+speed_effect: ({ 35, 35 })
+phy_effect: ({ 50, 50 })
+mag_effect: ({ -30, -30 })
+special_skill$: ({ 3, 死亡缠绵, 1, 乾坤罩, 1, 游说之舌, 1 })
+
+[蛋蛋鸡]
+name$: ({ 蛋蛋鸡, 蛋蛋鸡 })
+rank$: 变异
+level: 60
+life_effect: ({ 65, 65 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 35, 35 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 30, 30 })
+special_skill$: ({ 3, 死亡缠绵, 1, 如意圈, 1, 十万火急, 1 })
+
+[乖乖狗]
+name$: ({ 乖乖狗, 乖乖狗 })
+rank$: 变异
+level: 60
+life_effect: ({ 60, 60 })
+mana_effect: ({ -10, -10 })
+speed_effect: ({ 40, 40 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 30, 30 })
+special_skill$: ({ 3, 神圣之光, 1, 乾坤罩, 1, 漫天血舞, 1 })
+
+[独角仙]
+name$: ({ 独角仙, 独角仙 })
+rank$: 变异
+level: 60
+life_effect: ({ 60, 60 })
+mana_effect: ({ -10, -10 })
+speed_effect: ({ 5, 5 })
+phy_effect: ({ 85, 85 })
+mag_effect: ({ -40, -40 })
+special_skill$: ({ 3, 翻转乾坤, 1, 乾坤罩, 1, 舍命一击, 1 })
+
+[饕餮]
+name$: ({ 饕餮, 饕餮 })
+rank$: 变异
+level: 60
+life_effect: ({ 65, 65 })
+mana_effect: ({ -10, -10 })
+speed_effect: ({ 10, 10 })
+phy_effect: ({ 70, 70 })
+mag_effect: ({ -35, -35 })
+special_skill$: ({ 3, 游说之舌, 1, 乾坤罩, 1, 漫天血舞, 1 })
+
+[囚牛]
+name$: ({ 囚牛, 囚牛 })
+rank$: 变异
+level: 60
+life_effect: ({ 70, 70 })
+mana_effect: ({ -10, -10 })
+speed_effect: ({ 0, 0 })
+phy_effect: ({ 75, 75 })
+mag_effect: ({ -35, -35 })
+special_skill$: ({ 3, 死亡缠绵, 1, 神龙罩, 1, 游说之舌, 1 })
+
+[鳌鱼]
+name$: ({ 鳌鱼, 鳌鱼 })
+rank$: 变异
+level: 60
+life_effect: ({ 70, 70 })
+mana_effect: ({ 30, 30 })
+speed_effect: ({ 25, 25 })
+phy_effect: ({ -45, -45 })
+mag_effect: ({ 20, 20 })
+special_skill$: ({ 3, 游说之舌, 1, 乾坤罩, 1, 防微杜渐, 1 })
+
+[桂花]
+name$: ({ 桂花, 桂花 })
+rank$: 变异
+level: 60
+life_effect: ({ 60, 60 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 30, 30 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 30, 30 })
+
+[南瓜头杰克]
+name$: ({ 南瓜头杰克, 南瓜头杰克 })
+rank$: 变异
+level: 60
+life_effect: ({ 60, 60 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 15, 15 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 45, 45 })
+special_skill$: ({ 3, 游说之舌, 1, 神龙罩, 1, 神圣之光, 1 })
+
+[花玉簪]
+name$: ({ 花玉簪, 花玉簪 })
+rank$: 变异
+level: 60
+life_effect: ({ 60, 60 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 45, 45 })
+
+[君子幽兰]
+name$: ({ 君子幽兰, 君子幽兰 })
+rank$: 变异
+level: 60
+life_effect: ({ 50, 50 })
+mana_effect: ({ -10, -10 })
+speed_effect: ({ 10, 10 })
+phy_effect: ({ 80, 80 })
+mag_effect: ({ -30, -30 })
+special_skill$: ({ 3, 游说之舌, 1, 乾坤罩, 1, 翻转乾坤, 1 })
+
+[豆蔻]
+name$: ({ 豆蔻, 豆蔻 })
+rank$: 变异
+level: 60
+life_effect: ({ 55, 55 })
+mana_effect: ({ -10, -10 })
+speed_effect: ({ 35, 35 })
+phy_effect: ({ 50, 50 })
+mag_effect: ({ -30, -30 })
+
+[狴犴]
+name$: ({ 狴犴, 狴犴 })
+rank$: 变异
+level: 60
+life_effect: ({ 60, 60 })
+mana_effect: ({ -10, -10 })
+speed_effect: ({ 0, 0 })
+phy_effect: ({ 85, 85 })
+mag_effect: ({ -35, -35 })
+special_skill$: ({ 3, 游说之舌, 1, 神龙罩, 1, 翻转乾坤, 1 })
+
+[英招]
+name$: ({ 英招, 英招 })
+rank$: 变异
+level: 60
+life_effect: ({ 60, 60 })
+mana_effect: ({ -10, -10 })
+speed_effect: ({ 5, 5 })
+phy_effect: ({ 85, 85 })
+mag_effect: ({ -40, -40 })
+special_skill$: ({ 3, 游说之舌, 1, 神龙罩, 1, 死亡缠绵, 1 })
+
+[牡丹花]
+name$: ({ 牡丹花, 牡丹花 })
+rank$: 变异
+level: 60
+life_effect: ({ 70, 70 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 15, 15 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 35, 35 })
+special_skill$: ({ 3, 神圣之光, 1, 如意圈, 1, 防微杜渐, 1 })
+
+[莲花]
+name$: ({ 莲花, 莲花 })
+rank$: 变异
+level: 60
+life_effect: ({ 60, 60 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 25, 25 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 35, 35 })
+
+[茉莉]
+name$: ({ 茉莉, 茉莉 })
+rank$: 变异
+level: 60
+life_effect: ({ 75, 75 })
+mana_effect: ({ 35, 35 })
+speed_effect: ({ 5, 5 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 25, 25 })
+
+[幻化月蓝兔]
+name$: ({ 幻化月蓝兔, 幻化月蓝兔 })
+rank$: 变异
+level: 60
+life_effect: ({ 75, 75 })
+mana_effect: ({ 30, 30 })
+speed_effect: ({ -15, -15 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 40, 40 })
+
+[幻化月蓝兔]
+name$: ({ 幻化月蓝兔, 幻化月蓝兔 })
+rank$: 变异
+level: 60
+life_effect: ({ 75, 75 })
+mana_effect: ({ 30, 30 })
+speed_effect: ({ -15, -15 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 40, 40 })
+
+[药兽]
+name$: ({ 药兽, 药兽 })
+rank$: 变异
+level: 60
+life_effect: ({ 75, 75 })
+mana_effect: ({ 25, 25 })
+speed_effect: ({ 10, 10 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 30, 30 })
+special_skill$: ({ 3, 神圣之光, 1, 神龙罩, 1, 拔苗助长, 1 })
+
+[昙花]
+name$: ({ 昙花, 昙花 })
+rank$: 变异
+level: 60
+life_effect: ({ 60, 60 })
+mana_effect: ({ -10, -10 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ 60, 60 })
+mag_effect: ({ -30, -30 })
+
+[幻化赤焰兔]
+name$: ({ 幻化赤焰兔, 幻化赤焰兔 })
+rank$: 变异
+level: 60
+life_effect: ({ 75, 75 })
+mana_effect: ({ 30, 30 })
+speed_effect: ({ -15, -15 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 40, 40 })
+
+[飞廉]
+name$: ({ 飞廉, 飞廉 })
+rank$: 变异
+level: 60
+life_effect: ({ 65, 65 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 35, 35 })
+special_skill$: ({ 3, 如意圈, 1, 游说之舌, 1,鞭长莫及, 1 })
+
+[幻化锦辰兔]
+name$: ({ 幻化锦辰兔, 幻化锦辰兔 })
+rank$: 变异
+level: 60
+life_effect: ({ 75, 75 })
+mana_effect: ({ 30, 30 })
+speed_effect: ({ -15, -15 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 40, 40 })
+
+[禾雀]
+name$: ({ 禾雀, 禾雀 })
+rank$: 变异
+level: 60
+life_effect: ({ 65, 65 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 35, 35 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 30, 30 })
+
+[蒲牢]
+name$: ({ 蒲牢, 蒲牢 })
+rank$: 变异
+level: 60
+life_effect: ({ 70, 70 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ -45, -45 })
+mag_effect: ({ 35, 35 })
+special_skill$: ({ 3, 神圣之光, 1, 如意圈, 1, 拔苗助长, 1 })
+
+[方相]
+name$: ({ 方相, 方相 })
+rank$: 变异
+level: 60
+life_effect: ({ 60, 60 })
+mana_effect: ({ -10, -10 })
+speed_effect: ({ 35, 35 })
+phy_effect: ({ 50, 50 })
+mag_effect: ({ -35, -35 })
+special_skill$: ({ 3, 舍命一击, 1, 神龙罩, 1, 死亡缠绵, 1 })
+
+[貔貅]
+name$: ({ 貔貅, 貔貅 })
+rank$: 变异
+level: 60
+life_effect: ({ 55, 55 })
+mana_effect: ({ -10, -10 })
+speed_effect: ({ 0, 0 })
+phy_effect: ({ 90, 90 })
+mag_effect: ({ -35, -35 })
+special_skill$: ({ 3, 死亡缠绵, 1, 神龙罩, 1, 游说之舌, 1 })
+
+[风狸]
+name$: ({ 风狸, 风狸 })
+rank$: 变异
+level: 60
+life_effect: ({ 60, 60 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 25, 25 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 35, 35 })
+special_skill$: ({ 3, 翻转乾坤, 1, 如意圈, 1, 鞭长莫及, 1 })
+
+[幻化碧玉兔]
+name$: ({ 幻化碧玉兔, 幻化碧玉兔 })
+rank$: 变异
+level: 60
+life_effect: ({ 75, 75 })
+mana_effect: ({ 30, 30 })
+speed_effect: ({ -15, -15 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 40, 40 })
+
+[嘲风]
+name$: ({ 嘲风, 嘲风 })
+rank$: 变异
+level: 60
+life_effect: ({ 65, 65 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ -45, -45 })
+mag_effect: ({ 40, 40 })
+special_skill$: ({ 3, 神圣之光, 1, 如意圈, 1, 天生神力, 1 })
+
+[月见草]
+name$: ({ 月见草, 月见草 })
+rank$: 变异
+level: 60
+life_effect: ({ 65, 65 })
+mana_effect: ({ -10, -10 })
+speed_effect: ({ 25, 25 })
+phy_effect: ({ 50, 50 })
+mag_effect: ({ -30, -30 })
+
+[幻化紫云兔]
+name$: ({ 幻化紫云兔, 幻化紫云兔 })
+rank$: 变异
+level: 60
+life_effect: ({ 75, 75 })
+mana_effect: ({ 30, 30 })
+speed_effect: ({ -15, -15 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 40, 40 })
+
+[月季]
+name$: ({ 月季, 月季 })
+rank$: 变异
+level: 60
+life_effect: ({ 60, 60 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 40, 40 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 30, 30 })
+special_skill$: ({ 3, 游说之舌, 1, 如意圈, 1, 十万火急, 1 })
+
+[睚眦]
+name$: ({ 睚眦, 睚眦 })
+rank$: 变异
+level: 60
+life_effect: ({ 60, 60 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 40, 40 })
+phy_effect: ({ -45, -45 })
+mag_effect: ({ 25, 25 })
+
+[霸下]
+name$: ({ 霸下, 霸下 })
+rank$: 变异
+level: 60
+life_effect: ({ 60, 60 })
+mana_effect: ({ 30, 30 })
+speed_effect: ({ 25, 25 })
+phy_effect: ({ -45, -45 })
+mag_effect: ({ 30, 30 })
+special_skill$: ({ 3, 漫天血舞, 1, 乾坤罩, 1, 鞭长莫及, 1 })
+
+[玉兰]
+name$: ({ 玉兰, 玉兰 })
+rank$: 变异
+level: 60
+life_effect: ({ 70, 70 })
+mana_effect: ({ -10, -10 })
+speed_effect: ({ 0, 0 })
+phy_effect: ({ 70, 70 })
+mag_effect: ({ -30, -30 })
+special_skill$: ({ 3, 游说之舌, 1, 神龙罩, 1, 死亡缠绵, 1 })
+
+[比翼鸟]
+name$: ({ 比翼鸟, 比翼鸟 })
+rank$: 变异
+level: 60
+life_effect: ({ 50, 50 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 40, 40 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 40, 40 })
+special_skill$: ({ 3, 游说之舌, 1, 十万火急, 1, 舍命一击, 1 })
+
+
+[飞天鼠]
+name$: ({ 飞天鼠, 飞天鼠 })
+rank$: 变异
+level: 60
+life_effect: ({ 100, 100 })
+mana_effect: ({ 5, 5 })
+speed_effect: ({ -25, -25 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ -20, -20 })
+
+[玄灵兔]
+name$: ({ 玄灵兔, 玄灵兔 })
+rank$: 变异
+level: 60
+life_effect: ({ 100, 100 })
+mana_effect: ({ 5, 5 })
+speed_effect: ({ -25, -25 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ -20, -20 })
+
+[腓腓]
+name$: ({ 腓腓, 腓腓 })
+rank$: 变异
+level: 60
+life_effect: ({ 60, 60 })
+mana_effect: ({ 0, 0 })
+speed_effect: ({ 40, 40 })
+phy_effect: ({ -40, -40 })
+mag_effect: ({ 40, 40 })
+special_skill$: ({ 3, 漫天血舞, 1, 神龙罩, 1, 十万火急, 1 })
+
+

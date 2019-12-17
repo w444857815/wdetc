@@ -1,0 +1,36 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/18/2006
+#奖励物品        概率
+
+[奖励等级]
+name$: 特等奖
+
+[特等奖]
+首饰160 : 2000
+
+[首饰160]
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "菩提镜明_灵" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "洛神回雪_灵" })
+bonus$: ({ 0, 0, 100, "属性道具", 2, 2, "屠龙封魔_灵" })
+
+[菩提镜明_灵]
+name      : 三界之怒佩·魔
+min_level : 149
+max_level : 149
+upgrade_type : 6
+attribs      : ({ "prop/all_polar", 10, "prop/wiz", 60,"prop/dex", 60, "prop2/wiz", 60, "prop2/dex", 60,"prop/all_skill", 15,  "source", #M★战云界仙人★, "extra_desc", #Y特效：#G天外天 #r#L╔═══════════╗#r#L╠#Y首饰品阶：#G140阶段顶级 #L╣#r#L╠#Y首饰产出：#M战云宫 #G锻造 #L╣#r#L╠#Y首饰指数：#G★★★★★★#L#L╣#r#L╚═══════════╝#r#M总有一天你会站在最好的地方#r#M活成自己曾经渴望的模样。  })
+
+[洛神回雪_灵]
+name      : 三界之怒链·魔
+min_level : 149
+max_level : 149
+upgrade_type : 6
+attribs      : ({ "prop/all_polar", 10, "prop/wiz", 60,"prop/dex", 60, "prop2/wiz", 60, "prop2/dex", 60,"prop/all_skill", 15,  "source", #M★战云界仙人★, "extra_desc", #Y特效：#G天外天 #r#L╔═══════════╗#r#L╠#Y首饰品阶：#G140阶段顶级 #L╣#r#L╠#Y首饰产出：#M战云宫 #G锻造 #L╣#r#L╠#Y首饰指数：#G★★★★★★#L#L╣#r#L╚═══════════╝#r#M总有一天你会站在最好的地方#r#M活成自己曾经渴望的模样。  })
+
+[屠龙封魔_灵]
+name      : 三界之怒镯·魔
+min_level : 149
+max_level : 149
+upgrade_type : 6
+attribs      : ({ "prop/all_polar", 10, "prop/wiz", 60,"prop/dex", 60, "prop2/wiz", 60, "prop2/dex", 60,"prop/all_skill", 15,  "source", #M★战云界仙人★, "extra_desc", #Y特效：#G天外天 #r#L╔═══════════╗#r#L╠#Y首饰品阶：#G140阶段顶级 #L╣#r#L╠#Y首饰产出：#M战云宫 #G锻造 #L╣#r#L╠#Y首饰指数：#G★★★★★★#L#L╣#r#L╚═══════════╝#r#M总有一天你会站在最好的地方#r#M活成自己曾经渴望的模样。  })

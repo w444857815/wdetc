@@ -1,0 +1,36 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/18/2006
+#奖励物品        概率
+
+[奖励等级]
+name$: 特等奖
+
+[特等奖]
+首饰100 : 1000
+
+[首饰100]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "金碧莲花_敏" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "通灵宝玉_敏" })
+bonus$:  ({ 0, 0, 100, "属性道具", 2, 2, "天星奇光_敏" }) 
+
+[金碧莲花_敏]
+name      : 金碧莲花
+min_level : 100
+max_level : 100
+upgrade_type : 6
+attribs      : ({ "prop/all_polar", 5, "prop/dex", 27, "prop2/dex", 27 })
+
+[通灵宝玉_敏]
+name      : 通灵宝玉
+min_level : 100
+max_level : 100
+upgrade_type : 6
+attribs      : ({ "prop/all_polar", 5, "prop/dex", 27, "prop2/dex", 27 })
+
+[天星奇光_敏]
+name      : 天星奇光
+min_level : 100
+max_level : 100
+upgrade_type : 6
+attribs      : ({ "prop/all_polar", 5, "prop/dex", 27, "prop2/dex", 27 })

@@ -1,0 +1,17 @@
+#FORM2
+
+[time]
+start_time : "2013-04-22-10:00:00"
+end_time   : "2023-05-01-23:59:59"
+
+[broadcast_setting]
+broadcast_list: ({ "broadcast_1" })
+
+[broadcast_1]
+broadcast_start : "start_time"
+interval        : 3600
+cycle           : 86400
+broadcast_end   : "start_time(43200)"
+final_end_time  : "end_time"
+message         : "在这新服开启之际，封神世界众妖竟前来天墉城妄图破坏开服庆典，幸好#Y天上人间#n大神创建一座虚假城池，将众妖魔封入其中，众道友速去#P活动大使#P处传送至#Y虚幻天墉城#n中除魔卫道吧！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

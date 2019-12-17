@@ -1,0 +1,2086 @@
+#FORM2
+
+# 活动开始时间
+# 活动结束时间
+# 活动开始多长前广播
+# 活动前广播内容
+# 活动开始广播内容
+# 活动时间安排提示
+[setting]
+start_time  : "2008-4-18-00:00:00"
+end_time    : "2028-5-20-00:00:00"
+pre_broadcast : 259200
+broadcast_pre : #r#Y新服特制“#G全民捉鬼”！#Y祝愿-玩家越玩越爽！请各位玩家找#B天墉城抓鬼师#n#Y参加！
+broadcast_sta : #r#Y新服特制“#G全民捉鬼”！#Y祝愿-玩家越玩越爽！请各位玩家找#B天墉城抓鬼师#n#Y参加！
+broadcast_in  : #r#Y新服特制“#G全民捉鬼”！#Y祝愿-玩家越玩越爽！请各位玩家找#B天墉城抓鬼师#n#Y参加！
+broadcast_end : #r#Y新服特制“#G全民捉鬼”！#Y祝愿-玩家越玩越爽！请各位玩家找#B天墉城抓鬼师#n#Y参加！
+msg_tip : "活动时间为2008年4月18日-2028年5月19日";
+
+bonus_info : ({ 6000000, "bonus_exp", 600000, "bonus_lyz", 400000, "bonus_sw1", 200000, "bonus_sw2", 200000, "bonus_sw3", 300000, "奖励11", 300000, "奖励22", 300000, "奖励33", 200000, "奖励44", 200000, "奖励55", 200000, "奖励66", 100000, "奖励77", 100000, "奖励88", 10000, "奖励99", 10000, "奖励10", 10000, "奖励21" })
+
+
+[bonus_exp]
+bonus$  : ({ 0, 0, 100, "道行", "玩家等级 * 500", "玩家等级 * 500", "", "削减" })
+channel_msg : [#Y天墉城抓鬼师#n]：#Y恭喜#L%s#n#Y在#G“全民捉鬼”#Y中获得#G一倍 道行#n#Y的奖励！
+
+[bonus_lyz]
+bonus$  : ({ 0, 0, 100, "道行", "玩家等级 * 1000", "玩家等级 * 1000", "", "削减" })
+channel_msg : [#Y天墉城抓鬼师#n]：#Y恭喜#L%s#n#Y在#G“全民捉鬼”#Y中获得#G三倍 道行#n#Y的奖励！
+
+[bonus_sw1]
+bonus$  : ({ 0, 0, 100, "道行", "玩家等级 * 2000", "玩家等级 * 2000", "", "削减" })
+channel_msg : [#Y天墉城抓鬼师#n]：#Y恭喜#L%s#n#Y在#G“全民捉鬼”#Y中获得#G五倍 道行#n#Y的奖励！
+
+[bonus_sw2]
+free_bag: ({ 1, "你物品栏已满，无法得到#R精品一个魂兽石袋#n。" })
+bonus$:  ({ 0, 0, 100, "精品一个魂兽石袋", 1, 1 })
+channel_msg : [#Y天墉城抓鬼师#n]：#Y恭喜#L%s#n#Y在#G“全民捉鬼”#Y中获得#G满级绿色魂兽石一个#n#Y的奖励！
+
+[bonus_sw3]
+free_bag: ({ 1, "你物品栏已满，无法得到#R精品一个技能石袋#n。" })
+bonus$:  ({ 0, 0, 100, "精品一个技能石袋", 1, 1 })
+channel_msg : [#Y天墉城抓鬼师#n]：#Y恭喜#L%s#n#Y在#G“全民捉鬼”#Y中获得#G精品一个技能石袋#n#Y的奖励！
+
+
+
+#########相一
+[奖励11]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "阿1", "阿2", "阿3", "阿4", "阿5", "阿6", "阿7", "阿8", "阿9", "阿10", "阿11", "阿12", "阿13", "阿14", "阿15", "阿16", "阿17", "阿18", "阿19", "阿20", "阿21", "阿22", "阿23", "阿24", "阿25", "阿26", "阿27", "阿28", "阿29", "阿30" })
+channel_msg : [#Y天墉城抓鬼师#n]：#Y恭喜#L%s#n#Y在#G“全民捉鬼”#Y中，意外得到了一件#L【入魂属性铭牌】#Y！#63#G真是鸿运当头啊！#Q180"
+
+[奖励22]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "阿31", "阿32", "阿33", "阿34", "阿35", "阿36", "阿37", "阿38", "阿39", "阿40", "阿41", "阿42", "阿43", "阿44", "阿45", "阿46", "阿47", "阿48", "阿49", "阿50", "阿51", "阿52", "阿53", "阿54", "阿55", "阿56", "阿57", "阿58", "阿59", "阿60" })
+channel_msg : [#Y天墉城抓鬼师#n]：#Y恭喜#L%s#n#Y在#G“全民捉鬼”#Y中，意外得到了一件#L【入魂属性铭牌】#Y！#63#G真是鸿运当头啊！#Q180"
+
+#########相二
+[奖励33]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "阿61", "阿62", "阿63", "阿64", "阿65", "阿66", "阿67", "阿68", "阿69", "阿70", "阿71", "阿72", "阿73", "阿74", "阿75", "阿76", "阿77", "阿78", "阿79", "阿80", "阿81", "阿82", "阿83", "阿84", "阿85", "阿86", "阿87", "阿88", "阿89", "阿90" })
+channel_msg : [#Y天墉城抓鬼师#n]：#Y恭喜#L%s#n#Y在#G“全民捉鬼”#Y中，意外得到了一件#L【入魂属性铭牌】#Y！#63#G真是鸿运当头啊！#Q180"
+
+[奖励44]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "阿91", "阿92", "阿93", "阿94", "阿95", "阿96", "阿97", "阿98", "阿99", "阿100", "阿101", "阿102", "阿103", "阿104", "阿105", "阿106", "阿107", "阿108", "阿109", "阿110", "阿111", "阿112", "阿113", "阿114", "阿115", "阿116", "阿117", "阿118", "阿119", "阿120" })
+channel_msg : [#Y天墉城抓鬼师#n]：#Y恭喜#L%s#n#Y在#G“全民捉鬼”#Y中，意外得到了一件#L【入魂属性铭牌】#Y！#63#G真是鸿运当头啊！#Q180"
+
+#########相三
+[奖励55]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "阿121", "阿122", "阿123", "阿124", "阿125", "阿126", "阿127", "阿128", "阿129", "阿130", "阿131", "阿132", "阿133", "阿134", "阿135", "阿136", "阿137", "阿138", "阿139", "阿140", "阿141", "阿142", "阿143", "阿144", "阿145", "阿146", "阿147", "阿148", "阿149", "阿150" })
+channel_msg : [#Y天墉城抓鬼师#n]：#Y恭喜#L%s#n#Y在#G“全民捉鬼”#Y中，意外得到了一件#L【入魂属性铭牌】#Y！#63#G真是鸿运当头啊！#Q180"
+
+[奖励66]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "阿151", "阿152", "阿153", "阿154", "阿155", "阿156", "阿157", "阿158", "阿159", "阿160", "阿161", "阿162", "阿163", "阿164", "阿165", "阿166", "阿167", "阿168", "阿169", "阿170", "阿171", "阿172", "阿173", "阿174", "阿175", "阿176", "阿177", "阿178", "阿179", "阿180" })
+channel_msg : [#Y天墉城抓鬼师#n]：#Y恭喜#L%s#n#Y在#G“全民捉鬼”#Y中，意外得到了一件#L【入魂属性铭牌】#Y！#63#G真是鸿运当头啊！#Q180"
+
+#########相四
+[奖励77]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "阿181", "阿182", "阿183", "阿184", "阿185", "阿186", "阿187", "阿188", "阿189", "阿190", "阿191", "阿192", "阿193", "阿194", "阿195", "阿196", "阿197", "阿198", "阿199", "阿200", "阿201", "阿202", "阿203", "阿204", "阿205", "阿206", "阿207", "阿208", "阿209", "阿210" })
+channel_msg : [#Y天墉城抓鬼师#n]：#Y恭喜#L%s#n#Y在#G“全民捉鬼”#Y中，意外得到了一件#L【入魂属性铭牌】#Y！#63#G真是鸿运当头啊！#Q180"
+
+[奖励88]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "阿211", "阿212", "阿213", "阿214", "阿215", "阿216", "阿217", "阿218", "阿219", "阿220", "阿221", "阿222", "阿223", "阿224", "阿225", "阿226", "阿227", "阿228", "阿229", "阿230", "阿231", "阿232", "阿233", "阿234", "阿235", "阿236", "阿237", "阿238", "阿239", "阿240" })
+channel_msg : [#Y天墉城抓鬼师#n]：#Y恭喜#L%s#n#Y在#G“全民捉鬼”#Y中，意外得到了一件#L【入魂属性铭牌】#Y！#63#G真是鸿运当头啊！#Q180"
+
+#########相五
+[奖励99]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "阿241", "阿242", "阿243", "阿244", "阿245", "阿246", "阿247", "阿248", "阿249", "阿250", "阿251", "阿252", "阿253", "阿254", "阿255", "阿256", "阿257", "阿258", "阿259", "阿260", "阿261", "阿262", "阿263", "阿264", "阿265", "阿266", "阿267", "阿268", "阿269", "阿270" })
+channel_msg : [#Y天墉城抓鬼师#n]：#Y恭喜#L%s#n#Y在#G“全民捉鬼”#Y中，意外得到了一件#L【入魂属性铭牌】#Y！#63#G真是鸿运当头啊！#Q180"
+
+[奖励10]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "阿271", "阿272", "阿273", "阿274", "阿275", "阿276", "阿277", "阿278", "阿279", "阿280", "阿281", "阿282", "阿283", "阿284", "阿285", "阿286", "阿287", "阿288", "阿289", "阿290", "阿291", "阿292", "阿293", "阿294", "阿295", "阿296", "阿297", "阿298", "阿299", "阿300" })
+channel_msg : [#Y天墉城抓鬼师#n]：#Y恭喜#L%s#n#Y在#G“全民捉鬼”#Y中，意外得到了一件#L【入魂属性铭牌】#Y！#63#G真是鸿运当头啊！#Q180"
+
+[奖励21]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "阿301", "阿302", "阿303", "阿304", "阿305", "阿306", "阿307", "阿308", "阿309", "阿310", "阿311", "阿312", "阿313", "阿314", "阿315", "阿316", "阿317", "阿318", "阿319", "阿320" })
+channel_msg : [#Y天墉城抓鬼师#n]：#Y恭喜#L%s#n#Y在#G“全民捉鬼”#Y中，意外得到了一件#L【入魂属性铭牌】#Y！#63#G真是鸿运当头啊！#Q180"
+
+
+
+
+[阿1]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿2]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿3]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿4]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿5]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿6]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿7]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿8]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿9]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿10]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿11]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿12]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿13]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿14]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿15]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿16]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿17]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿18]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 4, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 4% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿19]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 6, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 6% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿20]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 8, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 8% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿21]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 10, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 10% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿22]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 12, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 12% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿23]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 14, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 14% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿24]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 16, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 16% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿25]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 18, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 18% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿26]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 20, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 20% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿27]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 22, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 22% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿28]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 24, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 24% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿29]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 26, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 26% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿30]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 28, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 28% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿31]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 30, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 30% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿32]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 30, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 30% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿33]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿34]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 2, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 2 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿35]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 3, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 3 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿36]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 4, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 4 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿37]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 5, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 5 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿38]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 5, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 5 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿39]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 5, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 5 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿40]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 6, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 6 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿41]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 7, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 7 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿42]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 8, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 8 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿43]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 9, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 9 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿44]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 10, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 10 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿45]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 11, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 11 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿46]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 12, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 12 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿47]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 13, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 13 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿48]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 14, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 14 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿49]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 15, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 15 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿50]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 16, "prop/ignore_mag_dodge", 4, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 16 增加#r#B忽视躲避攻击 4% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿51]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 17, "prop/ignore_mag_dodge", 6, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 17 增加#r#B忽视躲避攻击 6% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿52]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 18, "prop/ignore_mag_dodge", 8, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 18 增加#r#B忽视躲避攻击 8% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿53]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 19, "prop/ignore_mag_dodge", 10, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 19 增加#r#B忽视躲避攻击 10% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿54]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 20, "prop/ignore_mag_dodge", 12, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 20 增加#r#B忽视躲避攻击 12% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿55]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 21, "prop/ignore_mag_dodge", 14, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 21 增加#r#B忽视躲避攻击 14% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿56]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 22, "prop/ignore_mag_dodge", 16, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 22 增加#r#B忽视躲避攻击 16% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿57]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 23, "prop/ignore_mag_dodge", 18, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 23 增加#r#B忽视躲避攻击 18% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿58]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 24, "prop/ignore_mag_dodge", 20, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 24 增加#r#B忽视躲避攻击 20% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿59]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 25, "prop/ignore_mag_dodge", 22, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 25 增加#r#B忽视躲避攻击 22% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿60]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 26, "prop/ignore_mag_dodge", 24, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 26 增加#r#B忽视躲避攻击 24% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿61]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 27, "prop/ignore_mag_dodge", 26, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 27 增加#r#B忽视躲避攻击 26% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿62]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 28, "prop/ignore_mag_dodge", 28, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 28 增加#r#B忽视躲避攻击 28% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿63]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 29, "prop/ignore_mag_dodge", 30, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 29 增加#r#B忽视躲避攻击 30% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿64]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 1, "prop2/all_attrib", 30, "prop/ignore_mag_dodge", 30, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 1 增加#r#B所有属性 30 增加#r#B忽视躲避攻击 30% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[阿65]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿66]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿67]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿68]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿69]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿70]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿71]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿72]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿73]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿74]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿75]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿76]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿77]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿78]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿79]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿80]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿81]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿82]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 4, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 4% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿83]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 6, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 6% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿84]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 8, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 8% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿85]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 10, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 10% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿86]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 12, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 12% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿87]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 14, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 14% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿88]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 16, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 16% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿89]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 18, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 18% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿90]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 20, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 20% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿91]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 22, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 22% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿92]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 24, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 24% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿93]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 26, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 26% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿94]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 28, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 28% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿95]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 30, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 30% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿96]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 30, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 30% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿97]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿98]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 2, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 2 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿99]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 3, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 3 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿100]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 4, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 4 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿101]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 5, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 5 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿102]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 5, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 5 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿103]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 5, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 5 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿104]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 6, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 6 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿105]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 7, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 7 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿106]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 8, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 8 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿107]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 9, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 9 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿108]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 10, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 10 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿109]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 11, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 11 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿110]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 12, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 12 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿111]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 13, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 13 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿112]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 14, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 14 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿113]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 15, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 15 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿114]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 16, "prop/ignore_mag_dodge", 4, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 16 增加#r#B忽视躲避攻击 4% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿115]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 17, "prop/ignore_mag_dodge", 6, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 17 增加#r#B忽视躲避攻击 6% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿116]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 18, "prop/ignore_mag_dodge", 8, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 18 增加#r#B忽视躲避攻击 8% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿117]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 19, "prop/ignore_mag_dodge", 10, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 19 增加#r#B忽视躲避攻击 10% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿118]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 20, "prop/ignore_mag_dodge", 12, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 20 增加#r#B忽视躲避攻击 12% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿119]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 21, "prop/ignore_mag_dodge", 14, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 21 增加#r#B忽视躲避攻击 14% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿120]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 22, "prop/ignore_mag_dodge", 16, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 22 增加#r#B忽视躲避攻击 16% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿121]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 23, "prop/ignore_mag_dodge", 18, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 23 增加#r#B忽视躲避攻击 18% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿122]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 24, "prop/ignore_mag_dodge", 20, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 24 增加#r#B忽视躲避攻击 20% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿123]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 25, "prop/ignore_mag_dodge", 22, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 25 增加#r#B忽视躲避攻击 22% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿124]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 26, "prop/ignore_mag_dodge", 24, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 26 增加#r#B忽视躲避攻击 24% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿125]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 27, "prop/ignore_mag_dodge", 26, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 27 增加#r#B忽视躲避攻击 26% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿126]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 28, "prop/ignore_mag_dodge", 28, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 28 增加#r#B忽视躲避攻击 28% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿127]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 29, "prop/ignore_mag_dodge", 30, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 29 增加#r#B忽视躲避攻击 30% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿128]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 2, "prop2/all_attrib", 30, "prop/ignore_mag_dodge", 30, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 2 增加#r#B所有属性 30 增加#r#B忽视躲避攻击 30% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[阿129]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿130]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿131]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿132]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿133]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿134]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿135]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿136]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿137]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿138]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿139]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿140]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿141]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿142]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿143]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿144]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿145]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿146]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 4, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 4% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿147]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 6, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 6% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿148]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 8, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 8% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿149]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 10, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 10% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿150]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 12, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 12% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿151]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 14, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 14% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿152]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 16, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 16% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿153]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 18, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 18% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿154]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 20, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 20% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿155]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 22, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 22% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿156]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 24, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 24% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿157]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 26, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 26% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿158]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 28, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 28% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿159]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 30, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 30% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿160]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 30, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 30% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿161]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿162]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 2, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 2 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿163]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 3, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 3 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿164]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 4, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 4 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿165]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 5, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 5 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿166]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 5, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 5 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿167]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 5, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 5 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿168]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 6, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 6 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿169]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 7, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 7 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿170]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 8, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 8 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿171]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 9, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 9 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿172]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 10, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 10 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿173]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 11, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 11 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿174]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 12, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 12 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿175]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 13, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 13 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿176]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 14, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 14 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿177]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 15, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 15 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿178]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 16, "prop/ignore_mag_dodge", 4, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 16 增加#r#B忽视躲避攻击 4% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿179]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 17, "prop/ignore_mag_dodge", 6, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 17 增加#r#B忽视躲避攻击 6% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿180]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 18, "prop/ignore_mag_dodge", 8, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 18 增加#r#B忽视躲避攻击 8% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿181]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 19, "prop/ignore_mag_dodge", 10, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 19 增加#r#B忽视躲避攻击 10% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿182]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 20, "prop/ignore_mag_dodge", 12, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 20 增加#r#B忽视躲避攻击 12% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿183]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 21, "prop/ignore_mag_dodge", 14, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 21 增加#r#B忽视躲避攻击 14% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿184]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 22, "prop/ignore_mag_dodge", 16, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 22 增加#r#B忽视躲避攻击 16% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿185]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 23, "prop/ignore_mag_dodge", 18, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 23 增加#r#B忽视躲避攻击 18% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿186]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 24, "prop/ignore_mag_dodge", 20, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 24 增加#r#B忽视躲避攻击 20% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿187]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 25, "prop/ignore_mag_dodge", 22, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 25 增加#r#B忽视躲避攻击 22% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿188]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 26, "prop/ignore_mag_dodge", 24, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 26 增加#r#B忽视躲避攻击 24% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿189]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 27, "prop/ignore_mag_dodge", 26, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 27 增加#r#B忽视躲避攻击 26% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿190]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 28, "prop/ignore_mag_dodge", 28, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 28 增加#r#B忽视躲避攻击 28% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿191]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 29, "prop/ignore_mag_dodge", 30, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 29 增加#r#B忽视躲避攻击 30% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿192]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 3, "prop2/all_attrib", 30, "prop/ignore_mag_dodge", 30, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 3 增加#r#B所有属性 30 增加#r#B忽视躲避攻击 30% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[阿193]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿194]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿195]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿196]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿197]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿198]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿199]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿200]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿201]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿202]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿203]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿204]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿205]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿206]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿207]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿208]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿209]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿210]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 4, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 4% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿211]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 6, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 6% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿212]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 8, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 8% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿213]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 10, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 10% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿214]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 12, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 12% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿215]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 14, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 14% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿216]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 16, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 16% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿217]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 18, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 18% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿218]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 20, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 20% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿219]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 22, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 22% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿220]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 24, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 24% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿221]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 26, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 26% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿222]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 28, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 28% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿223]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 30, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 30% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿224]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 30, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 30% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿225]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿226]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 2, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 2 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿227]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 3, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 3 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿228]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 4, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 4 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿229]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 5, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 5 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿230]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 5, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 5 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿231]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 5, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 5 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿232]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 6, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 6 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿233]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 7, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 7 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿234]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 8, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 8 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿235]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 9, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 9 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿236]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 10, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 10 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿237]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 11, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 11 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿238]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 12, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 12 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿239]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 13, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 13 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿240]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 14, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 14 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿241]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 15, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 15 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿242]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 16, "prop/ignore_mag_dodge", 4, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 16 增加#r#B忽视躲避攻击 4% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿243]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 17, "prop/ignore_mag_dodge", 6, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 17 增加#r#B忽视躲避攻击 6% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿244]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 18, "prop/ignore_mag_dodge", 8, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 18 增加#r#B忽视躲避攻击 8% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿245]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 19, "prop/ignore_mag_dodge", 10, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 19 增加#r#B忽视躲避攻击 10% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿246]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 20, "prop/ignore_mag_dodge", 12, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 20 增加#r#B忽视躲避攻击 12% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿247]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 21, "prop/ignore_mag_dodge", 14, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 21 增加#r#B忽视躲避攻击 14% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿248]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 22, "prop/ignore_mag_dodge", 16, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 22 增加#r#B忽视躲避攻击 16% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿249]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 23, "prop/ignore_mag_dodge", 18, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 23 增加#r#B忽视躲避攻击 18% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿250]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 24, "prop/ignore_mag_dodge", 20, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 24 增加#r#B忽视躲避攻击 20% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿251]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 25, "prop/ignore_mag_dodge", 22, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 25 增加#r#B忽视躲避攻击 22% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿252]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 26, "prop/ignore_mag_dodge", 24, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 26 增加#r#B忽视躲避攻击 24% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿253]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 27, "prop/ignore_mag_dodge", 26, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 27 增加#r#B忽视躲避攻击 26% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿254]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 28, "prop/ignore_mag_dodge", 28, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 28 增加#r#B忽视躲避攻击 28% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿255]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 29, "prop/ignore_mag_dodge", 30, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 29 增加#r#B忽视躲避攻击 30% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿256]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 4, "prop2/all_attrib", 30, "prop/ignore_mag_dodge", 30, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 4 增加#r#B所有属性 30 增加#r#B忽视躲避攻击 30% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[阿257]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿258]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿259]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿260]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿261]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿262]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿263]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿264]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿265]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿266]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿267]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿268]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿269]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿270]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿271]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿272]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿273]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿274]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 4, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 4% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿275]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 6, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 6% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿276]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 8, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 8% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿277]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 10, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 10% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿278]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 12, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 12% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿279]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 14, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 14% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿280]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 16, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 16% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿281]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 18, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 18% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿282]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 20, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 20% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿283]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 22, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 22% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿284]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 24, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 24% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿285]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 26, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 26% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿286]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 28, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 28% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿287]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 30, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 30% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿288]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 30, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 30% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿289]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 1, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 1 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿290]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 2, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 2 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿291]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 3, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 3 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿292]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 4, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 4 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿293]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 5, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 5 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿294]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 5, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 5 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿295]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 5, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 5 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿296]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 6, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 6 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿297]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 7, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 7 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿298]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 8, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 8 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿299]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 9, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 9 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿300]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 10, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 10 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿301]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 11, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 11 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿302]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 12, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 12 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿303]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 13, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 13 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿304]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 14, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 14 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿305]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 15, "prop/ignore_mag_dodge", 2, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 15 增加#r#B忽视躲避攻击 2% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿306]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 16, "prop/ignore_mag_dodge", 4, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 16 增加#r#B忽视躲避攻击 4% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿307]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 17, "prop/ignore_mag_dodge", 6, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 17 增加#r#B忽视躲避攻击 6% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿308]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 18, "prop/ignore_mag_dodge", 8, "prop/all_resist_except", 5, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 18 增加#r#B忽视躲避攻击 8% 增加#r#B抗所有异常 5% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿309]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 19, "prop/ignore_mag_dodge", 10, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 19 增加#r#B忽视躲避攻击 10% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿310]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 20, "prop/ignore_mag_dodge", 12, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 20 增加#r#B忽视躲避攻击 12% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿311]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 21, "prop/ignore_mag_dodge", 14, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 21 增加#r#B忽视躲避攻击 14% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿312]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 22, "prop/ignore_mag_dodge", 16, "prop/all_resist_except", 10, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 22 增加#r#B忽视躲避攻击 16% 增加#r#B抗所有异常 10% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿313]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 23, "prop/ignore_mag_dodge", 18, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 23 增加#r#B忽视躲避攻击 18% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿314]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 24, "prop/ignore_mag_dodge", 20, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 24 增加#r#B忽视躲避攻击 20% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿315]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 25, "prop/ignore_mag_dodge", 22, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 25 增加#r#B忽视躲避攻击 22% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿316]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 26, "prop/ignore_mag_dodge", 24, "prop/all_resist_except", 15, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 26 增加#r#B忽视躲避攻击 24% 增加#r#B抗所有异常 15% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿317]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 27, "prop/ignore_mag_dodge", 26, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 5, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 27 增加#r#B忽视躲避攻击 26% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 5% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿318]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 28, "prop/ignore_mag_dodge", 28, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 10, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 28 增加#r#B忽视躲避攻击 28% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 10% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿319]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 29, "prop/ignore_mag_dodge", 30, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 15, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 29 增加#r#B忽视躲避攻击 30% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 15% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+
+[阿320]
+name      : 竞技王者铭牌
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 30, "prop/ignore_mag_dodge", 30, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #L天墉城抓鬼师, "extra_desc", #B所有相性 5 增加#r#B所有属性 30 增加#r#B忽视躲避攻击 30% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 20% 增加#r#Y推荐指数：★★★★★#n#r#M千种属性来助阵#n#r#M入魂铭牌显神通#n })
+

@@ -1,0 +1,36 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/18/2006
+#奖励物品        概率
+
+[奖励等级]
+name$: 特等奖
+
+[特等奖]
+首饰160 : 2000
+
+[首饰160]
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "菩提镜明_力" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "洛神回雪_力" })
+bonus$: ({ 0, 0, 100, "属性道具", 2, 2, "屠龙封魔_力" })
+
+[菩提镜明_力]
+name      : 炫元玲珑·荒
+min_level : 100
+max_level : 100
+upgrade_type : 6
+attribs      : ({ "prop/all_polar", 10, "prop/str", 50,"prop/dex", 50, "prop2/str", 50, "prop2/dex", 50,"prop/all_skill", 15,  "source", #M★逍遥宫仙人★, "extra_desc", #Y特效：#G人上人 #r#L╔═══════════╗#r#L╠#Y首饰品阶：#G100阶段顶级 #L╣#r#L╠#Y首饰产出：#M逍遥宫 #G锻造 #L╣#r#L╠#Y首饰指数：#G★★★★★★#L#L╣#r#L╚═══════════╝#r#M吃得苦中苦#r#M方为人上人  })
+
+[洛神回雪_力]
+name      : 掠虹宝坠·荒
+min_level : 100
+max_level : 100
+upgrade_type : 6
+attribs      : ({ "prop/all_polar", 10, "prop/str", 50,"prop/dex", 50, "prop2/str", 50, "prop2/dex", 50,"prop/all_skill", 15,  "source", #M★逍遥宫仙人★, "extra_desc", #Y特效：#G人上人 #r#L╔═══════════╗#r#L╠#Y首饰品阶：#G100阶段顶级 #L╣#r#L╠#Y首饰产出：#M逍遥宫 #G锻造 #L╣#r#L╠#Y首饰指数：#G★★★★★★#L#L╣#r#L╚═══════════╝#r#M吃得苦中苦#r#M方为人上人  })
+
+[屠龙封魔_力]
+name      : 龙御七星·荒
+min_level : 100
+max_level : 100
+upgrade_type : 6
+attribs      : ({ "prop/all_polar", 10, "prop/str", 50,"prop/dex", 50, "prop2/str", 50, "prop2/dex", 50,"prop/all_skill", 15,  "source", #M★逍遥宫仙人★, "extra_desc", #Y特效：#G人上人 #r#L╔═══════════╗#r#L╠#Y首饰品阶：#G100阶段顶级 #L╣#r#L╠#Y首饰产出：#M逍遥宫 #G锻造 #L╣#r#L╠#Y首饰指数：#G★★★★★★#L#L╣#r#L╚═══════════╝#r#M吃得苦中苦#r#M方为人上人  })

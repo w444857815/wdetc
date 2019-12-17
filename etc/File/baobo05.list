@@ -1,0 +1,32 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/18/2006
+#奖励物品        概率
+
+[奖励等级]
+name$: 特等奖
+
+
+[特等奖]
+仙元奖励 : 1
+
+
+[仙元奖励]
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "斗战胜佛"})
+
+[斗战胜佛]
+name$: ({斗战胜佛, 斗战胜佛})
+rank$: 仙元
+level: 60
+life_effect: ({ 85, 85 })
+mana_effect: ({ -5, -5 })
+speed_effect: ({ 70, 70 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 60, 60 })
+special_skill$: ({ 4, 舍命一击, 1, 如意圈, 1, 神圣之光, 1,七十二变,1})
+martial: ({ 10000000, 10000000 })
+channel_msg: "恭喜恭喜，#Y$PLAYER#n与#R斗战胜佛#n有缘，打开宝物的时候得到了一只四天技#Y$EX_PET#n，真是羡煞旁人啊！#23"
+
+
+
+

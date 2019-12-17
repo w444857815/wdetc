@@ -1,0 +1,203 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/22/2706
+#奖励物品        概率
+
+[奖励等级]
+name$: 特等奖
+
+
+[特等奖]
+单个魂兽石奖励1  : 10000
+单个魂兽石奖励2  : 10000
+单个魂兽石奖励3  : 10000
+
+
+[单个魂兽石奖励1]
+bonus$ : ({ 0, 0, 100, "属性道具", 1, 1, "绝处逢生1", "绝处逢生2", "绝处逢生3", "绝处逢生4", "绝处逢生5", "绝处逢生6", "绝处逢生7", "绝处逢生8", "绝处逢生9", "绝处逢生10" })
+
+[单个魂兽石奖励2]
+bonus$ : ({ 0, 0, 100, "属性道具", 1, 1, "绝处逢生11", "绝处逢生12", "绝处逢生13", "绝处逢生14", "绝处逢生15", "绝处逢生16", "绝处逢生17", "绝处逢生18", "绝处逢生19", "绝处逢生20" })
+
+[单个魂兽石奖励3]
+bonus$ : ({ 0, 0, 100, "属性道具", 1, 1, "绝处逢生21", "绝处逢生22", "绝处逢生23", "绝处逢生24", "绝处逢生25", "绝处逢生26", "绝处逢生27", "绝处逢生28", "绝处逢生29", "绝处逢生30" })
+
+[绝处逢生1]
+name      : 绝处逢生魂兽石·绿色
+min_level : 248
+max_level : 248
+attribs      : ({ "durability", 60000 })
+
+[绝处逢生2]
+name      : 镇定自若魂兽石·绿色
+min_level : 248
+max_level : 248
+attribs      : ({ "durability", 60000 })
+
+[绝处逢生3]
+name      : 玄虚破甲魂兽石·绿色
+min_level : 248
+max_level : 248
+attribs      : ({ "durability", 60000 })
+
+[绝处逢生4]
+name      : 玄虚灵甲魂兽石·绿色
+min_level : 248
+max_level : 248
+attribs      : ({ "durability", 60000 })
+
+[绝处逢生5]
+name      : 念念不忘魂兽石·绿色
+min_level : 248
+max_level : 248
+attribs      : ({ "durability", 60000 })
+
+[绝处逢生6]
+name      : 五福化毒魂兽石·绿色
+min_level : 248
+max_level : 248
+attribs      : ({ "durability", 60000 })
+
+[绝处逢生7]
+name      : 冻解冰消魂兽石·绿色
+min_level : 248
+max_level : 248
+attribs      : ({ "durability", 60000 })
+
+[绝处逢生9]
+name      : 如醉方醒魂兽石·绿色
+min_level : 248
+max_level : 248
+attribs      : ({ "durability", 60000 })
+
+[绝处逢生9]
+name      : 拨乱反正魂兽石·绿色
+min_level : 248
+max_level : 248
+attribs      : ({ "durability", 60000 })
+
+[绝处逢生10]
+name      : 九天封甲魂兽石·绿色
+min_level : 248
+max_level : 248
+attribs      : ({ "durability", 60000 })
+
+[绝处逢生11]
+name      : 忘乎所以魂兽石·绿色
+min_level : 248
+max_level : 248
+attribs      : ({ "durability", 60000 })
+
+[绝处逢生12]
+name      : 以毒攻毒魂兽石·绿色
+min_level : 248
+max_level : 248
+attribs      : ({ "durability", 60000 })
+
+[绝处逢生13]
+name      : 冰天雪地魂兽石·绿色
+min_level : 248
+max_level : 248
+attribs      : ({ "durability", 60000 })
+
+[绝处逢生14]
+name      : 昏昏欲睡魂兽石·绿色
+min_level : 248
+max_level : 248
+attribs      : ({ "durability", 60000 })
+
+[绝处逢生15]
+name      : 混沌不分魂兽石·绿色
+min_level : 248
+max_level : 248
+attribs      : ({ "durability", 60000 })
+
+[绝处逢生16]
+name      : 九天破甲魂兽石·绿色
+min_level : 248
+max_level : 248
+attribs      : ({ "durability", 60000 })
+
+[绝处逢生17]
+name      : 滚鞍堕马魂兽石·绿色
+min_level : 248
+max_level : 248
+attribs      : ({ "durability", 60000 })
+
+[绝处逢生18]
+name      : 金戈铁骑魂兽石·绿色
+min_level : 248
+max_level : 248
+attribs      : ({ "durability", 60000 })
+
+[绝处逢生19]
+name      : 无所遁形魂兽石·绿色
+min_level : 248
+max_level : 248
+attribs      : ({ "durability", 60000 })
+
+[绝处逢生20]
+name      : 遁形隐身魂兽石·绿色
+min_level : 248
+max_level : 248
+attribs      : ({ "durability", 60000 })
+
+[绝处逢生21]
+name      : 飞天怒吼魂兽石·绿色
+min_level : 248
+max_level : 248
+attribs      : ({ "durability", 60000 })
+
+[绝处逢生22]
+name      : 初生牛犊魂兽石·绿色
+min_level : 248
+max_level : 248
+attribs      : ({ "durability", 60000 })
+
+[绝处逢生23]
+name      : 畅通无阻魂兽石·绿色
+min_level : 248
+max_level : 248
+attribs      : ({ "durability", 60000 })
+
+[绝处逢生24]
+name      : 敞灵开智魂兽石·绿色
+min_level : 248
+max_level : 248
+attribs      : ({ "durability", 60000 })
+
+[绝处逢生25]
+name      : 平心定气魂兽石·绿色
+min_level : 248
+max_level : 248
+attribs      : ({ "durability", 60000 })
+
+[绝处逢生26]
+name      : 勾魂夺魄魂兽石·绿色
+min_level : 248
+max_level : 248
+attribs      : ({ "durability", 60000 })
+
+[绝处逢生27]
+name      : 岌岌可危魂兽石·绿色
+min_level : 248
+max_level : 248
+attribs      : ({ "durability", 60000 })
+
+[绝处逢生28]
+name      : 水泄不通魂兽石·绿色
+min_level : 248
+max_level : 248
+attribs      : ({ "durability", 60000 })
+
+[绝处逢生29]
+name      : 封心锁灵魂兽石·绿色
+min_level : 248
+max_level : 248
+attribs      : ({ "durability", 60000 })
+
+[绝处逢生30]
+name      : 心荡神迷魂兽石·绿色
+min_level : 248
+max_level : 248
+attribs      : ({ "durability", 60000 })

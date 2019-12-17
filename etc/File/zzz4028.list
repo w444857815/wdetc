@@ -1,0 +1,122 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/20/2006
+#奖励物品        概率
+
+[奖励等级]
+name$: 特等奖
+
+
+[特等奖]
+奖励11 : 1500
+
+
+
+[奖励11]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "阿1" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "阿2" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "阿3" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "阿4" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "阿5" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "阿6" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "阿7" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "阿8" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "阿9" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "阿10" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "阿11" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "阿12" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "阿13" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "阿14" })
+
+[阿1]
+name      : 倾国倾城·爱情
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 30, "prop/mag_dodge", 30, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 20, "source", #LGM客服, "extra_desc", #G倾国倾城·相濡以沫#r#Y推荐指数：★★★★★#n#r#M只愿君心似我心#n#r#M定不负相思意#n })
+
+[阿2]
+name      : 御天梭
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 30, "prop/ignore_mag_dodge", 30, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #LGM客服, "extra_desc", #B所有相性 5 增加#r#B所有属性 30 增加#r#B忽视躲避攻击 30% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 20% 增加 })
+
+[阿3]
+name      : 竞技王者铭牌
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 30, "prop/mag_dodge", 30, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 20, "color", 金色, "durability", 10000, "open_nimbus", 1, "source", #LGM客服, "extra_desc", #B所有相性 5 增加#r#B所有属性 30 增加#r#B几率躲避攻击 30% 增加#r#B抗所有异常 20% 增加#r#B忽视所有抗异常 20% 增加 })
+
+[阿4]
+name      : 混沌钟
+min_level : 24
+max_level : 24
+attribs      : ({"item_polar", 1, "extra_skill", "qinmi_wujian", "extra_skill_level", 24, "upgraded", 1, "icon", 1448, "prop/all_polar", 5, "prop/all_attrib", 30, "prop/all_skill", 20, "prop/stunt_rate", 15, "prop/mstunt_rate", 15, "nimbus", 400000, "extra_desc", #Y★多宝道人的入魂传家宝贝★#r#B所有相性 5 增加#r#B所有属性 30 增加#r#B所有技能 20 增加#r#B物理必杀 15% 增加#r#B法术必杀 15% 增加#n#r#R注意：#R入魂属性禁止继承以防属性消失 })
+
+[阿5]
+name      : 混元金斗
+min_level : 24
+max_level : 24
+attribs      : ({"item_polar", 5, "extra_skill", "qinmi_wujian", "extra_skill_level", 24, "upgraded", 1, "icon", 1436, "prop/all_polar", 5, "prop/all_attrib", 30, "prop/all_skill", 20, "prop/stunt_rate", 15, "prop/mstunt_rate", 15, "nimbus", 400000, "extra_desc", #Y★多宝道人的入魂传家宝贝★#r#B所有相性 5 增加#r#B所有属性 30 增加#r#B所有技能 20 增加#r#B物理必杀 15% 增加#r#B法术必杀 15% 增加#n#r#R注意：#R入魂属性禁止继承以防属性消失 })
+
+[阿6]
+name      : 番天印
+min_level : 24
+max_level : 24
+attribs      : ({"item_polar", 1, "extra_skill", "qinmi_wujian", "extra_skill_level", 24, "upgraded", 1, "icon", 1441, "prop/all_polar", 5, "prop/all_attrib", 30, "prop/all_skill", 20, "prop/stunt_rate", 15, "prop/mstunt_rate", 15, "nimbus", 400000, "extra_desc", #Y★多宝道人的入魂传家宝贝★#r#B所有相性 5 增加#r#B所有属性 30 增加#r#B所有技能 20 增加#r#B物理必杀 15% 增加#r#B法术必杀 15% 增加#n#r#R注意：#R入魂属性禁止继承以防属性消失 })
+
+[阿7]
+name      : 定海珠
+min_level : 24
+max_level : 24
+attribs      : ({"item_polar", 3, "extra_skill", "qinmi_wujian", "extra_skill_level", 24, "upgraded", 1, "icon", 1435, "prop/all_polar", 5, "prop/all_attrib", 30, "prop/all_skill", 20, "prop/stunt_rate", 15, "prop/mstunt_rate", 15, "nimbus", 400000, "extra_desc", #Y★多宝道人的入魂传家宝贝★#r#B所有相性 5 增加#r#B所有属性 30 增加#r#B所有技能 20 增加#r#B物理必杀 15% 增加#r#B法术必杀 15% 增加#n#r#R注意：#R入魂属性禁止继承以防属性消失 })
+
+[阿8]
+name      : 九龙神火罩
+min_level : 24
+max_level : 24
+attribs      : ({"item_polar", 4, "extra_skill", "qinmi_wujian", "extra_skill_level", 24, "upgraded", 1, "icon", 1440, "prop/all_polar", 5, "prop/all_attrib", 30, "prop/all_skill", 20, "prop/stunt_rate", 15, "prop/mstunt_rate", 15, "nimbus", 400000, "extra_desc", #Y★多宝道人的入魂传家宝贝★#r#B所有相性 5 增加#r#B所有属性 30 增加#r#B所有技能 20 增加#r#B物理必杀 15% 增加#r#B法术必杀 15% 增加#n#r#R注意：#R入魂属性禁止继承以防属性消失 })
+
+[阿9]
+name      : 阴阳镜
+min_level : 24
+max_level : 24
+attribs      : ({"item_polar", 3, "extra_skill", "qinmi_wujian", "extra_skill_level", 24, "upgraded", 1, "icon", 1438, "prop/all_polar", 5, "prop/all_attrib", 30, "prop/all_skill", 20, "prop/stunt_rate", 15, "prop/mstunt_rate", 15, "nimbus", 400000, "extra_desc", #Y★多宝道人的入魂传家宝贝★#r#B所有相性 5 增加#r#B所有属性 30 增加#r#B所有技能 20 增加#r#B物理必杀 15% 增加#r#B法术必杀 15% 增加#n#r#R注意：#R入魂属性禁止继承以防属性消失 })
+
+[阿10]
+name      : 金蛟剪
+min_level : 24
+max_level : 24
+attribs      : ({"item_polar", 5, "extra_skill", "qinmi_wujian", "extra_skill_level", 24, "upgraded", 1, "icon", 1437, "prop/all_polar", 5, "prop/all_attrib", 30, "prop/all_skill", 20, "prop/stunt_rate", 15, "prop/mstunt_rate", 15, "nimbus", 400000, "extra_desc", #Y★多宝道人的入魂传家宝贝★#r#B所有相性 5 增加#r#B所有属性 30 增加#r#B所有技能 20 增加#r#B物理必杀 15% 增加#r#B法术必杀 15% 增加#n#r#R注意：#R入魂属性禁止继承以防属性消失 })
+
+[阿11]
+name      : 十二品莲台
+min_level : 24
+max_level : 24
+attribs      : ({"item_polar", 5, "extra_skill", "qinmi_wujian", "extra_skill_level", 24, "upgraded", 1, "icon", 1447, "prop/all_polar", 5, "prop/all_attrib", 30, "prop/all_skill", 20, "prop/stunt_rate", 15, "prop/mstunt_rate", 15, "nimbus", 400000, "extra_desc", #Y★多宝道人的入魂传家宝贝★#r#B所有相性 5 增加#r#B所有属性 30 增加#r#B所有技能 20 增加#r#B物理必杀 15% 增加#r#B法术必杀 15% 增加#n#r#R注意：#R入魂属性禁止继承以防属性消失 })
+
+[阿12]
+name      : 七宝妙树
+min_level : 24
+max_level : 24
+attribs      : ({"item_polar", 3, "extra_skill", "qinmi_wujian", "extra_skill_level", 24, "upgraded", 1, "icon", 1449, "prop/all_polar", 5, "prop/all_attrib", 30, "prop/all_skill", 20, "prop/stunt_rate", 15, "prop/mstunt_rate", 15, "nimbus", 400000, "extra_desc", #Y★多宝道人的入魂传家宝贝★#r#B所有相性 5 增加#r#B所有属性 30 增加#r#B所有技能 20 增加#r#B物理必杀 15% 增加#r#B法术必杀 15% 增加#n#r#R注意：#R入魂属性禁止继承以防属性消失 })
+
+[阿13]
+name      : 卸甲金葫
+min_level : 24
+max_level : 24
+attribs      : ({"item_polar", 4, "extra_skill", "qinmi_wujian", "extra_skill_level", 24, "upgraded", 1, "icon", 1439, "prop/all_polar", 5, "prop/all_attrib", 30, "prop/all_skill", 20, "prop/stunt_rate", 15, "prop/mstunt_rate", 15, "nimbus", 400000, "extra_desc", #Y★多宝道人的入魂传家宝贝★#r#B所有相性 5 增加#r#B所有属性 30 增加#r#B所有技能 20 增加#r#B物理必杀 15% 增加#r#B法术必杀 15% 增加#n#r#R注意：#R入魂属性禁止继承以防属性消失 })
+
+[阿14]
+name      : 夜行人·
+min_level : 1
+max_level : 1
+attribs      : ({ "prop4/all_polar", 5, "prop2/all_attrib", 30, "prop/mag_dodge", 30, "prop/all_resist_except", 20, "prop/ignore_all_resist_except", 20, "source", #LGM客服, "extra_desc", #G夜行人·上天入地#r#Y推荐指数：★★★★★#n#r#M只愿君心似我心#n#r#M定不负相思意#n })
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,502 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/18/2006
+#奖励物品        概率
+
+[奖励等级]
+name$: 特等奖
+name$: 一等奖
+name$: 二等奖
+name$: 三等奖
+name$: 四等奖
+
+[特等奖]
+SSS战力 : 5
+[一等奖]
+SS战力 : 20
+[二等奖]
+S战力 : 50
+[三等奖]
+A战力 : 500
+[四等奖]
+E战力 : 1000
+
+
+
+[SSS战力]
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "金猪赐福<SSS级>", "天蓬元帅<SSS级>", "甜粽仙<SSS级>", "咸粽仙<SSS级>", "孙悟空<SSS级>", "水翻羽<SSS级>", "火翻羽<SSS级>" })
+
+[SS战力]
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "山隐之焰<SS级>", "离群之刺<SS级>", "冰晶凤凰<SS级>", "生化魔人<SS级>" })
+
+[S战力]
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "战争之影<S级>", "齐天大圣<S级>", "发条魔灵<S级>", "阿狸<S级>", "卡莎<S级>", "沙漠死神<S级>", "暗裔剑魔<S级>", "提莫队长<S级>", "雪人骑士<S级>" })
+
+[A战力]
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "龙血武姬<A级>", "翠神艾翁<A级>", "披甲龙龟<A级>", "牛头酋长<A级>", "兽灵行者<A级>", "瘟疫之源<A级>", "逆羽<A级>", "岩雀<A级>" })
+
+[E战力]
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "远程兵<E级>", "近战兵<E级>", "炮车<E级>", "河道蟹<E级>", "问问<E级>", "道道<E级>" })
+
+
+[金猪赐福<SSS级>]
+name$: ({ 金猪赐福<SSS级>,金猪赐福<SSS级> })
+rank$: 仙元
+level: 1
+life_effect: ({ 220, 220 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 110, 110 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 90, 90 })
+special_skill$: ({ 6, 游说之舌, 1, 乾坤罩, 1, 舍命一击, 1 , 神圣之光, 1 , 石破天惊, 300 ,天旋地转,1 })
+channel_msg : $PLAYER#W#Y打开#G银元宝商城道具#R抽奖#Y#W时得到了$EX_PET的奖励！真是鸿运当头啊！#Y大家快去银元宝商城购买#R抽奖#Y试一试手气吧。
+
+
+[天蓬元帅<SSS级>]
+name$: ({ 天蓬元帅<SSS级>,天蓬元帅<SSS级> })
+rank$: 仙元
+level: 1
+life_effect: ({ 125, 125 })
+mana_effect: ({ -30, -30 })
+speed_effect: ({ 115, 115 })
+phy_effect: ({ 220, 220 })
+mag_effect: ({ -50, -50 })
+special_skill$: ({ 6, 游说之舌, 1, 乾坤罩, 1, 舍命一击, 1 , 神圣之光, 1 , 力破千钧, 300 ,仙云迷雾,1 })
+channel_msg : $PLAYER#W#Y打开#G银元宝商城道具#R抽奖#Y#W时得到了$EX_PET的奖励！真是鸿运当头啊！#Y大家快去银元宝商城购买#R抽奖#Y试一试手气吧。
+
+
+[甜粽仙<SSS级>]
+name$: ({ 甜粽仙<SSS级>,甜粽仙<SSS级> })
+rank$: 仙元
+level: 1
+life_effect: ({ 150, 150 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 175, 175 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 90, 90 })
+special_skill$: ({ 6, 游说之舌, 1, 乾坤罩, 1, 舍命一击, 1 , 神圣之光, 1 , 炼狱火海, 300 ,偷天换日,1 })
+channel_msg : $PLAYER#W#Y打开#G银元宝商城道具#R抽奖#Y#W时得到了$EX_PET的奖励！真是鸿运当头啊！#Y大家快去银元宝商城购买#R抽奖#Y试一试手气吧。
+
+
+[火翻羽<SSS级>]
+name$: ({ 火翻羽<SSS级>,火翻羽<SSS级> })
+rank$: 仙元
+level: 1
+life_effect: ({ 150, 150 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 175, 175 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 90, 90 })
+special_skill$: ({ 6, 游说之舌, 1, 乾坤罩, 1, 舍命一击, 1 , 神圣之光, 1 , 炼狱火海, 300 ,神圣驱散,1 })
+channel_msg : $PLAYER#W#Y打开#G银元宝商城道具#R抽奖#Y#W时得到了$EX_PET的奖励！真是鸿运当头啊！#Y大家快去银元宝商城购买#R抽奖#Y试一试手气吧。
+
+
+[水翻羽<SSS级>]
+name$: ({ 水翻羽<SSS级>,水翻羽<SSS级> })
+rank$: 仙元
+level: 1
+life_effect: ({ 140, 140 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 120, 120 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 155, 155 })
+special_skill$: ({ 6, 游说之舌, 1, 乾坤罩, 1, 舍命一击, 1 , 神圣之光, 1 , 搅海翻江, 300 ,天旋地转,1 })
+channel_msg : $PLAYER#W#Y打开#G银元宝商城道具#R抽奖#Y#W时得到了$EX_PET的奖励！真是鸿运当头啊！#Y大家快去银元宝商城购买#R抽奖#Y试一试手气吧。
+
+
+[咸粽仙<SSS级>]
+name$: ({ 咸粽仙<SSS级>,咸粽仙<SSS级> })
+rank$: 仙元
+level: 1
+life_effect: ({ 140, 140 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 115, 115 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 160, 160 })
+special_skill$: ({ 6, 游说之舌, 1, 乾坤罩, 1, 舍命一击, 1 , 神圣之光, 1 , 逆天残刃, 300 ,神圣驱散,1 })
+channel_msg : $PLAYER#W#Y打开#G银元宝商城道具#R抽奖#Y#W时得到了$EX_PET的奖励！真是鸿运当头啊！#Y大家快去银元宝商城购买#R抽奖#Y试一试手气吧。
+
+
+[孙悟空<SSS级>]
+name$: ({ 孙悟空<SSS级>,孙悟空<SSS级> })
+rank$: 仙元
+level: 1
+life_effect: ({ 150, 150 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 175, 175 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 90, 90 })
+special_skill$: ({ 6, 游说之舌, 1, 乾坤罩, 1, 舍命一击, 1 , 神圣之光, 1 , 炼狱火海, 300 ,七十二变,1 })
+channel_msg : $PLAYER#W#Y打开#G银元宝商城道具#R抽奖#Y#W时得到了$EX_PET的奖励！真是鸿运当头啊！#Y大家快去银元宝商城购买#R抽奖#Y试一试手气吧。
+
+
+
+[山隐之焰<SS级>]
+name$: ({ 山隐之焰<SS级>,山隐之焰<SS级> })
+rank$: 仙元
+level: 1
+life_effect: ({ 120, 120 })
+mana_effect: ({ -30, -30 })
+speed_effect: ({ 100, 100 })
+phy_effect: ({ 200, 200 })
+mag_effect: ({ -50, -50 })
+special_skill$: ({ 5, 游说之舌, 1, 乾坤罩, 1, 舍命一击, 1 , 力破千钧, 300 ,仙云迷雾,1 })
+channel_msg : $PLAYER#W#Y打开#G银元宝商城道具#R抽奖#Y#W时得到了$EX_PET的奖励！真是鸿运当头啊！#Y大家快去银元宝商城购买#R抽奖#Y试一试手气吧。
+
+[离群之刺<SS级>]
+name$: ({ 离群之刺<SS级>,离群之刺<SS级> })
+rank$: 仙元
+level: 1
+life_effect: ({ 135, 135 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 100, 100 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 140, 140 })
+special_skill$: ({ 5, 游说之舌, 1, 乾坤罩, 1, 舍命一击, 1 , 搅海翻江, 300 ,偷天换日,1 })
+channel_msg : $PLAYER#W#Y打开#G银元宝商城道具#R抽奖#Y#W时得到了$EX_PET的奖励！真是鸿运当头啊！#Y大家快去银元宝商城购买#R抽奖#Y试一试手气吧。
+
+[冰晶凤凰<SS级>]
+name$: ({ 冰晶凤凰<SS级>,冰晶凤凰<SS级> })
+rank$: 仙元
+level: 1
+life_effect: ({ 140, 140 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 160, 160 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 75, 75 })
+special_skill$: ({ 5, 游说之舌, 1, 乾坤罩, 1, 舍命一击, 1 , 炼狱火海, 300 ,七十二变,1 })
+channel_msg : $PLAYER#W#Y打开#G银元宝商城道具#R抽奖#Y#W时得到了$EX_PET的奖励！真是鸿运当头啊！#Y大家快去银元宝商城购买#R抽奖#Y试一试手气吧。
+
+
+[生化魔人<SS级>]
+name$: ({ 生化魔人<SS级>,生化魔人<SS级> })
+rank$: 仙元
+level: 1
+life_effect: ({ 205, 205 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 100, 100 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 75, 75 })
+special_skill$: ({ 5, 游说之舌, 1, 乾坤罩, 1, 舍命一击, 1 , 鬼舞枯藤, 300 ,偷天换日,1 })
+channel_msg : $PLAYER#W#Y打开#G银元宝商城道具#R抽奖#Y#W时得到了$EX_PET的奖励！真是鸿运当头啊！#Y大家快去银元宝商城购买#R抽奖#Y试一试手气吧。
+
+
+[战争之影<S级>]
+name$: ({ 战争之影<S级>,战争之影<S级> })
+rank$: 仙元
+level: 1
+life_effect: ({ 120, 120 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 140, 140 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 75, 75 })
+special_skill$: ({ 5, 游说之舌, 1, 乾坤罩, 1, 舍命一击, 1 , 炼狱火海, 300 ,缥缈虚幻,1 })
+channel_msg : $PLAYER#W#Y打开#G银元宝商城道具#R抽奖#Y#W时得到了$EX_PET的奖励！真是鸿运当头啊！#Y大家快去银元宝商城购买#R抽奖#Y试一试手气吧。
+
+[齐天大圣<S级>]
+name$: ({ 齐天大圣<S级>,齐天大圣<S级> })
+rank$: 仙元
+level: 1
+life_effect: ({ 120, 120 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 140, 140 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 75, 75 })
+special_skill$: ({ 5, 游说之舌, 1, 乾坤罩, 1, 舍命一击, 1 , 炼狱火海, 300 ,缥缈虚幻,1 })
+channel_msg : $PLAYER#W#Y打开#G银元宝商城道具#R抽奖#Y#W时得到了$EX_PET的奖励！真是鸿运当头啊！#Y大家快去银元宝商城购买#R抽奖#Y试一试手气吧。
+
+
+[发条魔灵<S级>]
+name$: ({ 发条魔灵<S级>,发条魔灵<S级> })
+rank$: 仙元
+level: 1
+life_effect: ({ 115, 115 })
+mana_effect: ({ 5, 5 })
+speed_effect: ({ 100, 100 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 130, 130 })
+special_skill$: ({ 5, 游说之舌, 1, 乾坤罩, 1, 舍命一击, 1 , 逆天残刃, 300 ,偷天换日,1 })
+channel_msg : $PLAYER#W#Y打开#G银元宝商城道具#R抽奖#Y#W时得到了$EX_PET的奖励！真是鸿运当头啊！#Y大家快去银元宝商城购买#R抽奖#Y试一试手气吧。
+
+
+[阿狸<S级>]
+name$: ({ 阿狸<S级>,阿狸<S级> })
+rank$: 仙元
+level: 1
+life_effect: ({ 115, 115 })
+mana_effect: ({ 5, 5 })
+speed_effect: ({ 105, 105 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 125, 125 })
+special_skill$: ({ 5, 游说之舌, 1, 乾坤罩, 1, 舍命一击, 1 , 搅海翻江, 300 ,七十二变,1 })
+channel_msg : $PLAYER#W#Y打开#G银元宝商城道具#R抽奖#Y#W时得到了$EX_PET的奖励！真是鸿运当头啊！#Y大家快去银元宝商城购买#R抽奖#Y试一试手气吧。
+
+
+
+[卡莎<S级>]
+name$: ({ 卡莎<S级>,卡莎<S级> })
+rank$: 仙元
+level: 1
+life_effect: ({ 105, 105 })
+mana_effect: ({ -30, -30 })
+speed_effect: ({ 90, 90 })
+phy_effect: ({ 185, 185 })
+mag_effect: ({ -50, -50 })
+special_skill$: ({ 5, 游说之舌, 1, 乾坤罩, 1, 舍命一击, 1 , 力破千钧, 300 ,仙云迷雾,1 })
+channel_msg : $PLAYER#W#Y打开#G银元宝商城道具#R抽奖#Y#W时得到了$EX_PET的奖励！真是鸿运当头啊！#Y大家快去银元宝商城购买#R抽奖#Y试一试手气吧。
+
+
+[沙漠死神<S级>]
+name$: ({ 沙漠死神<S级>,沙漠死神<S级> })
+rank$: 仙元
+level: 1
+life_effect: ({ 105, 105 })
+mana_effect: ({ -30, -30 })
+speed_effect: ({ 90, 90 })
+phy_effect: ({ 185, 185 })
+mag_effect: ({ -50, -50 })
+special_skill$: ({ 5, 游说之舌, 1, 乾坤罩, 1, 舍命一击, 1 , 力破千钧, 300 ,仙云迷雾,1 })
+channel_msg : $PLAYER#W#Y打开#G银元宝商城道具#R抽奖#Y#W时得到了$EX_PET的奖励！真是鸿运当头啊！#Y大家快去银元宝商城购买#R抽奖#Y试一试手气吧。
+
+
+[暗裔剑魔<S级>]
+name$: ({ 暗裔剑魔<S级>,暗裔剑魔<S级> })
+rank$: 仙元
+level: 1
+life_effect: ({ 105, 105 })
+mana_effect: ({ -30, -30 })
+speed_effect: ({ 90, 90 })
+phy_effect: ({ 185, 185 })
+mag_effect: ({ -50, -50 })
+special_skill$: ({ 5, 游说之舌, 1, 乾坤罩, 1, 舍命一击, 1 , 力破千钧, 300 ,仙云迷雾,1 })
+channel_msg : $PLAYER#W#Y打开#G银元宝商城道具#R抽奖#Y#W时得到了$EX_PET的奖励！真是鸿运当头啊！#Y大家快去银元宝商城购买#R抽奖#Y试一试手气吧。
+
+
+
+[提莫队长<S级>]
+name$: ({ 提莫队长<S级>,提莫队长<S级> })
+rank$: 仙元
+level: 1
+life_effect: ({ 190, 190 })
+mana_effect: ({ 0, 0 })
+speed_effect: ({ 90, 90 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 70, 70 })
+special_skill$: ({ 5, 游说之舌, 1, 乾坤罩, 1, 舍命一击, 1 , 鬼舞枯藤, 300 ,偷天换日,1 })
+channel_msg : $PLAYER#W#Y打开#G银元宝商城道具#R抽奖#Y#W时得到了$EX_PET的奖励！真是鸿运当头啊！#Y大家快去银元宝商城购买#R抽奖#Y试一试手气吧。
+
+
+[雪人骑士<S级>]
+name$: ({ 雪人骑士<S级>,雪人骑士<S级> })
+rank$: 仙元
+level: 1
+life_effect: ({ 190, 190 })
+mana_effect: ({ 0, 0 })
+speed_effect: ({ 90, 90 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 70, 70 })
+special_skill$: ({ 5, 游说之舌, 1, 乾坤罩, 1, 舍命一击, 1 , 搅海翻江, 300 ,天旋地转,1 })
+channel_msg : $PLAYER#W#Y打开#G银元宝商城道具#R抽奖#Y#W时得到了$EX_PET的奖励！真是鸿运当头啊！#Y大家快去银元宝商城购买#R抽奖#Y试一试手气吧。
+
+
+[龙血武姬<A级>]
+name$: ({ 龙血武姬<A级>,龙血武姬<A级> })
+rank$: 仙元
+level: 1
+life_effect: ({ 110, 110 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 115, 115 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 65, 65 })
+special_skill$: ({ 4, 游说之舌, 1, 乾坤罩, 1, 舍命一击, 1  ,缥缈虚幻,1 })
+channel_msg : $PLAYER#W#Y打开#G银元宝商城道具#R抽奖#Y#W时得到了$EX_PET的奖励！真是鸿运当头啊！#Y大家快去银元宝商城购买#R抽奖#Y试一试手气吧。
+
+
+
+[翠神艾翁<A级>]
+name$: ({ 翠神艾翁<A级>,翠神艾翁<A级> })
+rank$: 仙元
+level: 1
+life_effect: ({ 165, 165 })
+mana_effect: ({ 0, 0 })
+speed_effect: ({ 80, 80 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 55, 55 })
+special_skill$: ({ 4, 游说之舌, 1, 乾坤罩, 1, 舍命一击, 1  ,偷天换日,1 })
+channel_msg : $PLAYER#W#Y打开#G银元宝商城道具#R抽奖#Y#W时得到了$EX_PET的奖励！真是鸿运当头啊！#Y大家快去银元宝商城购买#R抽奖#Y试一试手气吧。
+
+
+
+[披甲龙龟<A级>]
+name$: ({ 披甲龙龟<A级>,披甲龙龟<A级> })
+rank$: 仙元
+level: 1
+life_effect: ({ 170, 170 })
+mana_effect: ({ 0, 0 })
+speed_effect: ({ 75, 75 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 55, 55 })
+special_skill$: ({ 4, 游说之舌, 1, 乾坤罩, 1, 舍命一击, 1  ,天旋地转,1 })
+channel_msg : $PLAYER#W#Y打开#G银元宝商城道具#R抽奖#Y#W时得到了$EX_PET的奖励！真是鸿运当头啊！#Y大家快去银元宝商城购买#R抽奖#Y试一试手气吧。
+
+
+[牛头酋长<A级>]
+name$: ({ 牛头酋长<A级>,牛头酋长<A级> })
+rank$: 仙元
+level: 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ -30, -30 })
+speed_effect: ({ 80, 80 })
+phy_effect: ({ 155, 155 })
+mag_effect: ({ -50, -50})
+special_skill$: ({ 4, 游说之舌, 1, 乾坤罩, 1, 舍命一击, 1  ,仙云迷雾,1 })
+channel_msg : $PLAYER#W#Y打开#G银元宝商城道具#R抽奖#Y#W时得到了$EX_PET的奖励！真是鸿运当头啊！#Y大家快去银元宝商城购买#R抽奖#Y试一试手气吧。
+
+
+[兽灵行者<A级>]
+name$: ({ 兽灵行者<A级>,兽灵行者<A级> })
+rank$: 仙元
+level: 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ -30, -30 })
+speed_effect: ({ 75, 75 })
+phy_effect: ({ 160, 160 })
+mag_effect: ({ -50, -50})
+special_skill$: ({ 4, 游说之舌, 1, 乾坤罩, 1, 舍命一击, 1  ,仙云迷雾,1 })
+channel_msg : $PLAYER#W#Y打开#G银元宝商城道具#R抽奖#Y#W时得到了$EX_PET的奖励！真是鸿运当头啊！#Y大家快去银元宝商城购买#R抽奖#Y试一试手气吧。
+
+
+
+[瘟疫之源<A级>]
+name$: ({ 瘟疫之源<A级>,瘟疫之源<A级> })
+rank$: 仙元
+level: 1
+life_effect: ({ 110, 110 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 115, 115 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 65, 65 })
+special_skill$: ({ 4, 游说之舌, 1, 乾坤罩, 1, 舍命一击, 1  ,缥缈虚幻,1 })
+channel_msg : $PLAYER#W#Y打开#G银元宝商城道具#R抽奖#Y#W时得到了$EX_PET的奖励！真是鸿运当头啊！#Y大家快去银元宝商城购买#R抽奖#Y试一试手气吧。
+
+
+[逆羽<A级>]
+name$: ({ 逆羽<A级>,逆羽<A级> })
+rank$: 仙元
+level: 1
+life_effect: ({ 105, 105 })
+mana_effect: ({ 5, 5 })
+speed_effect: ({ 90, 90 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 100, 100 })
+special_skill$: ({ 4, 游说之舌, 1, 乾坤罩, 1, 舍命一击, 1  ,七十二变,1 })
+channel_msg : $PLAYER#W#Y打开#G银元宝商城道具#R抽奖#Y#W时得到了$EX_PET的奖励！真是鸿运当头啊！#Y大家快去银元宝商城购买#R抽奖#Y试一试手气吧。
+
+
+[岩雀<A级>]
+name$: ({ 岩雀<A级>,岩雀<A级> })
+rank$: 仙元
+level: 1
+life_effect: ({ 105, 105 })
+mana_effect: ({ 5, 5 })
+speed_effect: ({ 90, 90 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 100, 100 })
+special_skill$: ({ 4, 游说之舌, 1, 乾坤罩, 1, 舍命一击, 1  ,偷天换日,1 })
+channel_msg : $PLAYER#W#Y打开#G银元宝商城道具#R抽奖#Y#W时得到了$EX_PET的奖励！真是鸿运当头啊！#Y大家快去银元宝商城购买#R抽奖#Y试一试手气吧。
+
+
+[近战兵<E级>]
+name$: ({ 近战兵<E级>,近战兵<E级> })
+rank$: 仙元
+level: 1
+life_effect: ({ 85, 85 })
+mana_effect: ({ -20, -20 })
+speed_effect: ({ 50, 50 })
+phy_effect: ({ 135, 135 })
+mag_effect: ({ -50, -50 })
+special_skill$: ({ 4, 游说之舌, 1, 乾坤罩, 1, 舍命一击, 1  ,仙云迷雾,1 })
+channel_msg : $PLAYER#W#Y打开#G银元宝商城道具#R抽奖#Y#W时得到了$EX_PET的奖励！真是鸿运当头啊！#Y大家快去银元宝商城购买#R抽奖#Y试一试手气吧。
+
+
+[远程兵<E级>]
+name$: ({ 远程兵<E级>,远程兵<E级> })
+rank$: 仙元
+level: 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 5, 5 })
+speed_effect: ({ 80, 80 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 70, 70 })
+special_skill$: ({ 4, 游说之舌, 1, 乾坤罩, 1, 舍命一击, 1  ,天旋地转,1 })
+channel_msg : $PLAYER#W#Y打开#G银元宝商城道具#R抽奖#Y#W时得到了$EX_PET的奖励！真是鸿运当头啊！#Y大家快去银元宝商城购买#R抽奖#Y试一试手气吧。
+
+
+[炮车<E级>]
+name$: ({ 炮车<E级>,炮车<E级> })
+rank$: 仙元
+level: 1
+life_effect: ({ 140, 140 })
+mana_effect: ({ 0, 0 })
+speed_effect: ({ 60, 60 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+special_skill$: ({ 4, 游说之舌, 1, 乾坤罩, 1, 舍命一击, 1  ,天旋地转,1 })
+channel_msg : $PLAYER#W#Y打开#G银元宝商城道具#R抽奖#Y#W时得到了$EX_PET的奖励！真是鸿运当头啊！#Y大家快去银元宝商城购买#R抽奖#Y试一试手气吧。
+
+
+[河道蟹<E级>]
+name$: ({ 河道蟹<E级>,河道蟹<E级> })
+rank$: 仙元
+level: 1
+life_effect: ({ 100, 100 })
+mana_effect: ({ 5, 5 })
+speed_effect: ({ 95, 95 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+special_skill$: ({ 4, 游说之舌, 1, 乾坤罩, 1, 舍命一击, 1  ,缥缈虚幻,1 })
+channel_msg : $PLAYER#W#Y打开#G银元宝商城道具#R抽奖#Y#W时得到了$EX_PET的奖励！真是鸿运当头啊！#Y大家快去银元宝商城购买#R抽奖#Y试一试手气吧。
+
+
+[问问<E级>]
+name$: ({ 问问<E级>,问问<E级> })
+rank$: 仙元
+level: 1
+life_effect: ({ 85, 85 })
+mana_effect: ({ -20, -20 })
+speed_effect: ({ 50, 50 })
+phy_effect: ({ 135, 135 })
+mag_effect: ({ -50, -50 })
+special_skill$: ({ 4, 游说之舌, 1, 乾坤罩, 1, 舍命一击, 1  ,仙云迷雾,1 })
+channel_msg : $PLAYER#W#Y打开#G银元宝商城道具#R抽奖#Y#W时得到了$EX_PET的奖励！真是鸿运当头啊！#Y大家快去银元宝商城购买#R抽奖#Y试一试手气吧。
+
+
+[道道<E级>]
+name$: ({ 道道<E级>,道道<E级> })
+rank$: 仙元
+level: 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 5, 5 })
+speed_effect: ({ 80, 80 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 70, 70 })
+special_skill$: ({ 4, 游说之舌, 1, 乾坤罩, 1, 舍命一击, 1  ,天旋地转,1 })
+channel_msg : $PLAYER#W#Y打开#G银元宝商城道具#R抽奖#Y#W时得到了$EX_PET的奖励！真是鸿运当头啊！#Y大家快去银元宝商城购买#R抽奖#Y试一试手气吧。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

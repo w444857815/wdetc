@@ -1,0 +1,36 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/18/2006
+#奖励物品        概率
+
+[奖励等级]
+name$: 特等奖
+
+[特等奖]
+首饰140 : 1000
+
+[首饰140]
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "掠虹宝坠_灵" })
+bonus$: ({ 0, 0, 100, "属性道具", 2, 2, "龙御七星_灵" })
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "炫元玲珑_灵" })
+
+[掠虹宝坠_灵]
+name      : 掠虹宝坠
+min_level : 140
+max_level : 140
+upgrade_type : 6
+attribs      : ({ "prop/all_polar", 5, "prop2/all_skill", 10, "prop/wiz", 36, "prop/dex", 36, "prop2/wiz", 36, "prop2/dex", 36 })
+
+[龙御七星_灵]
+name      : 龙御七星
+min_level : 140
+max_level : 140
+upgrade_type : 6
+attribs      : ({ "prop/all_polar", 5, "prop2/all_skill", 10, "prop/wiz", 36, "prop/dex", 36, "prop2/wiz", 36, "prop2/dex", 36 })
+
+[炫元玲珑_灵]
+name      : 炫元玲珑
+min_level : 140
+max_level : 140
+upgrade_type : 6
+attribs      : ({ "prop/all_polar", 5, "prop2/all_skill", 10, "prop/wiz", 36, "prop/dex", 36, "prop2/wiz", 36, "prop2/dex", 36 })

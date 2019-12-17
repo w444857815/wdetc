@@ -1,0 +1,55 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/26/3506
+#奖励物品        概率
+
+[奖励等级]
+name$: 特等奖
+
+
+[特等奖]
+金系装备奖励 : 130
+
+
+
+
+
+[金系装备奖励]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "装备1", "装备2", "装备3", "装备4", "装备5", "装备6" })
+
+
+[装备1]
+name      : 双翼灵枭冠·荒
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/all_attrib", 40, "prop/wiz", 40, "prop/dex", 40, "prop2/all_attrib", 40,"prop2_color",1, "prop_seal/super_obstruct",5, "prop_seal_base/mstunt_rate",10, "seal_flag",1, "prop4/wiz", 40, "prop3/penetrate",30,"color", 绿色,"suit_polar", 1,"rebuild_level", 12,"prop_suit/mag_power", 1500,"prop_rebuild/def", 5000, "prop_rebuild/max_life", 8000,"prop_resonance", "power", "evolve_level", 19, "req_level", 109,"suit_level", 100,"suit_name",10级金系套装, "source", #M★逍遥宫仙人★, "extra_desc", #Y特效：#G人上人 #r#L╔═══════════╗#r#L╠#Y装备品阶：#G100阶段顶级 #L╣#r#L╠#Y装备产出：#M逍遥宫 #G锻造 #L╣#r#L╠#Y装备指数：#G★★★★★★#L#L╣#r#L╚═══════════╝#r#R注意：#R荒装不可粉黄绿#r#B如出现异常 后果自负  })
+
+[装备2]
+name      : 赤鸾翎羽冠·荒
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/all_attrib", 40, "prop/wiz", 40, "prop/dex", 40, "prop2/all_attrib", 40,"prop2_color",1, "prop_seal/super_obstruct",5, "prop_seal_base/mstunt_rate",10, "seal_flag",1, "prop4/wiz", 40, "prop3/penetrate",30,"color", 绿色,"suit_polar", 1,"rebuild_level", 12,"prop_suit/mag_power", 1500,"prop_rebuild/def", 5000, "prop_rebuild/max_life", 8000,"prop_resonance", "power", "evolve_level", 19, "req_level", 109,"suit_level", 100,"suit_name",10级金系套装, "source", #M★逍遥宫仙人★, "extra_desc", #Y特效：#G人上人 #r#L╔═══════════╗#r#L╠#Y装备品阶：#G100阶段顶级 #L╣#r#L╠#Y装备产出：#M逍遥宫 #G锻造 #L╣#r#L╠#Y装备指数：#G★★★★★★#L#L╣#r#L╚═══════════╝#r#R注意：#R荒装不可粉黄绿#r#B如出现异常 后果自负  })
+
+[装备3]
+name      : 赤金磐龙甲·荒
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/all_attrib", 40, "prop/wiz", 40, "prop/dex", 40, "prop2/all_attrib", 40,"prop2_color",1, "prop_seal/super_obstruct",5, "prop_seal_base/mstunt_rate",10, "seal_flag",1, "prop4/wiz", 40, "prop3/penetrate",30,"color", 绿色,"suit_polar", 1,"rebuild_level", 12,"prop_suit/mag_power", 1500,"prop_rebuild/def", 5000, "prop_rebuild/max_life", 8000,"prop_resonance", "power", "evolve_level", 19, "req_level", 109,"suit_level", 100,"suit_name",10级金系套装, "source", #M★逍遥宫仙人★, "extra_desc", #Y特效：#G人上人 #r#L╔═══════════╗#r#L╠#Y装备品阶：#G100阶段顶级 #L╣#r#L╠#Y装备产出：#M逍遥宫 #G锻造 #L╣#r#L╠#Y装备指数：#G★★★★★★#L#L╣#r#L╚═══════════╝#r#R注意：#R荒装不可粉黄绿#r#B如出现异常 后果自负  })
+
+[装备4]
+name      : 玄女绛绡衣·荒
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/all_attrib", 40, "prop/wiz", 40, "prop/dex", 40, "prop2/all_attrib", 40,"prop2_color",1, "prop_seal/super_obstruct",5, "prop_seal_base/mstunt_rate",10, "seal_flag",1, "prop4/wiz", 40, "prop3/penetrate",30,"color", 绿色,"suit_polar", 1,"rebuild_level", 12,"prop_suit/mag_power", 1500,"prop_rebuild/def", 5000, "prop_rebuild/max_life", 8000,"prop_resonance", "power", "evolve_level", 19, "req_level", 109,"suit_level", 100,"suit_name",10级金系套装, "source", #M★逍遥宫仙人★, "extra_desc", #Y特效：#G人上人 #r#L╔═══════════╗#r#L╠#Y装备品阶：#G100阶段顶级 #L╣#r#L╠#Y装备产出：#M逍遥宫 #G锻造 #L╣#r#L╠#Y装备指数：#G★★★★★★#L#L╣#r#L╚═══════════╝#r#R注意：#R荒装不可粉黄绿#r#B如出现异常 后果自负  })
+
+[装备5]
+name      : 紫金八叉带·荒
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/all_attrib", 40, "prop/wiz", 40, "prop/dex", 40, "prop2/all_attrib", 40,"prop2_color",1, "prop_seal/super_obstruct",5, "prop_seal_base/mstunt_rate",10, "seal_flag",1, "prop4/wiz", 40, "prop3/penetrate",30,"color", 绿色,"suit_polar", 1,"rebuild_level", 12,"prop_suit/mag_power", 1500,"prop_rebuild/def", 5000, "prop_rebuild/max_life", 8000,"prop_resonance", "power", "evolve_level", 19, "req_level", 109,"suit_level", 100,"suit_name",10级金系套装, "source", #M★逍遥宫仙人★, "extra_desc", #Y特效：#G人上人 #r#L╔═══════════╗#r#L╠#Y装备品阶：#G100阶段顶级 #L╣#r#L╠#Y装备产出：#M逍遥宫 #G锻造 #L╣#r#L╠#Y装备指数：#G★★★★★★#L#L╣#r#L╚═══════════╝#r#R注意：#R荒装不可粉黄绿#r#B如出现异常 后果自负  })
+
+[装备6]
+name      : 惊虹战靴·荒
+min_level : 100
+max_level : 100
+attribs      : ({ "prop/all_attrib", 40, "prop/speed", 300, "prop/dex", 40, "prop2/all_attrib", 40,"prop2_color",1, "prop_seal/super_obstruct",5, "prop_seal_base/mstunt_rate",10, "seal_flag",1, "prop4/speed", 300, "prop3/mag_dodge",30,"color", 绿色,"suit_polar", 1,"rebuild_level", 12,"prop_suit/mag_power", 1500,"prop_rebuild/def", 5000, "prop_rebuild/max_life", 8000,"prop_resonance", "power", "evolve_level", 19, "req_level", 109,"suit_level", 100,"suit_name",10级金系套装, "source", #M★逍遥宫仙人★, "extra_desc", #Y特效：#G人上人 #r#L╔═══════════╗#r#L╠#Y装备品阶：#G100阶段顶级 #L╣#r#L╠#Y装备产出：#M逍遥宫 #G锻造 #L╣#r#L╠#Y装备指数：#G★★★★★★#L#L╣#r#L╚═══════════╝#r#R注意：#R荒装不可粉黄绿#r#B如出现异常 后果自负  })

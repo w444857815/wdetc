@@ -1,0 +1,737 @@
+#FORM2
+
+#dujiachoujianghuodong.list
+#created by huangw2 Aug/25/2008
+#独家抽奖游戏活动
+
+[task_time]
+start_time : "2008-11-13-12:00:00"
+maf_time$ :  ({ "2008-11-13-12:00:00", "2028-11-13-12:00:00" })
+
+
+[十二速坐骑]
+rate : 30
+name$ : 十二速坐骑
+log_to_db:  100
+free_pet:   ({ 1, "你携带的宠物数量已到最大，无法领取奖励。" })
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "九尾仙狐★银尘", "北斗天蓬★瑶池", "疾风蚀日★流火", "鲁道夫★蟠桃", "巨骨刺★修罗", "巨骨刺★赤煞", "九尾仙狐★幽梦", "北斗天蓬★赤霞", "疾风蚀日★冥池", "鲁道夫★山花" })
+bonus_times : -1
+
+[九尾仙狐★银尘]
+name$: ({九尾仙狐★银尘, 九尾仙狐★银尘})
+rank$: 御灵
+level: "user_level"
+life_effect: ({ 80, 80 })
+mana_effect: ({ 25, 25 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 40, 40 })
+channel_rumor: "#O$PLAYER#n#Y在专属#R坐骑抽奖仙官#n#Y坐骑抽奖中，抽到了#G至尊大奖【十二速】#n#Y坐骑$EX_PET#n#Y奖励！"
+
+[北斗天蓬★瑶池]
+name$: ({北斗天蓬★瑶池, 北斗天蓬★瑶池})
+rank$: 御灵
+level: "user_level"
+life_effect: ({ 80, 80 })
+mana_effect: ({ 25, 25 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 40, 40 })
+channel_rumor: "#O$PLAYER#n#Y在专属#R坐骑抽奖仙官#n#Y坐骑抽奖中，抽到了#G至尊大奖【十二速】#n#Y坐骑$EX_PET#n#Y奖励！"
+
+[疾风蚀日★流火]
+name$: ({疾风蚀日★流火, 疾风蚀日★流火})
+rank$: 御灵
+level: "user_level"
+life_effect: ({ 80, 80 })
+mana_effect: ({ 25, 25 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 40, 40 })
+channel_rumor: "#O$PLAYER#n#Y在专属#R坐骑抽奖仙官#n#Y坐骑抽奖中，抽到了#G至尊大奖【十二速】#n#Y坐骑$EX_PET#n#Y奖励！"
+
+[鲁道夫★蟠桃]
+name$: ({鲁道夫★蟠桃, 鲁道夫★蟠桃})
+rank$: 御灵
+level: "user_level"
+life_effect: ({ 80, 80 })
+mana_effect: ({ 25, 25 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 40, 40 })
+channel_rumor: "#O$PLAYER#n#Y在专属#R坐骑抽奖仙官#n#Y坐骑抽奖中，抽到了#G至尊大奖【十二速】#n#Y坐骑$EX_PET#n#Y奖励！"
+
+[巨骨刺★修罗]
+name$: ({巨骨刺★修罗, 巨骨刺★修罗})
+rank$: 御灵
+level: "user_level"
+life_effect: ({ 80, 80 })
+mana_effect: ({ 25, 25 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 40, 40 })
+channel_rumor: "#O$PLAYER#n#Y在专属#R坐骑抽奖仙官#n#Y坐骑抽奖中，抽到了#G至尊大奖【十二速】#n#Y坐骑$EX_PET#n#Y奖励！"
+
+
+[巨骨刺★赤煞]
+name$: ({巨骨刺★赤煞, 巨骨刺★赤煞})
+rank$: 御灵
+level: "user_level"
+life_effect: ({ 80, 80 })
+mana_effect: ({ 25, 25 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 40, 40 })
+channel_rumor: "#O$PLAYER#n#Y在专属#R坐骑抽奖仙官#n#Y坐骑抽奖中，抽到了#G至尊大奖【十二速】#n#Y坐骑$EX_PET#n#Y奖励！"
+
+[九尾仙狐★幽梦]
+name$: ({九尾仙狐★幽梦, 九尾仙狐★幽梦})
+rank$: 御灵
+level: "user_level"
+life_effect: ({ 80, 80 })
+mana_effect: ({ 25, 25 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 40, 40 })
+channel_rumor: "#O$PLAYER#n#Y在专属#R坐骑抽奖仙官#n#Y坐骑抽奖中，抽到了#G至尊大奖【十二速】#n#Y坐骑$EX_PET#n#Y奖励！"
+
+[北斗天蓬★赤霞]
+name$: ({北斗天蓬★赤霞, 北斗天蓬★赤霞})
+rank$: 御灵
+level: "user_level"
+life_effect: ({ 80, 80 })
+mana_effect: ({ 25, 25 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 40, 40 })
+channel_rumor: "#O$PLAYER#n#Y在专属#R坐骑抽奖仙官#n#Y坐骑抽奖中，抽到了#G至尊大奖【十二速】#n#Y坐骑$EX_PET#n#Y奖励！"
+
+[疾风蚀日★冥池]
+name$: ({疾风蚀日★冥池, 疾风蚀日★冥池})
+rank$: 御灵
+level: "user_level"
+life_effect: ({ 80, 80 })
+mana_effect: ({ 25, 25 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 40, 40 })
+channel_rumor: "#O$PLAYER#n#Y在专属#R坐骑抽奖仙官#n#Y坐骑抽奖中，抽到了#G至尊大奖【十二速】#n#Y坐骑$EX_PET#n#Y奖励！"
+
+[鲁道夫★山花]
+name$: ({鲁道夫★山花, 鲁道夫★山花})
+rank$: 御灵
+level: "user_level"
+life_effect: ({ 80, 80 })
+mana_effect: ({ 25, 25 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 40, 40 })
+channel_rumor: "#O$PLAYER#n#Y在专属#R坐骑抽奖仙官#n#Y坐骑抽奖中，抽到了#G至尊大奖【十二速】#n#Y坐骑$EX_PET#n#Y奖励！"
+
+
+
+[回收坐骑太极熊]
+rate : 500
+name$ : 回收坐骑太极熊
+log_to_db:  100
+free_pet:   ({ 1, "你携带的宠物数量已到最大，无法领取奖励。" })
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "太极熊" })
+bonus_times : -1
+
+[太极熊]
+name$: ({太极熊, 太极熊})
+rank$: 御灵
+level: 50
+life_effect: ({ 80, 80 })
+mana_effect: ({ 25, 25 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 40, 40 })
+channel_rumor: "#O$PLAYER#n#Y在专属#R坐骑抽奖仙官#n#Y坐骑抽奖中，抽到了#G回收坐骑【太极熊】#n#Y坐骑$EX_PET#n#Y奖励！"
+
+
+[回收坐骑北极熊]
+rate : 500
+name$ : 回收坐骑北极熊
+log_to_db:  100
+free_pet:   ({ 1, "你携带的宠物数量已到最大，无法领取奖励。" })
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "北极熊" })
+bonus_times : -1
+
+
+[北极熊]
+name$: ({北极熊, 北极熊})
+rank$: 御灵
+level: 50
+life_effect: ({ 80, 80 })
+mana_effect: ({ 25, 25 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 40, 40 })
+channel_rumor: "#O$PLAYER#n#Y在专属#R坐骑抽奖仙官#n#Y坐骑抽奖中，抽到了#G回收坐骑【北极熊】#n#Y坐骑$EX_PET#n#Y奖励！"
+
+
+
+
+[十速坐骑]
+rate : 1000
+name$ : 十速坐骑
+log_to_db:  100
+free_pet:   ({ 1, "你携带的宠物数量已到最大，无法领取奖励。" })
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "九尾仙狐·银尘", "北斗天蓬·瑶池", "疾风蚀日·流火", "鲁道夫·蟠桃", "巨骨刺·修罗", "巨骨刺·赤煞", "九尾仙狐·幽梦", "北斗天蓬·赤霞", "疾风蚀日·冥池", "鲁道夫·山花" })
+bonus_times : -1
+
+[九尾仙狐·银尘]
+name$: ({九尾仙狐·银尘, 九尾仙狐·银尘})
+rank$: 御灵
+level: "user_level"
+life_effect: ({ 80, 80 })
+mana_effect: ({ 25, 25 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 40, 40 })
+channel_rumor: "#O$PLAYER#n#Y在专属#R坐骑抽奖仙官#n#Y坐骑抽奖中，抽到了#G一等奖【十速】#n#Y坐骑$EX_PET#n#Y奖励！"
+
+[北斗天蓬·瑶池]
+name$: ({北斗天蓬·瑶池, 北斗天蓬·瑶池})
+rank$: 御灵
+level: "user_level"
+life_effect: ({ 80, 80 })
+mana_effect: ({ 25, 25 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 40, 40 })
+channel_rumor: "#O$PLAYER#n#Y在专属#R坐骑抽奖仙官#n#Y坐骑抽奖中，抽到了#G一等奖【十速】#n#Y坐骑$EX_PET#n#Y奖励！"
+
+[疾风蚀日·流火]
+name$: ({疾风蚀日·流火, 疾风蚀日·流火})
+rank$: 御灵
+level: "user_level"
+life_effect: ({ 80, 80 })
+mana_effect: ({ 25, 25 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 40, 40 })
+channel_rumor: "#O$PLAYER#n#Y在专属#R坐骑抽奖仙官#n#Y坐骑抽奖中，抽到了#G一等奖【十速】#n#Y坐骑$EX_PET#n#Y奖励！"
+
+[鲁道夫·蟠桃]
+name$: ({鲁道夫·蟠桃, 鲁道夫·蟠桃})
+rank$: 御灵
+level: "user_level"
+life_effect: ({ 80, 80 })
+mana_effect: ({ 25, 25 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 40, 40 })
+channel_rumor: "#O$PLAYER#n#Y在专属#R坐骑抽奖仙官#n#Y坐骑抽奖中，抽到了#G一等奖【十速】#n#Y坐骑$EX_PET#n#Y奖励！"
+
+[巨骨刺·修罗]
+name$: ({巨骨刺·修罗, 巨骨刺·修罗})
+rank$: 御灵
+level: "user_level"
+life_effect: ({ 80, 80 })
+mana_effect: ({ 25, 25 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 40, 40 })
+channel_rumor: "#O$PLAYER#n#Y在专属#R坐骑抽奖仙官#n#Y坐骑抽奖中，抽到了#G一等奖【十速】#n#Y坐骑$EX_PET#n#Y奖励！"
+
+[巨骨刺·赤煞]
+name$: ({巨骨刺·赤煞, 巨骨刺·赤煞})
+rank$: 御灵
+level: "user_level"
+life_effect: ({ 80, 80 })
+mana_effect: ({ 25, 25 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 40, 40 })
+channel_rumor: "#O$PLAYER#n#Y在专属#R坐骑抽奖仙官#n#Y坐骑抽奖中，抽到了#G一等奖【十速】#n#Y坐骑$EX_PET#n#Y奖励！"
+
+[九尾仙狐·幽梦]
+name$: ({九尾仙狐·幽梦, 九尾仙狐·幽梦})
+rank$: 御灵
+level: "user_level"
+life_effect: ({ 80, 80 })
+mana_effect: ({ 25, 25 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 40, 40 })
+channel_rumor: "#O$PLAYER#n#Y在专属#R坐骑抽奖仙官#n#Y坐骑抽奖中，抽到了#G一等奖【十速】#n#Y坐骑$EX_PET#n#Y奖励！"
+
+[北斗天蓬·赤霞]
+name$: ({北斗天蓬·赤霞, 北斗天蓬·赤霞})
+rank$: 御灵
+level: "user_level"
+life_effect: ({ 80, 80 })
+mana_effect: ({ 25, 25 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 40, 40 })
+channel_rumor: "#O$PLAYER#n#Y在专属#R坐骑抽奖仙官#n#Y坐骑抽奖中，抽到了#G一等奖【十速】#n#Y坐骑$EX_PET#n#Y奖励！"
+
+[疾风蚀日·冥池]
+name$: ({疾风蚀日·冥池, 疾风蚀日·冥池})
+rank$: 御灵
+level: "user_level"
+life_effect: ({ 80, 80 })
+mana_effect: ({ 25, 25 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 40, 40 })
+channel_rumor: "#O$PLAYER#n#Y在专属#R坐骑抽奖仙官#n#Y坐骑抽奖中，抽到了#G一等奖【十速】#n#Y坐骑$EX_PET#n#Y奖励！"
+
+[鲁道夫·山花]
+name$: ({鲁道夫·山花, 鲁道夫·山花})
+rank$: 御灵
+level: "user_level"
+life_effect: ({ 80, 80 })
+mana_effect: ({ 25, 25 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 40, 40 })
+channel_rumor: "#O$PLAYER#n#Y在专属#R坐骑抽奖仙官#n#Y坐骑抽奖中，抽到了#G一等奖【十速】#n#Y坐骑$EX_PET#n#Y奖励！"
+
+
+
+
+[九速坐骑]
+rate : 1000
+name$ : 九速坐骑
+log_to_db:  100
+free_pet:   ({ 1, "你携带的宠物数量已到最大，无法领取奖励。" })
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "至尊太极熊", "至尊吉祥蛙", "至尊玉蝶鱼", "至尊盘古猿" })
+bonus_times : -1
+
+
+[至尊太极熊]
+name$: ({至尊太极熊, 至尊太极熊})
+rank$: 御灵
+level: "user_level"
+life_effect: ({ 80, 80 })
+mana_effect: ({ 25, 25 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 40, 40 })
+channel_rumor: "#O$PLAYER#n#Y在专属#R坐骑抽奖仙官#n#Y坐骑抽奖中，抽到了#G末等奖【九速】#n#Y坐骑$EX_PET#n#Y奖励！"
+
+
+[至尊吉祥蛙]
+name$: ({至尊吉祥蛙, 至尊吉祥蛙})
+rank$: 御灵
+level: "user_level"
+life_effect: ({ 80, 80 })
+mana_effect: ({ 25, 25 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 40, 40 })
+channel_rumor: "#O$PLAYER#n#Y在专属#R坐骑抽奖仙官#n#Y坐骑抽奖中，抽到了#G末等奖【九速】#n#Y坐骑$EX_PET#n#Y奖励！"
+
+
+[至尊玉蝶鱼]
+name$: ({至尊玉蝶鱼, 至尊玉蝶鱼})
+rank$: 御灵
+level: "user_level"
+life_effect: ({ 80, 80 })
+mana_effect: ({ 25, 25 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 40, 40 })
+channel_rumor: "#O$PLAYER#n#Y在专属#R坐骑抽奖仙官#n#Y坐骑抽奖中，抽到了#G末等奖【九速】#n#Y坐骑$EX_PET#n#Y奖励！"
+
+
+[至尊盘古猿]
+name$: ({至尊盘古猿, 至尊盘古猿})
+rank$: 御灵
+level: "user_level"
+life_effect: ({ 80, 80 })
+mana_effect: ({ 25, 25 })
+speed_effect: ({ 20, 20 })
+phy_effect: ({ -30, -30 })
+mag_effect: ({ 40, 40 })
+channel_rumor: "#O$PLAYER#n#Y在专属#R坐骑抽奖仙官#n#Y坐骑抽奖中，抽到了#G末等奖【九速】#n#Y坐骑$EX_PET#n#Y奖励！"
+
+
+[A级仙元]
+rate : 50
+name$ : A级仙元
+log_to_db:  100
+free_pet:   ({ 1, "你携带的宠物数量已到最大，无法领取奖励。" })
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "彩凤凰（12）", "血凤凰（12）", "紫太极（12）", "翡翠（12）", "申公豹（12）", "红色战狼", "绿色战狼" })
+bonus_times : -1
+
+[红色战狼]
+name$: ({红色战狼, 红色战狼})
+rank$: 精怪
+level: 60
+life_effect: ({ 105, 105 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 90, 90 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 55, 55 })
+special_skill$: ({  3,  舍命一击, 1, 神圣之光, 1, 乾坤罩, 1})
+channel_rumor: "#O$PLAYER#n#Y在专属#R坐骑抽奖仙官#n#Y坐骑抽奖中，抽到了#G至尊大奖【十二速】#n#Y坐骑$EX_PET#n#Y奖励！"
+
+[绿色战狼]
+name$: ({绿色战狼, 绿色战狼})
+rank$: 精怪
+level: 60
+life_effect: ({ 105, 105 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 90, 90 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 55, 55 })
+special_skill$: ({  3,  舍命一击, 1, 神圣之光, 1, 乾坤罩, 1})
+channel_rumor: "#O$PLAYER#n#Y在专属#R坐骑抽奖仙官#n#Y坐骑抽奖中，抽到了#G至尊大奖【十二速】#n#Y坐骑$EX_PET#n#Y奖励！"
+
+[彩凤凰（12）]
+name$: ({彩凤凰（12）, 彩凤凰（12）})
+rank$: 精怪
+level: 60
+life_effect: ({ 105, 105 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 90, 90 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 55, 55 })
+special_skill$: ({  3,  舍命一击, 1, 神圣之光, 1, 乾坤罩, 1})
+channel_rumor: "#O$PLAYER#n#Y在专属#R坐骑抽奖仙官#n#Y坐骑抽奖中，抽到了#G至尊大奖【十二速】#n#Y坐骑$EX_PET#n#Y奖励！"
+
+[血凤凰（12）]
+name$: ({血凤凰（12）, 血凤凰（12）})
+rank$: 精怪
+level: 60
+life_effect: ({ 105, 105 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 60, 60 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 85, 85 })
+special_skill$: ({  3,  舍命一击, 1, 神圣之光, 1, 如意圈, 1})
+channel_rumor: "#O$PLAYER#n#Y在专属#R坐骑抽奖仙官#n#Y坐骑抽奖中，抽到了#G至尊大奖【十二速】#n#Y坐骑$EX_PET#n#Y奖励！"
+
+[紫太极（12）]
+name$: ({紫太极（12）, 紫太极（12）})
+rank$: 精怪
+level: 60
+life_effect: ({ 115, 115 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 75, 75 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 60, 60 })
+special_skill$: ({  3,  舍命一击, 1, 神圣之光, 1, 神龙罩, 1})
+channel_rumor: "#O$PLAYER#n#Y在专属#R坐骑抽奖仙官#n#Y坐骑抽奖中，抽到了#G至尊大奖【十二速】#n#Y坐骑$EX_PET#n#Y奖励！"
+
+[翡翠（12）]
+name$: ({翡翠（12）, 翡翠（12）})
+rank$: 精怪
+level: 60
+life_effect: ({ 110, 110 })
+mana_effect: ({ 0, 0 })
+speed_effect: ({ 90, 90 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 70, 70 })
+special_skill$: ({  3,  舍命一击, 1, 游说之舌, 1, 神圣之光, 1})
+channel_rumor: "#O$PLAYER#n#Y在专属#R坐骑抽奖仙官#n#Y坐骑抽奖中，抽到了#G至尊大奖【十二速】#n#Y坐骑$EX_PET#n#Y奖励！"
+
+[申公豹（12）]
+name$: ({申公豹（12）, 申公豹（12）})
+rank$: 仙元
+level: 60
+life_effect: ({ 130, 130 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 60, 60 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 60, 60 })
+special_skill$: ({  3,  神龙罩, 1, 舍命一击, 1, 游说之舌, 1})
+channel_rumor: "#O$PLAYER#n#Y在专属#R坐骑抽奖仙官#n#Y坐骑抽奖中，抽到了#G至尊大奖【十二速】#n#Y坐骑$EX_PET#n#Y奖励！"
+
+
+[仙元奖励]
+rate : 1000
+name$ : 仙元奖励
+log_to_db:  100
+free_pet:   ({ 1, "你携带的宠物数量已到最大，无法领取奖励。" })
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "绿红吉祥蛙", "绿色吉祥蛙", "绿蓝吉祥蛙", "白绿北极熊", "白蓝北极熊", "红蓝翡翠葫芦", "紫剑", "黑蓝翡翠葫芦", "绿色古鹿", "蓝色古鹿", "浅白古鹿", "绿剑", "蓝剑", "粉剑", "青剑", "巨骨刺·赤煞", "巨骨刺·幽粉", "巨骨刺·修罗", "盘古红猿", "盘古金猿", "蓝葫芦", "粉葫芦", "青葫芦" })
+bonus_times : -1
+
+[红蓝翡翠葫芦]
+name$: ({红蓝翡翠葫芦, 红蓝翡翠葫芦})
+rank$: 精怪
+level: 60
+life_effect: ({ 80, 80 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 70, 70 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 45, 45 })
+special_skill$: ({  3,  舍命一击, 1, 神圣之光, 1, 乾坤罩, 1})
+channel_rumor: "#O$PLAYER#n#Y在专属#R坐骑抽奖仙官#n#Y坐骑抽奖中，抽到了#G一等奖【十速】#n#Y坐骑$EX_PET#n#Y奖励！"
+
+[紫剑]
+name$: ({紫剑, 紫剑})
+rank$: 精怪
+level: 60
+life_effect: ({ 80, 80 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 70, 70 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 45, 45 })
+special_skill$: ({  3,  舍命一击, 1, 神圣之光, 1, 乾坤罩, 1})
+channel_rumor: "#O$PLAYER#n#Y在专属#R坐骑抽奖仙官#n#Y坐骑抽奖中，抽到了#G一等奖【十速】#n#Y坐骑$EX_PET#n#Y奖励！"
+
+[黑蓝翡翠葫芦]
+name$: ({黑蓝翡翠葫芦, 黑蓝翡翠葫芦})
+rank$: 精怪
+level: 60
+life_effect: ({ 80, 80 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 70, 70 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 45, 45 })
+special_skill$: ({  3,  舍命一击, 1, 神圣之光, 1, 乾坤罩, 1})
+channel_rumor: "#O$PLAYER#n#Y在专属#R坐骑抽奖仙官#n#Y坐骑抽奖中，抽到了#G一等奖【十速】#n#Y坐骑$EX_PET#n#Y奖励！"
+
+[绿色古鹿]
+name$: ({绿色古鹿, 绿色古鹿})
+rank$: 精怪
+level: 60
+life_effect: ({ 80, 80 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 70, 70 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 45, 45 })
+special_skill$: ({  3,  舍命一击, 1, 神圣之光, 1, 乾坤罩, 1})
+channel_rumor: "#O$PLAYER#n#Y在专属#R坐骑抽奖仙官#n#Y坐骑抽奖中，抽到了#G一等奖【十速】#n#Y坐骑$EX_PET#n#Y奖励！"
+
+[蓝色古鹿]
+name$: ({蓝色古鹿, 蓝色古鹿})
+rank$: 精怪
+level: 60
+life_effect: ({ 80, 80 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 70, 70 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 45, 45 })
+special_skill$: ({  3,  舍命一击, 1, 神圣之光, 1, 乾坤罩, 1})
+channel_rumor: "#O$PLAYER#n#Y在专属#R坐骑抽奖仙官#n#Y坐骑抽奖中，抽到了#G一等奖【十速】#n#Y坐骑$EX_PET#n#Y奖励！"
+
+[浅白古鹿]
+name$: ({浅白古鹿, 浅白古鹿})
+rank$: 精怪
+level: 60
+life_effect: ({ 80, 80 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 70, 70 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 45, 45 })
+special_skill$: ({  3,  舍命一击, 1, 神圣之光, 1, 乾坤罩, 1})
+channel_rumor: "#O$PLAYER#n#Y在专属#R坐骑抽奖仙官#n#Y坐骑抽奖中，抽到了#G一等奖【十速】#n#Y坐骑$EX_PET#n#Y奖励！"
+
+[绿剑]
+name$: ({绿剑, 绿剑})
+rank$: 精怪
+level: 60
+life_effect: ({ 80, 80 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 70, 70 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 45, 45 })
+special_skill$: ({  3,  舍命一击, 1, 神圣之光, 1, 乾坤罩, 1})
+channel_rumor: "#O$PLAYER#n#Y在专属#R坐骑抽奖仙官#n#Y坐骑抽奖中，抽到了#G一等奖【十速】#n#Y坐骑$EX_PET#n#Y奖励！"
+
+[蓝剑]
+name$: ({蓝剑, 蓝剑})
+rank$: 精怪
+level: 60
+life_effect: ({ 80, 80 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 70, 70 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 45, 45 })
+special_skill$: ({  3,  舍命一击, 1, 神圣之光, 1, 乾坤罩, 1})
+channel_rumor: "#O$PLAYER#n#Y在专属#R坐骑抽奖仙官#n#Y坐骑抽奖中，抽到了#G一等奖【十速】#n#Y坐骑$EX_PET#n#Y奖励！"
+
+[粉剑]
+name$: ({粉剑, 粉剑})
+rank$: 精怪
+level: 60
+life_effect: ({ 80, 80 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 70, 70 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 45, 45 })
+special_skill$: ({  3,  舍命一击, 1, 神圣之光, 1, 乾坤罩, 1})
+channel_rumor: "#O$PLAYER#n#Y在专属#R坐骑抽奖仙官#n#Y坐骑抽奖中，抽到了#G一等奖【十速】#n#Y坐骑$EX_PET#n#Y奖励！"
+
+[青剑]
+name$: ({青剑, 青剑})
+rank$: 精怪
+level: 60
+life_effect: ({ 80, 80 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 70, 70 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 45, 45 })
+special_skill$: ({  3,  舍命一击, 1, 神圣之光, 1, 乾坤罩, 1})
+channel_rumor: "#O$PLAYER#n#Y在专属#R坐骑抽奖仙官#n#Y坐骑抽奖中，抽到了#G一等奖【十速】#n#Y坐骑$EX_PET#n#Y奖励！"
+
+[巨骨刺·赤煞]
+name$: ({巨骨刺·赤煞, 巨骨刺·赤煞})
+rank$: 精怪
+level: 60
+life_effect: ({ 80, 80 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 70, 70 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 45, 45 })
+special_skill$: ({  3,  舍命一击, 1, 神圣之光, 1, 乾坤罩, 1})
+channel_rumor: "#O$PLAYER#n#Y在专属#R坐骑抽奖仙官#n#Y坐骑抽奖中，抽到了#G一等奖【十速】#n#Y坐骑$EX_PET#n#Y奖励！"
+
+[巨骨刺·幽粉]
+name$: ({巨骨刺·幽粉, 巨骨刺·幽粉})
+rank$: 精怪
+level: 60
+life_effect: ({ 80, 80 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 70, 70 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 45, 45 })
+special_skill$: ({  3,  舍命一击, 1, 神圣之光, 1, 乾坤罩, 1})
+channel_rumor: "#O$PLAYER#n#Y在专属#R坐骑抽奖仙官#n#Y坐骑抽奖中，抽到了#G一等奖【十速】#n#Y坐骑$EX_PET#n#Y奖励！"
+
+[巨骨刺·修罗]
+name$: ({巨骨刺·修罗, 巨骨刺·修罗})
+rank$: 精怪
+level: 60
+life_effect: ({ 80, 80 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 70, 70 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 45, 45 })
+special_skill$: ({  3,  舍命一击, 1, 神圣之光, 1, 乾坤罩, 1})
+channel_rumor: "#O$PLAYER#n#Y在专属#R坐骑抽奖仙官#n#Y坐骑抽奖中，抽到了#G一等奖【十速】#n#Y坐骑$EX_PET#n#Y奖励！"
+
+[盘古红猿]
+name$: ({盘古红猿, 盘古红猿})
+rank$: 精怪
+level: 60
+life_effect: ({ 80, 80 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 70, 70 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 45, 45 })
+special_skill$: ({  3,  舍命一击, 1, 神圣之光, 1, 乾坤罩, 1})
+channel_rumor: "#O$PLAYER#n#Y在专属#R坐骑抽奖仙官#n#Y坐骑抽奖中，抽到了#G一等奖【十速】#n#Y坐骑$EX_PET#n#Y奖励！"
+
+[盘古金猿]
+name$: ({盘古金猿, 盘古金猿})
+rank$: 精怪
+level: 60
+life_effect: ({ 80, 80 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 70, 70 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 45, 45 })
+special_skill$: ({  3,  舍命一击, 1, 神圣之光, 1, 乾坤罩, 1})
+channel_rumor: "#O$PLAYER#n#Y在专属#R坐骑抽奖仙官#n#Y坐骑抽奖中，抽到了#G一等奖【十速】#n#Y坐骑$EX_PET#n#Y奖励！"
+
+
+[绿红吉祥蛙]
+name$: ({绿红吉祥蛙, 绿红吉祥蛙})
+rank$: 精怪
+level: 60
+life_effect: ({ 80, 80 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 70, 70 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 45, 45 })
+special_skill$: ({  3,  舍命一击, 1, 神圣之光, 1, 乾坤罩, 1})
+channel_rumor: "#O$PLAYER#n#Y在专属#R坐骑抽奖仙官#n#Y坐骑抽奖中，抽到了#G一等奖【十速】#n#Y坐骑$EX_PET#n#Y奖励！"
+
+[绿色吉祥蛙]
+name$: ({绿色吉祥蛙, 绿色吉祥蛙})
+rank$: 精怪
+level: 60
+life_effect: ({ 85, 85 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 40, 40 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 70, 70 })
+special_skill$: ({  3,  舍命一击, 1, 如意圈, 1, 神圣之光, 1})
+channel_rumor: "#O$PLAYER#n#Y在专属#R坐骑抽奖仙官#n#Y坐骑抽奖中，抽到了#G一等奖【十速】#n#Y坐骑$EX_PET#n#Y奖励！"
+
+[绿蓝吉祥蛙]
+name$: ({绿蓝吉祥蛙, 绿蓝吉祥蛙})
+rank$: 精怪
+level: 60
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+special_skill$: ({  3,  舍命一击, 1, 神圣之光, 1, 神龙罩, 1})
+channel_rumor: "#O$PLAYER#n#Y在专属#R坐骑抽奖仙官#n#Y坐骑抽奖中，抽到了#G一等奖【十速】#n#Y坐骑$EX_PET#n#Y奖励！"
+
+[白绿北极熊]
+name$: ({白绿北极熊, 白绿北极熊})
+rank$: 精怪
+level: 60
+life_effect: ({ 85, 85 })
+mana_effect: ({ -5, -5 })
+speed_effect: ({ 70, 70 })
+phy_effect: ({ -50, 50 })
+mag_effect: ({ 60, 60 })
+special_skill$: ({  3,  舍命一击, 1, 神圣之光, 1, 游说之舌, 1})
+channel_rumor: "#O$PLAYER#n#Y在专属#R坐骑抽奖仙官#n#Y坐骑抽奖中，抽到了#G一等奖【十速】#n#Y坐骑$EX_PET#n#Y奖励！"
+
+[白蓝北极熊]
+name$: ({白蓝北极熊, 白蓝北极熊})
+rank$: 精怪
+level: 60
+life_effect: ({ 105, 105 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 45, 45 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+special_skill$: ({  3,  舍命一击, 1, 神龙罩, 1, 游说之舌, 1})
+channel_rumor: "#O$PLAYER#n#Y在专属#R坐骑抽奖仙官#n#Y坐骑抽奖中，抽到了#G一等奖【十速】#n#Y坐骑$EX_PET#n#Y奖励！"
+
+
+[蓝葫芦]
+name$: ({蓝葫芦, 蓝葫芦})
+rank$: 精怪
+level: 60
+life_effect: ({ 105, 105 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 45, 45 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+special_skill$: ({  3,  舍命一击, 1, 神龙罩, 1, 游说之舌, 1})
+channel_rumor: "#O$PLAYER#n#Y在专属#R坐骑抽奖仙官#n#Y坐骑抽奖中，抽到了#G一等奖【十速】#n#Y坐骑$EX_PET#n#Y奖励！"
+
+
+[粉葫芦]
+name$: ({粉葫芦, 粉葫芦})
+rank$: 精怪
+level: 60
+life_effect: ({ 105, 105 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 45, 45 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+special_skill$: ({  3,  舍命一击, 1, 神龙罩, 1, 游说之舌, 1})
+channel_rumor: "#O$PLAYER#n#Y在专属#R坐骑抽奖仙官#n#Y坐骑抽奖中，抽到了#G一等奖【十速】#n#Y坐骑$EX_PET#n#Y奖励！"
+
+
+
+[青葫芦]
+name$: ({青葫芦, 青葫芦})
+rank$: 精怪
+level: 60
+life_effect: ({ 105, 105 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 45, 45 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+special_skill$: ({  3,  舍命一击, 1, 神龙罩, 1, 游说之舌, 1})
+channel_rumor: "#O$PLAYER#n#Y在专属#R坐骑抽奖仙官#n#Y坐骑抽奖中，抽到了#G一等奖【十速】#n#Y坐骑$EX_PET#n#Y奖励！"
+
+
+

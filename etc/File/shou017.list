@@ -1,0 +1,39 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/18/2006
+#奖励物品        概率
+
+[奖励等级]
+name$: 特等奖
+
+[奖励等级]
+name$: 特等奖
+
+[特等奖]
+首饰130 : 1300
+
+[首饰130]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "游火灵焰_灵" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "千彩流光_灵" })
+bonus$:  ({ 0, 0, 100, "属性道具", 2, 2, "岚金火链_灵" })
+
+[游火灵焰_灵]
+name      : 游火灵焰
+min_level : 130
+max_level : 130
+upgrade_type : 6
+attribs      : ({ "prop/all_polar", 5, "prop2/all_skill", 10, "prop/dex", 34, "prop/wiz", 34, "prop2/wiz", 34, "prop2/dex", 34 })
+
+[千彩流光_灵]
+name      : 千彩流光
+min_level : 130
+max_level : 130
+upgrade_type : 6
+attribs      : ({ "prop/all_polar", 5, "prop2/all_skill", 10, "prop/dex", 34, "prop/wiz", 34, "prop2/wiz", 34, "prop2/dex", 34 })
+
+[岚金火链_灵]
+name      : 岚金火链
+min_level : 130
+max_level : 130
+upgrade_type : 6
+attribs      : ({ "prop/all_polar", 5, "prop2/all_skill", 10, "prop/wiz", 34, "prop/dex", 34, "prop2/wiz", 34, "prop2/dex", 34 })

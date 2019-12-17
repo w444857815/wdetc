@@ -1,0 +1,33 @@
+#FORM2
+
+#zhuangb.list
+#create by caijz 09/18/2006
+#奖励物品        概率
+
+[奖励等级]
+name$: 一等奖
+
+[一等奖]
+金色天书奖励1 : 1000
+金色天书奖励2 : 1000
+
+
+
+[金色天书奖励1]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "金天书1" })
+
+[金色天书奖励2]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "金天书2" })
+
+
+[金天书1]
+name      : 怒击
+min_level : 100
+max_level : 100
+attribs      : ({ "prop_basic/mag_power", 100, "prop_basic/max_life", 100, "prop_basic/max_mana", 100, "prop_basic/def", 100, "prop_basic/speed", 100, "prop_extra/gb_qiangj_1", 24, "level", 100, "nimbus", 28500, "icon", 9358, "color", 金色, "extra_desc", #Y特效：#G暗属翻倍 })
+
+[金天书2]
+name      : 怒击
+min_level : 100
+max_level : 100
+attribs      : ({ "prop_basic/mag_power", 100, "prop_basic/max_life", 100, "prop_basic/max_mana", 100, "prop_basic/def", 100, "prop_basic/speed", 100, "prop_extra/gb_lingh_1", 320, "level", 100, "nimbus", 28500, "icon", 9358, "color", 金色, "extra_desc", #Y特效：#G暗属翻倍 })

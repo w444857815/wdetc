@@ -1,0 +1,187 @@
+#FORM2
+
+#dujiachoujianghuodong.list
+#created by huangw2 Aug/25/2008
+#独家抽奖游戏活动
+
+[task_time]
+start_time : "2008-11-13-12:00:00"
+maf_time$ :  ({ "2008-11-13-12:00:00", "2028-11-13-12:00:00" })
+
+
+
+[六零版称]
+rate : 5
+log_to_db:  1
+name$ : 六零版称
+bonus$: ({ 0, 0, 100, "一六零版精美称号", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y相性10 称号#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+
+
+[时装属性男]
+rate : 5
+log_to_db:  1
+name$ : 时装属性男
+bonus$: ({ 0, 0, 100, "超级时装属性男袋", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y相性10 男时装#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+
+
+[时装属性女]
+rate : 5
+log_to_db:  1
+name$ : 时装属性女
+bonus$: ({ 0, 0, 100, "超级时装属性女袋", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y相性10 女时装#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+
+
+[婚饰属性]
+rate : 5
+log_to_db:  1
+name$ : 婚饰属性
+bonus$: ({ 0, 0, 100, "超级婚饰属性礼袋", 1, 1 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y相性5 婚饰品#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+
+
+[新疆大切糕]
+rate : 50
+log_to_db:  1
+name$ : 新疆大切糕
+bonus$: ({ 0, 0, 100, "新疆吐鲁番大切糕", 5, 8 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y赐福切糕#n#G1440~2304块#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+
+
+[独家大佬兑换神器]
+rate : 5000
+log_to_db:  1
+name$ : 独家大佬兑换神器
+bonus$: ({ 0, 0, 100, "大佬兑换神器", 1, 2 })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#Y大佬兑换神器#n#G1-2张#R的奖励，真是鸿运当头！"
+bonus_times : -1
+
+
+
+[独家金色天书]
+rate : 50
+log_to_db:  1
+name$ : 金色天书奖励
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "惊雷1", "惊雷a", "惊雷b", "惊雷c", "惊雷d", "青木1", "青木a", "青木b", "青木c", "青木d", "反击1", "反击a", "怒击1", "修罗术1", "降魔斩1", "云体1", "仙风1", "尽忠1" })
+whoop: "#O%PLAYER%#n#R在#Y物品抽奖仙官#n#R物品抽奖中，抽取到了#G金色1/1天书#n#R奖励，真是鸿运当头！"
+bonus_times : -1
+
+[惊雷1]
+name      : 惊雷
+min_level : 1
+max_level : 1
+attribs      : ({ "prop_basic/phy_power", 100, "prop_basic/max_life", 100, "prop_basic/stunt_rate", 20, "prop_basic/def", 100, "prop_basic/speed", 100, "prop_extra/gb_zhang_1", 12, "level", 100, "nimbus", 16000, "icon", 9352, "color", 金色 })
+
+[惊雷a]
+name      : 青木
+min_level : 1
+max_level : 1
+attribs      : ({ "prop_basic/phy_power", 100, "prop_basic/max_life", 100, "prop_basic/stunt_rate", 20, "prop_basic/def", 100, "prop_basic/speed", 100, "prop_extra/gb_zhang_1", 12, "level", 100, "nimbus", 16000, "icon", 9353, "color", 金色 })
+
+[惊雷b]
+name      : 寒冰
+min_level : 1
+max_level : 1
+attribs      : ({ "prop_basic/phy_power", 100, "prop_basic/max_life", 100, "prop_basic/stunt_rate", 20, "prop_basic/def", 100, "prop_basic/speed", 100, "prop_extra/gb_zhang_1", 12, "level", 100, "nimbus", 16000, "icon", 9355, "color", 金色 })
+
+[惊雷c]
+name      : 烈炎
+min_level : 1
+max_level : 1
+attribs      : ({ "prop_basic/phy_power", 100, "prop_basic/max_life", 100, "prop_basic/stunt_rate", 20, "prop_basic/def", 100, "prop_basic/speed", 100, "prop_extra/gb_zhang_1", 12, "level", 100, "nimbus", 16000, "icon", 9351, "color", 金色 })
+
+[惊雷d]
+name      : 碎石
+min_level : 1
+max_level : 1
+attribs      : ({ "prop_basic/phy_power", 100, "prop_basic/max_life", 100, "prop_basic/stunt_rate", 20, "prop_basic/def", 100, "prop_basic/speed", 100, "prop_extra/gb_zhang_1", 12, "level", 100, "nimbus", 16000, "icon", 9354, "color", 金色 })
+
+[青木1]
+name      : 惊雷
+min_level : 1
+max_level : 1
+attribs      : ({ "prop_basic/phy_power", 100, "prop_basic/max_life", 100, "prop_basic/stunt_rate", 20, "prop_basic/def", 100, "prop_basic/speed", 100, "prop_extra/gb_lingh_1", 160, "level", 100, "nimbus", 16000, "icon", 9352, "color", 金色 })
+
+[青木a]
+name      : 青木
+min_level : 1
+max_level : 1
+attribs      : ({ "prop_basic/phy_power", 100, "prop_basic/max_life", 100, "prop_basic/stunt_rate", 20, "prop_basic/def", 100, "prop_basic/speed", 100, "prop_extra/gb_lingh_1", 160, "level", 100, "nimbus", 16000, "icon", 9353, "color", 金色 })
+
+[青木b]
+name      : 寒冰
+min_level : 1
+max_level : 1
+attribs      : ({ "prop_basic/phy_power", 100, "prop_basic/max_life", 100, "prop_basic/stunt_rate", 20, "prop_basic/def", 100, "prop_basic/speed", 100, "prop_extra/gb_lingh_1", 160, "level", 100, "nimbus", 16000, "icon", 9355, "color", 金色 })
+
+[青木c]
+name      : 烈炎
+min_level : 1
+max_level : 1
+attribs      : ({ "prop_basic/phy_power", 100, "prop_basic/max_life", 100, "prop_basic/stunt_rate", 20, "prop_basic/def", 100, "prop_basic/speed", 100, "prop_extra/gb_lingh_1", 160, "level", 100, "nimbus", 16000, "icon", 9351, "color", 金色 })
+
+[青木d]
+name      : 碎石
+min_level : 1
+max_level : 1
+attribs      : ({ "prop_basic/phy_power", 100, "prop_basic/max_life", 100, "prop_basic/stunt_rate", 20, "prop_basic/def", 100, "prop_basic/speed", 100, "prop_extra/gb_lingh_1", 160, "level", 100, "nimbus", 16000, "icon", 9354, "color", 金色 })
+
+[反击1]
+name      : 反击
+min_level : 1
+max_level : 1
+attribs      : ({ "prop_basic/phy_power", 100, "prop_basic/max_life", 100, "prop_basic/stunt_rate", 20, "prop_basic/def", 100, "prop_basic/speed", 100, "prop_extra/gb_shengg_1", 100, "level", 100, "nimbus", 16000, "icon", 9357, "color", 金色 })
+
+[反击a]
+name      : 狂暴
+min_level : 1
+max_level : 1
+attribs      : ({ "prop_basic/phy_power", 100, "prop_basic/max_life", 100, "prop_basic/stunt_rate", 20, "prop_basic/def", 100, "prop_basic/speed", 100, "prop_extra/gb_shengg_1", 100, "level", 100, "nimbus", 16000, "icon", 9350, "color", 金色 })
+
+[怒击1]
+name      : 怒击
+min_level : 1
+max_level : 1
+attribs      : ({ "prop_basic/mag_power", 100, "prop_basic/max_life", 100, "prop_basic/resist_metal", 15, "prop_basic/resist_fire", 15, "prop_basic/speed", 100, "prop_extra/gb_qiangj_1", 12, "level", 100, "nimbus", 16000, "icon", 9358, "color", 金色 })
+
+[修罗术1]
+name      : 修罗术
+min_level : 1
+max_level : 1
+attribs      : ({ "prop_basic/mag_power", 100, "prop_basic/max_life", 100, "prop_basic/resist_metal", 15, "prop_basic/resist_fire", 15, "prop_basic/speed", 100, "prop_extra/gb_lingh_1", 160, "level", 100, "nimbus", 16000, "icon", 9360, "color", 金色 })
+
+[降魔斩1]
+name      : 降魔斩
+min_level : 1
+max_level : 1
+attribs      : ({ "prop_basic/mag_power", 100, "prop_basic/max_life", 100, "prop_basic/resist_metal", 15, "prop_basic/resist_fire", 15, "prop_basic/speed", 100, "prop_extra/gb_shengg_1", 100, "level", 100, "nimbus", 16000, "icon", 9359, "color", 金色 })
+
+[云体1]
+name      : 云体
+min_level : 1
+max_level : 1
+attribs      : ({ "prop_basic/def", 100, "prop_basic/max_life", 100, "prop_basic/resist_metal", 15, "prop_basic/resist_fire", 15, "prop_basic/speed", 100, "prop_extra/gb_lingh_1", 160, "level", 100, "nimbus", 16000, "icon", 9361, "color", 金色 })
+
+[仙风1]
+name      : 仙风
+min_level : 1
+max_level : 1
+attribs      : ({ "prop_basic/def", 100, "prop_basic/max_life", 100, "prop_basic/resist_metal", 15, "prop_basic/resist_fire", 15, "prop_basic/speed", 100, "prop_extra/gb_jis_1", 12, "level", 100, "nimbus", 16000, "icon", 9362, "color", 金色 })
+
+[尽忠1]
+name      : 尽忠
+min_level : 1
+max_level : 1
+attribs      : ({ "prop_basic/def", 100, "prop_basic/max_life", 100, "prop_basic/resist_metal", 15, "prop_basic/resist_fire", 15, "prop_basic/speed", 100, "prop_extra/gb_shengg_1", 100, "level", 100, "nimbus", 16000, "icon", 9363, "color", 金色 })

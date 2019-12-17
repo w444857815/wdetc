@@ -1,0 +1,24 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/26/3506
+#奖励物品        概率
+
+[奖励等级]
+name$: 特等奖
+
+
+[特等奖]
+金系装备奖励 : 130
+
+
+
+
+
+[金系装备奖励]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "御天梭" })
+
+[御天梭]
+name      : 御天梭
+min_level : 1
+max_level : 1
+attribs      : ({ "prop2/all_polar", 1,"open_nimbus", 1, "source", 老G, "extra_desc", #R提示：老G亲自启灵过的飞机，直接佩戴即可起飞#n })

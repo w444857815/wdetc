@@ -1,0 +1,86 @@
+#FORM2
+
+[活动时间]
+time_list$ : ({ "2019-11-01-00:00:01", "EVERY_HOUR(24)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2019-11-02-00:00:01", "EVERY_HOUR(24)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2019-11-03-00:00:01", "EVERY_HOUR(24)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2019-11-04-00:00:01", "EVERY_HOUR(24)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2019-11-05-00:00:01", "EVERY_HOUR(24)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2019-11-06-00:00:01", "EVERY_HOUR(24)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2019-11-07-00:00:01", "EVERY_HOUR(24)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2019-11-08-00:00:01", "EVERY_HOUR(24)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2019-11-09-00:00:01", "EVERY_HOUR(24)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2019-11-10-00:00:01", "EVERY_HOUR(24)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2019-11-11-00:00:01", "EVERY_HOUR(24)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2019-11-12-00:00:01", "EVERY_HOUR(24)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2019-11-13-00:00:01", "EVERY_HOUR(24)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2019-11-14-00:00:01", "EVERY_HOUR(24)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2019-11-15-00:00:01", "EVERY_HOUR(24)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2019-11-16-00:00:01", "EVERY_HOUR(24)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2019-11-17-00:00:01", "EVERY_HOUR(24)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2019-11-18-00:00:01", "EVERY_HOUR(24)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2019-11-19-00:00:01", "EVERY_HOUR(24)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2019-11-20-00:00:01", "EVERY_HOUR(24)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2019-11-21-00:00:01", "EVERY_HOUR(24)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2019-11-22-00:00:01", "EVERY_HOUR(24)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2019-11-23-00:00:01", "EVERY_HOUR(24)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2019-11-24-00:00:01", "EVERY_HOUR(24)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2019-11-25-00:00:01", "EVERY_HOUR(24)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2019-11-26-00:00:01", "EVERY_HOUR(24)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2019-11-27-00:00:01", "EVERY_HOUR(24)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2019-11-28-00:00:01", "EVERY_HOUR(24)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2019-11-29-00:00:01", "EVERY_HOUR(24)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2019-11-30-00:00:01", "EVERY_HOUR(24)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2019-11-31-00:00:01", "EVERY_HOUR(24)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2019-12-01-00:00:01", "EVERY_HOUR(24)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2019-12-02-00:00:01", "EVERY_HOUR(24)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2019-12-03-00:00:01", "EVERY_HOUR(24)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2019-12-04-00:00:01", "EVERY_HOUR(24)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2019-12-05-00:00:01", "EVERY_HOUR(24)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2019-12-06-00:00:01", "EVERY_HOUR(24)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2019-12-07-00:00:01", "EVERY_HOUR(24)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2019-12-08-00:00:01", "EVERY_HOUR(24)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2019-12-09-00:00:01", "EVERY_HOUR(24)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2019-12-10-00:00:01", "EVERY_HOUR(24)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2019-12-11-00:00:01", "EVERY_HOUR(24)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2019-12-12-00:00:01", "EVERY_HOUR(24)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2019-12-13-00:00:01", "EVERY_HOUR(24)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2019-12-14-00:00:01", "EVERY_HOUR(24)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2019-12-15-00:00:01", "EVERY_HOUR(24)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2019-12-16-00:00:01", "EVERY_HOUR(24)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2019-12-17-00:00:01", "EVERY_HOUR(24)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2019-12-18-00:00:01", "EVERY_HOUR(24)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2019-12-19-00:00:01", "EVERY_HOUR(24)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2019-12-20-00:00:01", "EVERY_HOUR(24)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2019-12-21-00:00:01", "EVERY_HOUR(24)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2019-12-22-00:00:01", "EVERY_HOUR(24)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2019-12-23-00:00:01", "EVERY_HOUR(24)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2019-12-24-00:00:01", "EVERY_HOUR(24)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2019-12-25-00:00:01", "EVERY_HOUR(24)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2019-12-26-00:00:01", "EVERY_HOUR(24)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2019-12-27-00:00:01", "EVERY_HOUR(24)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2019-12-28-00:00:01", "EVERY_HOUR(24)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2019-12-29-00:00:01", "EVERY_HOUR(24)", "EVERY_WEEK(1)" })
+time_list$ : ({ "2019-12-30-00:00:01", "EVERY_HOUR(24)", "EVERY_WEEK(1)" })
+
+
+
+
+
+
+[broadcast_setting]
+broadcast_list : ({ "pre_start_game", "during_task" })
+
+[pre_start_game]
+broadcast_start : "start_time(-10800)"
+interval        : 600
+broadcast_end   : "start_time(-600)"
+message         : "#RSTART_TIME#n至#REND_TIME#n将开放#R特色捕鱼活动#n，可获得大量银元宝奖励！欢迎大家到#Z天墉城#Z找#P活动大使#P参加！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[during_task]
+broadcast_start : "start_time(+600)"
+interval        : 600
+broadcast_end   : "end_time(-600)"
+message         : "#R特色捕鱼活动#n正在紧张激烈的进行中，可获得大量银元宝奖励！欢迎大家到#Z天墉城#Z找#P活动大使#P参加！"
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"

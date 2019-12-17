@@ -1,0 +1,27 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/26/3506
+#奖励物品        概率
+
+[奖励等级]
+name$: 特等奖
+
+
+[特等奖]
+金系装备奖励 : 1000
+
+
+
+
+
+[金系装备奖励]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "铭牌1", "铭牌2" })
+
+[铭牌1]
+name       : 竞技王者铭牌
+attribs    : ({ "prop/all_polar", 10, "prop/all_skill", 10,"color", 金色, "durability", 10000, "source", #L黄仨儿, "extra_desc", #B所有相性 10 增加#r#Y所有技能上升 10 级 })
+
+
+[铭牌2]
+name       : 熊猫铭牌
+attribs    : ({ "prop/all_polar", 10, "prop/all_skill", 10,"color", 金色, "durability", 10000, "source", #L黄仨儿, "extra_desc", #B所有相性 10 增加#r#Y所有技能上升 10 级 })

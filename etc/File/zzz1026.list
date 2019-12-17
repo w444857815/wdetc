@@ -1,0 +1,230 @@
+#FORM2
+#jinnang.list
+#create by caijz 09/18/2006
+#奖励物品        概率
+
+[奖励等级]
+name$: 特等奖
+
+[特等奖]
+70武器 : 1000
+70衣服 : 1000
+70头 : 1000
+70鞋 : 1000
+70腰带 : 1000
+
+[70武器]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "所有相", "木相", "金相", "火相", "水相", "土相", "伤害"})
+
+[70衣服]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "衣所有", "衣力", "衣体", "衣敏", "衣灵"})
+
+[70头]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "头所有", "头力", "头体", "头敏", "头灵"})
+
+[70鞋]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "鞋所有", "鞋力", "鞋体", "鞋敏", "鞋灵", "鞋速"})
+
+[70腰带]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "腰带所有", "腰带力", "腰带体", "腰带敏", "腰带灵"})
+
+[所有相]
+name      : 超级黑水晶
+min_level : 70
+max_level : 70
+upgrade_type : 1
+attribs      : ({ "prop/all_polar", 5 })
+
+[木相]
+name      : 超级黑水晶
+min_level : 70
+max_level : 70
+upgrade_type : 1
+attribs      : ({ "prop/wood", 5 })
+
+[金相]
+name      : 超级黑水晶
+min_level : 70
+max_level : 70
+upgrade_type : 1
+attribs      : ({ "prop/metal", 5 })
+
+[水相]
+name      : 超级黑水晶
+min_level : 70
+max_level : 70
+upgrade_type : 1
+attribs      : ({ "prop/water", 5 })
+
+[土相]
+name      : 超级黑水晶
+min_level : 70
+max_level : 70
+upgrade_type : 1
+attribs      : ({ "prop/earth", 5 })
+
+[火相]
+name      : 超级黑水晶
+min_level : 70
+max_level : 70
+upgrade_type : 1
+attribs      : ({ "prop/fire", 5 })
+
+[伤害]
+name      : 超级黑水晶
+min_level : 70
+max_level : 70
+upgrade_type : 1
+attribs      : ({ "prop/mag_power", 1400, "prop/phy_power", 1400 })
+
+[衣所有]
+name      : 超级黑水晶
+min_level : 70
+max_level : 70
+upgrade_type : 3
+attribs      : ({ "prop/all_attrib", 14 })
+
+[衣力]
+name      : 超级黑水晶
+min_level : 70
+max_level : 70
+upgrade_type : 3
+attribs      : ({ "prop/str", 17 })
+
+[衣体]
+name      : 超级黑水晶
+min_level : 70
+max_level : 70
+upgrade_type : 3
+attribs      : ({ "prop/con", 17 })
+
+[衣敏]
+name      : 超级黑水晶
+min_level : 70
+max_level : 70
+upgrade_type : 3
+attribs      : ({ "prop/dex", 17 })
+
+
+
+
+
+[衣灵]
+name      : 超级黑水晶
+min_level : 70
+max_level : 70
+upgrade_type : 3
+attribs      : ({ "prop/wiz", 17 })
+
+[头所有]
+name      : 超级黑水晶
+min_level : 70
+max_level : 70
+upgrade_type : 2
+attribs      : ({ "prop/all_attrib", 14 })
+
+[头力]
+name      : 超级黑水晶
+min_level : 70
+max_level : 70
+upgrade_type : 2
+attribs      : ({ "prop/str", 17 })
+
+[头体]
+name      : 超级黑水晶
+min_level : 70
+max_level : 70
+upgrade_type : 2
+attribs      : ({ "prop/con", 17 })
+
+[头敏]
+name      : 超级黑水晶
+min_level : 70
+max_level : 70
+upgrade_type : 2
+attribs      : ({ "prop/dex", 17 })
+
+[头灵]
+name      : 超级黑水晶
+min_level : 70
+max_level : 70
+upgrade_type : 2
+attribs      : ({ "prop/wiz", 17 })
+
+[腰带所有]
+name      : 超级黑水晶
+min_level : 70
+max_level : 70
+upgrade_type : 7
+attribs      : ({ "prop/all_attrib", 14 })
+
+[腰带力]
+name      : 超级黑水晶
+min_level : 70
+max_level : 70
+upgrade_type : 7
+attribs      : ({ "prop/str", 17 })
+
+[腰带体]
+name      : 超级黑水晶
+min_level : 70
+max_level : 70
+upgrade_type : 7
+attribs      : ({ "prop/con", 17 })
+
+[腰带敏]
+name      : 超级黑水晶
+min_level : 70
+max_level : 70
+upgrade_type : 7
+attribs      : ({ "prop/dex", 17 })
+
+[腰带灵]
+name      : 超级黑水晶
+min_level : 70
+max_level : 70
+upgrade_type : 7
+attribs      : ({ "prop/wiz", 17 })
+
+[鞋所有]
+name      : 超级黑水晶
+min_level : 70
+max_level : 70
+upgrade_type : 10
+attribs      : ({ "prop/all_attrib", 14 })
+
+[鞋力]
+name      : 超级黑水晶
+min_level : 70
+max_level : 70
+upgrade_type : 10
+attribs      : ({ "prop/str", 17 })
+
+[鞋体]
+name      : 超级黑水晶
+min_level : 70
+max_level : 70
+upgrade_type : 10
+attribs      : ({ "prop/con", 17 })
+
+[鞋敏]
+name      : 超级黑水晶
+min_level : 70
+max_level : 70
+upgrade_type : 10
+attribs      : ({ "prop/dex", 17 })
+
+[鞋灵]
+name      : 超级黑水晶
+min_level : 70
+max_level : 70
+upgrade_type : 10
+attribs      : ({ "prop/wiz", 17 })
+
+
+[鞋速]
+name      : 超级黑水晶
+min_level : 70
+max_level : 70
+upgrade_type : 10
+attribs      : ({ "prop/speed", 90 })

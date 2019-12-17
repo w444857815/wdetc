@@ -1,0 +1,569 @@
+#FORM2
+
+[道具和概率]
+大呲花  : 1000
+
+[地图]
+年蛋掉落地图: ({ 天墉城 })
+年蛋升级地图: ({ 轩辕庙 })
+
+[活动配置]
+#发放任务的NPC
+npc_name:  【高级坐骑】捕捉使者
+
+#参与活动允许的最小等级
+min_level: 80
+
+#每线发放的年蛋个数
+egg_maximum : 5000000
+
+#活动开始前第一阶段广播到活动开始的间隔时间（秒）
+interval_prev_broadcast_first: 1800
+interval_prev_broadcast_first_timer: 180
+
+#活动开始前第二阶段广播到开始时的间隔时间（秒）
+#第二阶段广播的广播间隔（秒）
+interval_prev_broadcast: 600
+interval_prev_broadcast_timer: 60
+
+#活动开始后广播的间隔时间（秒）
+interval_festival_broadcast: 180
+
+#活动结束前广播到活动结束时的间隔时间（秒）
+interval_prev_stop_broadcast: 600
+interval_prev_stop_broadcast_timer: 60
+
+#更换地图的间隔时间（秒）
+interval_change_map: 1800
+
+#御仙蛋的初始等级
+egg_initial_level: 1
+
+#御仙蛋能达到的最高等级
+egg_max_level: 5
+
+#燃放烟花爆竹的有效范围
+valid_radius: 500
+
+#御仙蛋掉落地图
+御仙蛋掉落地图: ({ 天墉城 })
+
+#御仙蛋升级地图
+御仙蛋升级地图: ({ 轩辕庙 })
+
+#活动时间
+#时间从上往下递增
+time$: ({ "2008-02-05-20:00:00", "2028-02-05-22:00:00" })
+
+#整个活动结束的时间
+stop_time: "2028-02-12-00:00:00"
+
+[御仙蛋经验列表]
+1: 5
+2: 5
+3: 5
+4: 5
+5: 5
+
+[奖励列表]
+#内测区奖励概率(千万分制) :  奖励类型
+total_rate  : 10000000
+bonus_info$: ({ 4000000, 九速 })
+bonus_info$: ({ 2000000, 十速 })
+bonus_info$: ({ 100000, 八速 })
+bonus_info$: ({ 20000, 十二速 })
+
+
+[十二速]
+free_pet:   ({ 1, "你携带的宠物数量已到最大，无法领取奖励。" })
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "九尾仙狐★幽梦", "北斗天蓬★彩云", "疾风蚀日★蓝烁", "九尾仙狐★天星"})
+
+[八速]
+free_pet:   ({ 1, "你携带的宠物数量已到最大，无法领取奖励。" })
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "太极熊", "北极熊" })
+
+[十速]
+free_pet:   ({ 1, "你携带的宠物数量已到最大，无法领取奖励。" })
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "绿红吉祥蛙", "绿色吉祥蛙", "绿蓝吉祥蛙", "白绿北极熊", "白蓝北极熊", "红蓝翡翠葫芦", "紫剑", "黑蓝翡翠葫芦", "绿色古鹿", "蓝色古鹿", "浅白古鹿", "绿剑", "蓝剑", "粉剑", "青剑", "巨骨刺·赤煞", "巨骨刺·幽粉", "巨骨刺·修罗", "盘古红猿", "盘古金猿", "蓝葫芦", "粉葫芦", "青葫芦" })
+
+[九速]
+free_pet:   ({ 1, "你携带的宠物数量已到最大，无法领取奖励。" })
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "至尊太极熊" })
+
+
+
+[九尾仙狐★幽梦]
+name$: ({九尾仙狐★幽梦, 九尾仙狐★幽梦})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_rumor: "#51#L恭喜#9#G$PLAYER#9#n#L在高级御灵诱捕活动中与#R御仙#n#L有缘，在升级#Y御仙蛋#L到满级后成功孵下了一只#O十二速#Y$EX_PET#n#L，真是羡煞旁人啊！#23"
+
+[北斗天蓬★彩云]
+name$: ({北斗天蓬★彩云, 北斗天蓬★彩云})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_rumor: "#51#L恭喜#9#G$PLAYER#9#n#L在高级御灵诱捕活动中与#R御仙#n#L有缘，在升级#Y御仙蛋#L到满级后成功孵下了一只#O十二速#Y$EX_PET#n#L，真是羡煞旁人啊！#23"
+
+[疾风蚀日★蓝烁]
+name$: ({疾风蚀日★蓝烁, 疾风蚀日★蓝烁})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_rumor: "#51#L恭喜#9#G$PLAYER#9#n#L在高级御灵诱捕活动中与#R御仙#n#L有缘，在升级#Y御仙蛋#L到满级后成功孵下了一只#O十二速#Y$EX_PET#n#L，真是羡煞旁人啊！#23"
+
+[九尾仙狐★天星]
+name$: ({九尾仙狐★天星, 九尾仙狐★天星})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_rumor: "#51#L恭喜#9#G$PLAYER#9#n#L在高级御灵诱捕活动中与#R御仙#n#L有缘，在升级#Y御仙蛋#L到满级后成功孵下了一只#O十二速#Y$EX_PET#n#L，真是羡煞旁人啊！#23"
+
+
+
+
+
+
+
+
+
+
+[巨骨刺·枯骨]
+name$: ({巨骨刺·枯骨, 巨骨刺·枯骨})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_rumor: "#51#L恭喜#9#G$PLAYER#9#n#L在高级御灵诱捕活动中与#R御仙#n#L有缘，在升级#Y御仙蛋#L到满级后成功孵下了一只#O十速#Y$EX_PET#n#L，真是羡煞旁人啊！#23"
+
+[疾风蚀日·毒云]
+name$: ({疾风蚀日·毒云, 疾风蚀日·毒云})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_rumor: "#51#L恭喜#9#G$PLAYER#9#n#L在高级御灵诱捕活动中与#R御仙#n#L有缘，在升级#Y御仙蛋#L到满级后成功孵下了一只#O十速#Y$EX_PET#n#L，真是羡煞旁人啊！#23"
+
+[鲁道夫·金秋]
+name$: ({鲁道夫·金秋, 鲁道夫·金秋})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_rumor: "#51#L恭喜#9#G$PLAYER#9#n#L在高级御灵诱捕活动中与#R御仙#n#L有缘，在升级#Y御仙蛋#L到满级后成功孵下了一只#O十速#Y$EX_PET#n#L，真是羡煞旁人啊！#23"
+
+[北斗天蓬·蟠桃]
+name$: ({北斗天蓬·蟠桃, 北斗天蓬·蟠桃})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_rumor: "#51#L恭喜#9#G$PLAYER#9#n#L在高级御灵诱捕活动中与#R御仙#n#L有缘，在升级#Y御仙蛋#L到满级后成功孵下了一只#O十速#Y$EX_PET#n#L，真是羡煞旁人啊！#23"
+
+
+
+[太极熊]
+name$: ({太极熊, 太极熊})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_rumor: "#51#L恭喜#9#G$PLAYER#9#n#L在高级御灵诱捕活动中与#R御仙#n#L有缘，在升级#Y御仙蛋#L到满级后成功孵下了一只#O回收坐骑#Y$EX_PET#n#L，真是羡煞旁人啊！#23"
+
+
+[北极熊]
+name$: ({北极熊, 北极熊})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_rumor: "#51#L恭喜#9#G$PLAYER#9#n#L在高级御灵诱捕活动中与#R御仙#n#L有缘，在升级#Y御仙蛋#L到满级后成功孵下了一只#O回收坐骑#Y$EX_PET#n#L，真是羡煞旁人啊！#23"
+
+
+[至尊太极熊]
+name$: ({至尊太极熊, 至尊太极熊})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_rumor: "#51#L恭喜#9#G$PLAYER#9#n#L在高级御灵诱捕活动中与#R御仙#n#L有缘，在升级#Y御仙蛋#L到满级后成功孵下了一只#O九速#Y$EX_PET#n#L，真是羡煞旁人啊！#23"
+
+
+
+[红蓝翡翠葫芦]
+name$: ({红蓝翡翠葫芦, 红蓝翡翠葫芦})
+rank$: 精怪
+level: 60
+life_effect: ({ 80, 80 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 70, 70 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 45, 45 })
+special_skill$: ({  3,  舍命一击, 1, 神圣之光, 1, 乾坤罩, 1})
+channel_rumor: "#51#L恭喜#9#G$PLAYER#9#n#L在高级御灵诱捕活动中与#R御仙#n#L有缘，在升级#Y御仙蛋#L到满级后成功孵下了一只#O十速#Y$EX_PET#n#L，真是羡煞旁人啊！#23"
+
+
+[紫剑]
+name$: ({紫剑, 紫剑})
+rank$: 精怪
+level: 60
+life_effect: ({ 80, 80 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 70, 70 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 45, 45 })
+special_skill$: ({  3,  舍命一击, 1, 神圣之光, 1, 乾坤罩, 1})
+channel_rumor: "#51#L恭喜#9#G$PLAYER#9#n#L在高级御灵诱捕活动中与#R御仙#n#L有缘，在升级#Y御仙蛋#L到满级后成功孵下了一只#O十速#Y$EX_PET#n#L，真是羡煞旁人啊！#23"
+
+
+[黑蓝翡翠葫芦]
+name$: ({黑蓝翡翠葫芦, 黑蓝翡翠葫芦})
+rank$: 精怪
+level: 60
+life_effect: ({ 80, 80 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 70, 70 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 45, 45 })
+special_skill$: ({  3,  舍命一击, 1, 神圣之光, 1, 乾坤罩, 1})
+channel_rumor: "#51#L恭喜#9#G$PLAYER#9#n#L在高级御灵诱捕活动中与#R御仙#n#L有缘，在升级#Y御仙蛋#L到满级后成功孵下了一只#O十速#Y$EX_PET#n#L，真是羡煞旁人啊！#23"
+
+
+[绿色古鹿]
+name$: ({绿色古鹿, 绿色古鹿})
+rank$: 精怪
+level: 60
+life_effect: ({ 80, 80 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 70, 70 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 45, 45 })
+special_skill$: ({  3,  舍命一击, 1, 神圣之光, 1, 乾坤罩, 1})
+channel_rumor: "#51#L恭喜#9#G$PLAYER#9#n#L在高级御灵诱捕活动中与#R御仙#n#L有缘，在升级#Y御仙蛋#L到满级后成功孵下了一只#O十速#Y$EX_PET#n#L，真是羡煞旁人啊！#23"
+
+
+[蓝色古鹿]
+name$: ({蓝色古鹿, 蓝色古鹿})
+rank$: 精怪
+level: 60
+life_effect: ({ 80, 80 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 70, 70 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 45, 45 })
+special_skill$: ({  3,  舍命一击, 1, 神圣之光, 1, 乾坤罩, 1})
+channel_rumor: "#51#L恭喜#9#G$PLAYER#9#n#L在高级御灵诱捕活动中与#R御仙#n#L有缘，在升级#Y御仙蛋#L到满级后成功孵下了一只#O十速#Y$EX_PET#n#L，真是羡煞旁人啊！#23"
+
+
+[浅白古鹿]
+name$: ({浅白古鹿, 浅白古鹿})
+rank$: 精怪
+level: 60
+life_effect: ({ 80, 80 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 70, 70 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 45, 45 })
+special_skill$: ({  3,  舍命一击, 1, 神圣之光, 1, 乾坤罩, 1})
+channel_rumor: "#51#L恭喜#9#G$PLAYER#9#n#L在高级御灵诱捕活动中与#R御仙#n#L有缘，在升级#Y御仙蛋#L到满级后成功孵下了一只#O十速#Y$EX_PET#n#L，真是羡煞旁人啊！#23"
+
+
+[绿剑]
+name$: ({绿剑, 绿剑})
+rank$: 精怪
+level: 60
+life_effect: ({ 80, 80 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 70, 70 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 45, 45 })
+special_skill$: ({  3,  舍命一击, 1, 神圣之光, 1, 乾坤罩, 1})
+channel_rumor: "#51#L恭喜#9#G$PLAYER#9#n#L在高级御灵诱捕活动中与#R御仙#n#L有缘，在升级#Y御仙蛋#L到满级后成功孵下了一只#O十速#Y$EX_PET#n#L，真是羡煞旁人啊！#23"
+
+
+[蓝剑]
+name$: ({蓝剑, 蓝剑})
+rank$: 精怪
+level: 60
+life_effect: ({ 80, 80 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 70, 70 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 45, 45 })
+special_skill$: ({  3,  舍命一击, 1, 神圣之光, 1, 乾坤罩, 1})
+channel_rumor: "#51#L恭喜#9#G$PLAYER#9#n#L在高级御灵诱捕活动中与#R御仙#n#L有缘，在升级#Y御仙蛋#L到满级后成功孵下了一只#O十速#Y$EX_PET#n#L，真是羡煞旁人啊！#23"
+
+
+[粉剑]
+name$: ({粉剑, 粉剑})
+rank$: 精怪
+level: 60
+life_effect: ({ 80, 80 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 70, 70 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 45, 45 })
+special_skill$: ({  3,  舍命一击, 1, 神圣之光, 1, 乾坤罩, 1})
+channel_rumor: "#51#L恭喜#9#G$PLAYER#9#n#L在高级御灵诱捕活动中与#R御仙#n#L有缘，在升级#Y御仙蛋#L到满级后成功孵下了一只#O十速#Y$EX_PET#n#L，真是羡煞旁人啊！#23"
+
+
+[青剑]
+name$: ({青剑, 青剑})
+rank$: 精怪
+level: 60
+life_effect: ({ 80, 80 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 70, 70 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 45, 45 })
+special_skill$: ({  3,  舍命一击, 1, 神圣之光, 1, 乾坤罩, 1})
+channel_rumor: "#51#L恭喜#9#G$PLAYER#9#n#L在高级御灵诱捕活动中与#R御仙#n#L有缘，在升级#Y御仙蛋#L到满级后成功孵下了一只#O十速#Y$EX_PET#n#L，真是羡煞旁人啊！#23"
+
+
+[巨骨刺·赤煞]
+name$: ({巨骨刺·赤煞, 巨骨刺·赤煞})
+rank$: 精怪
+level: 60
+life_effect: ({ 80, 80 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 70, 70 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 45, 45 })
+special_skill$: ({  3,  舍命一击, 1, 神圣之光, 1, 乾坤罩, 1})
+channel_rumor: "#51#L恭喜#9#G$PLAYER#9#n#L在高级御灵诱捕活动中与#R御仙#n#L有缘，在升级#Y御仙蛋#L到满级后成功孵下了一只#O十速#Y$EX_PET#n#L，真是羡煞旁人啊！#23"
+
+
+[巨骨刺·幽粉]
+name$: ({巨骨刺·幽粉, 巨骨刺·幽粉})
+rank$: 精怪
+level: 60
+life_effect: ({ 80, 80 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 70, 70 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 45, 45 })
+special_skill$: ({  3,  舍命一击, 1, 神圣之光, 1, 乾坤罩, 1})
+channel_rumor: "#51#L恭喜#9#G$PLAYER#9#n#L在高级御灵诱捕活动中与#R御仙#n#L有缘，在升级#Y御仙蛋#L到满级后成功孵下了一只#O十速#Y$EX_PET#n#L，真是羡煞旁人啊！#23"
+
+
+[巨骨刺·修罗]
+name$: ({巨骨刺·修罗, 巨骨刺·修罗})
+rank$: 精怪
+level: 60
+life_effect: ({ 80, 80 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 70, 70 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 45, 45 })
+special_skill$: ({  3,  舍命一击, 1, 神圣之光, 1, 乾坤罩, 1})
+channel_rumor: "#51#L恭喜#9#G$PLAYER#9#n#L在高级御灵诱捕活动中与#R御仙#n#L有缘，在升级#Y御仙蛋#L到满级后成功孵下了一只#O十速#Y$EX_PET#n#L，真是羡煞旁人啊！#23"
+
+
+[盘古红猿]
+name$: ({盘古红猿, 盘古红猿})
+rank$: 精怪
+level: 60
+life_effect: ({ 80, 80 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 70, 70 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 45, 45 })
+special_skill$: ({  3,  舍命一击, 1, 神圣之光, 1, 乾坤罩, 1})
+channel_rumor: "#51#L恭喜#9#G$PLAYER#9#n#L在高级御灵诱捕活动中与#R御仙#n#L有缘，在升级#Y御仙蛋#L到满级后成功孵下了一只#O十速#Y$EX_PET#n#L，真是羡煞旁人啊！#23"
+
+
+[盘古金猿]
+name$: ({盘古金猿, 盘古金猿})
+rank$: 精怪
+level: 60
+life_effect: ({ 80, 80 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 70, 70 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 45, 45 })
+special_skill$: ({  3,  舍命一击, 1, 神圣之光, 1, 乾坤罩, 1})
+channel_rumor: "#51#L恭喜#9#G$PLAYER#9#n#L在高级御灵诱捕活动中与#R御仙#n#L有缘，在升级#Y御仙蛋#L到满级后成功孵下了一只#O十速#Y$EX_PET#n#L，真是羡煞旁人啊！#23"
+
+
+
+[绿红吉祥蛙]
+name$: ({绿红吉祥蛙, 绿红吉祥蛙})
+rank$: 精怪
+level: 60
+life_effect: ({ 80, 80 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 70, 70 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 45, 45 })
+special_skill$: ({  3,  舍命一击, 1, 神圣之光, 1, 乾坤罩, 1})
+channel_rumor: "#51#L恭喜#9#G$PLAYER#9#n#L在高级御灵诱捕活动中与#R御仙#n#L有缘，在升级#Y御仙蛋#L到满级后成功孵下了一只#O十速#Y$EX_PET#n#L，真是羡煞旁人啊！#23"
+
+
+[绿色吉祥蛙]
+name$: ({绿色吉祥蛙, 绿色吉祥蛙})
+rank$: 精怪
+level: 60
+life_effect: ({ 85, 85 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 40, 40 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 70, 70 })
+special_skill$: ({  3,  舍命一击, 1, 如意圈, 1, 神圣之光, 1})
+channel_rumor: "#51#L恭喜#9#G$PLAYER#9#n#L在高级御灵诱捕活动中与#R御仙#n#L有缘，在升级#Y御仙蛋#L到满级后成功孵下了一只#O十速#Y$EX_PET#n#L，真是羡煞旁人啊！#23"
+
+
+[绿蓝吉祥蛙]
+name$: ({绿蓝吉祥蛙, 绿蓝吉祥蛙})
+rank$: 精怪
+level: 60
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+special_skill$: ({  3,  舍命一击, 1, 神圣之光, 1, 神龙罩, 1})
+channel_rumor: "#51#L恭喜#9#G$PLAYER#9#n#L在高级御灵诱捕活动中与#R御仙#n#L有缘，在升级#Y御仙蛋#L到满级后成功孵下了一只#O十速#Y$EX_PET#n#L，真是羡煞旁人啊！#23"
+
+
+[白绿北极熊]
+name$: ({白绿北极熊, 白绿北极熊})
+rank$: 精怪
+level: 60
+life_effect: ({ 85, 85 })
+mana_effect: ({ -5, -5 })
+speed_effect: ({ 70, 70 })
+phy_effect: ({ -50, 50 })
+mag_effect: ({ 60, 60 })
+special_skill$: ({  3,  舍命一击, 1, 神圣之光, 1, 游说之舌, 1})
+channel_rumor: "#51#L恭喜#9#G$PLAYER#9#n#L在高级御灵诱捕活动中与#R御仙#n#L有缘，在升级#Y御仙蛋#L到满级后成功孵下了一只#O十速#Y$EX_PET#n#L，真是羡煞旁人啊！#23"
+
+
+[白蓝北极熊]
+name$: ({白蓝北极熊, 白蓝北极熊})
+rank$: 精怪
+level: 60
+life_effect: ({ 105, 105 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 45, 45 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+special_skill$: ({  3,  舍命一击, 1, 神龙罩, 1, 游说之舌, 1})
+channel_rumor: "#51#L恭喜#9#G$PLAYER#9#n#L在高级御灵诱捕活动中与#R御仙#n#L有缘，在升级#Y御仙蛋#L到满级后成功孵下了一只#O十速#Y$EX_PET#n#L，真是羡煞旁人啊！#23"
+
+
+
+[蓝葫芦]
+name$: ({蓝葫芦, 蓝葫芦})
+rank$: 精怪
+level: 60
+life_effect: ({ 105, 105 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 45, 45 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+special_skill$: ({  3,  舍命一击, 1, 神龙罩, 1, 游说之舌, 1})
+channel_rumor: "#51#L恭喜#9#G$PLAYER#9#n#L在高级御灵诱捕活动中与#R御仙#n#L有缘，在升级#Y御仙蛋#L到满级后成功孵下了一只#O十速#Y$EX_PET#n#L，真是羡煞旁人啊！#23"
+
+
+
+[粉葫芦]
+name$: ({粉葫芦, 粉葫芦})
+rank$: 精怪
+level: 60
+life_effect: ({ 105, 105 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 45, 45 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+special_skill$: ({  3,  舍命一击, 1, 神龙罩, 1, 游说之舌, 1})
+channel_rumor: "#51#L恭喜#9#G$PLAYER#9#n#L在高级御灵诱捕活动中与#R御仙#n#L有缘，在升级#Y御仙蛋#L到满级后成功孵下了一只#O十速#Y$EX_PET#n#L，真是羡煞旁人啊！#23"
+
+
+
+
+[青葫芦]
+name$: ({青葫芦, 青葫芦})
+rank$: 精怪
+level: 60
+life_effect: ({ 105, 105 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 45, 45 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+special_skill$: ({  3,  舍命一击, 1, 神龙罩, 1, 游说之舌, 1})
+channel_rumor: "#51#L恭喜#9#G$PLAYER#9#n#L在高级御灵诱捕活动中与#R御仙#n#L有缘，在升级#Y御仙蛋#L到满级后成功孵下了一只#O十速#Y$EX_PET#n#L，真是羡煞旁人啊！#23"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

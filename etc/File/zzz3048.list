@@ -1,0 +1,21 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/20/2006
+#奖励物品        概率
+
+[奖励等级]
+name$: 特等奖
+
+
+[特等奖]
+属性时装奖励1 : 1000
+
+
+[属性时装奖励1]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "属性时装88" })
+
+[属性时装88]
+name      : 倾国倾城·爱情
+min_level : 1
+max_level : 1
+attribs      : ({ "prop/all_polar", 10, "prop/all_skill", 10, "prop/mag_power", 1000, "prop/phy_power", 2000, "source", ★月老★, "extra_desc", #G倾国倾城系列·月老出品#r#Y仙人推荐指数：★★★★★★#n#r#R注意：#R实际效果为#r#M物伤2000增加#n#r#M法伤1000增加#n })

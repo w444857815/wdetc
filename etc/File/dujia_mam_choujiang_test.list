@@ -1,0 +1,18 @@
+#FORM2
+
+#dujiachoujianghuodong.list
+#created by huangw2 Aug/25/2008
+#独家抽奖游戏活动
+
+[task_time]
+start_time : "2008-11-13-12:00:00"
+maf_time$ :  ({ "2008-11-13-12:00:00", "2028-11-13-12:00:00" })
+
+
+[无级别奖励金]
+rate : 2000
+log_to_db:  1
+name$ : 无级别奖励金
+bonus$: ({ 0, 0, 100, "无级别魔武器新木", 1, 1 })
+bonus_times : -1
+whoop: "#O%PLAYER%#n#Y在战云宫#R魔系装备兑换#n#Y抽奖中，抽取到了#G魔系装备一件#n#Y奖励，真是鸿运当头！"

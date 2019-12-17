@@ -1,0 +1,926 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/18/2006
+#奖励物品        概率
+
+[奖励等级]
+name$: 特等奖
+
+
+[特等奖]
+仙元奖励1 : 0
+仙元奖励2 : 0
+仙元奖励3 : 10000
+仙元奖励4 : 10000
+仙元奖励5 : 2000
+
+
+
+[仙元奖励1]
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "巨骨刺★青厌", "巨骨刺★赤煞", "巨骨刺★幽粉", "巨骨刺★枯骨", "九尾仙狐★幽冥", "九尾仙狐★幽梦", "九尾仙狐★紫霞", "九尾仙狐★碟兰", "九尾仙狐★氤氲", "北斗天蓬★元帅", "北斗天蓬★蟠桃", "鲁道夫★神迹", "鲁道夫★金秋"})
+
+[仙元奖励2]
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "北斗天蓬★玄墨", "北斗天蓬★金流", "北斗天蓬★霸哥", "北斗天蓬★仙境", "疾风蚀日★幻音", "疾风蚀日★蓝烁", "疾风蚀日★飞羽", "疾风蚀日★冥池", "疾风蚀日★异毒", "鲁道夫★详宁", "鲁道夫★蟠桃", "鲁道夫★漂亮"})
+
+
+
+[仙元奖励3]
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "巨骨刺★沧蓝", "巨骨刺★艳阳", "巨骨刺★修罗", "巨骨刺★幽紫", "九尾仙狐★玄墨", "九尾仙狐★青怏", "九尾仙狐★天星", "九尾仙狐★银尘", "九尾仙狐★血煞", "北斗天蓬★彩云", "鲁道夫★紫微", "鲁道夫★彩虹", "鲁道夫★仙凤", "鲁道夫★秋香"})
+
+[仙元奖励4]
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "北斗天蓬★贞子", "北斗天蓬★弱水", "北斗天蓬★瑶池", "北斗天蓬★赤霞", "北斗天蓬★绿意", "疾风蚀日★枫铃", "疾风蚀日★霸地", "疾风蚀日★毒云", "疾风蚀日★血狱", "疾风蚀日★流火", "鲁道夫★山花", "庆舞狮★银盏", "太极熊★疾风"})
+
+
+
+[仙元奖励5]
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "幻灵熊★幻彩", "仙逸鹿★幻彩", "兰陵鹿★幻彩", "旋风豹★幻彩", "旋风豹★木兰", "碧玉剑★幻彩", "碧玉剑★绯红", "鸿玉葫★幻彩", "鸿玉葫★王子", "鸿玉葫★皇室", "凤凰涅槃★黑暗", "凤凰涅槃★光明", "速龙豹★黑魔"})
+
+
+[凤凰涅槃★黑暗]
+name$: ({凤凰涅槃★黑暗, 凤凰涅槃★黑暗})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+[凤凰涅槃★光明]
+name$: ({凤凰涅槃★光明, 凤凰涅槃★光明})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+[幻灵熊★幻彩]
+name$: ({幻灵熊★幻彩, 幻灵熊★幻彩})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+[仙逸鹿★幻彩]
+name$: ({仙逸鹿★幻彩, 仙逸鹿★幻彩})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+[兰陵鹿★幻彩]
+name$: ({兰陵鹿★幻彩, 兰陵鹿★幻彩})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+[旋风豹★幻彩]
+name$: ({旋风豹★幻彩, 旋风豹★幻彩})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+[旋风豹★木兰]
+name$: ({旋风豹★木兰, 旋风豹★木兰})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+[碧玉剑★幻彩]
+name$: ({碧玉剑★幻彩, 碧玉剑★幻彩})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+[碧玉剑★绯红]
+name$: ({碧玉剑★绯红, 碧玉剑★绯红})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+[鸿玉葫★幻彩]
+name$: ({鸿玉葫★幻彩, 鸿玉葫★幻彩})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+[鸿玉葫★王子]
+name$: ({鸿玉葫★王子, 鸿玉葫★王子})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+[鸿玉葫★皇室]
+name$: ({鸿玉葫★皇室, 鸿玉葫★皇室})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+[速龙豹★黑魔]
+name$: ({速龙豹★黑魔, 速龙豹★黑魔})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+
+
+
+
+
+
+
+[巨骨刺★枯骨]
+name$: ({巨骨刺★枯骨, 巨骨刺★枯骨})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+
+[巨骨刺★青厌]
+name$: ({巨骨刺★青厌, 巨骨刺★青厌})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+
+[巨骨刺★沧蓝]
+name$: ({巨骨刺★沧蓝, 巨骨刺★沧蓝})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+
+[巨骨刺★赤煞]
+name$: ({巨骨刺★赤煞, 巨骨刺★赤煞})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+
+[巨骨刺★幽粉]
+name$: ({巨骨刺★幽粉, 巨骨刺★幽粉})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+
+[巨骨刺★艳阳]
+name$: ({巨骨刺★艳阳, 巨骨刺★艳阳})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+
+[巨骨刺★修罗]
+name$: ({巨骨刺★修罗, 巨骨刺★修罗})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+
+[巨骨刺★幽紫]
+name$: ({巨骨刺★幽紫, 巨骨刺★幽紫})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+
+
+[北斗天蓬★仙境]
+name$: ({北斗天蓬★仙境, 北斗天蓬★仙境})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+
+[九尾仙狐★玄墨]
+name$: ({九尾仙狐★玄墨, 九尾仙狐★玄墨})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+
+[九尾仙狐★幽冥]
+name$: ({九尾仙狐★幽冥, 九尾仙狐★幽冥})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+
+[九尾仙狐★青怏]
+name$: ({九尾仙狐★青怏, 九尾仙狐★青怏})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+
+[九尾仙狐★氤氲]
+name$: ({九尾仙狐★氤氲, 九尾仙狐★氤氲})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+
+[九尾仙狐★天星]
+name$: ({九尾仙狐★天星, 九尾仙狐★天星})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+
+[九尾仙狐★银尘]
+name$: ({九尾仙狐★银尘, 九尾仙狐★银尘})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+
+[九尾仙狐★血煞]
+name$: ({九尾仙狐★血煞, 九尾仙狐★血煞})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+
+[九尾仙狐★紫霞]
+name$: ({九尾仙狐★紫霞, 九尾仙狐★紫霞})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+
+[疾风蚀日★蓝烁]
+name$: ({疾风蚀日★蓝烁, 疾风蚀日★蓝烁})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+
+[疾风蚀日★枫铃]
+name$: ({疾风蚀日★枫铃, 疾风蚀日★枫铃})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+
+[疾风蚀日★冥池]
+name$: ({疾风蚀日★冥池, 疾风蚀日★冥池})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+
+[九尾仙狐★幽梦]
+name$: ({九尾仙狐★幽梦, 九尾仙狐★幽梦})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+
+[九尾仙狐★碟兰]
+name$: ({九尾仙狐★碟兰, 九尾仙狐★碟兰})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+
+[北斗天蓬★元帅]
+name$: ({北斗天蓬★元帅, 北斗天蓬★元帅})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+
+[北斗天蓬★彩云]
+name$: ({北斗天蓬★彩云, 北斗天蓬★彩云})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+
+[北斗天蓬★贞子]
+name$: ({北斗天蓬★贞子, 北斗天蓬★贞子})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+
+[北斗天蓬★霸哥]
+name$: ({北斗天蓬★霸哥, 北斗天蓬★霸哥})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+
+[北斗天蓬★弱水]
+name$: ({北斗天蓬★弱水, 北斗天蓬★弱水})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+
+[北斗天蓬★瑶池]
+name$: ({北斗天蓬★瑶池, 北斗天蓬★瑶池})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+
+[北斗天蓬★蟠桃]
+name$: ({北斗天蓬★蟠桃, 北斗天蓬★蟠桃})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+
+[北斗天蓬★赤霞]
+name$: ({北斗天蓬★赤霞, 北斗天蓬★赤霞})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+
+[北斗天蓬★玄墨]
+name$: ({北斗天蓬★玄墨, 北斗天蓬★玄墨})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+
+[北斗天蓬★金流]
+name$: ({北斗天蓬★金流, 北斗天蓬★金流})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+
+[北斗天蓬★绿意]
+name$: ({北斗天蓬★绿意, 北斗天蓬★绿意})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+
+[疾风蚀日★幻音]
+name$: ({疾风蚀日★幻音, 疾风蚀日★幻音})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+
+[疾风蚀日★霸地]
+name$: ({疾风蚀日★霸地, 疾风蚀日★霸地})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+
+[疾风蚀日★毒云]
+name$: ({疾风蚀日★毒云, 疾风蚀日★毒云})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+
+[疾风蚀日★飞羽]
+name$: ({疾风蚀日★飞羽, 疾风蚀日★飞羽})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+[疾风蚀日★血狱]
+name$: ({疾风蚀日★血狱, 疾风蚀日★血狱})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+[疾风蚀日★异毒]
+name$: ({疾风蚀日★异毒, 疾风蚀日★异毒})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+[疾风蚀日★流火]
+name$: ({疾风蚀日★流火, 疾风蚀日★流火})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+[鲁道夫★紫微]
+name$: ({鲁道夫★紫微, 鲁道夫★紫微})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+[鲁道夫★彩虹]
+name$: ({鲁道夫★彩虹, 鲁道夫★彩虹})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+[鲁道夫★蟠桃]
+name$: ({鲁道夫★蟠桃, 鲁道夫★蟠桃})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+[鲁道夫★仙凤]
+name$: ({鲁道夫★仙凤, 鲁道夫★仙凤})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+[鲁道夫★秋香]
+name$: ({鲁道夫★秋香, 鲁道夫★秋香})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+[鲁道夫★详宁]
+name$: ({鲁道夫★详宁, 鲁道夫★详宁})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+[鲁道夫★金秋]
+name$: ({鲁道夫★金秋, 鲁道夫★金秋})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+[鲁道夫★山花]
+name$: ({鲁道夫★山花, 鲁道夫★山花})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+[鲁道夫★神迹]
+name$: ({鲁道夫★神迹, 鲁道夫★神迹})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+[鲁道夫★漂亮]
+name$: ({鲁道夫★漂亮, 鲁道夫★漂亮})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+[庆舞狮★银盏]
+name$: ({庆舞狮★银盏, 庆舞狮★银盏})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"
+
+[太极熊★疾风]
+name$: ({太极熊★疾风, 太极熊★疾风})
+rank$: 精怪
+mount$: 御灵
+level: "user_level"
+enchant_flag : 1
+life_effect: ({ 95, 95 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+channel_msg: "#M天降鸿福，#Y$PLAYER#n#M与#G极品坐骑#n#M有缘，#M因此得到了一只拥有#G十二速#Y$EX_PET#n，#M真是羡煞旁人啊！#23"

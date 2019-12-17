@@ -1,0 +1,20 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/22/2706
+#奖励物品        概率
+
+[奖励等级]
+name$: 特等奖
+
+
+[特等奖]
+法宝2 : 1
+
+[法宝2]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "混元金斗2"})
+
+[混元金斗2]
+name      : 混元金斗
+min_level : 24
+max_level : 24
+attribs      : ({"item_polar", 5, "extra_skill", "qinmi_wujian", "extra_skill_level", 24, "upgraded", 1, "icon", 1436, "prop/all_attrib", 30, "prop/all_polar", 10, "nimbus", 400000, "extra_desc", #G多宝道人的传家宝#r#Y仙人推荐指数：★★★★★★#n#r#R注意:#R此法宝为属性法宝不可继承#n#r#Y加成:#G人物 所有相性 10 增加#n#r#Y加成:#G人物 所有属性 30 增加#n})

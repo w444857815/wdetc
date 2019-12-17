@@ -1,0 +1,1674 @@
+#FORM2
+
+[time_info]
+start_time      : "2019-05-20-00:00"
+end_time        : "2020-08-20-23:59"
+test_start_time : "2019-05-20-00:00"
+test_end_time   : "2020-08-20-23:59"
+
+[broadcast_setting]
+broadcast_list : ({ "dur_task" })
+
+[dur_task]
+broadcast_start : "start_time(64800)"
+interval        : 1200
+cycle           : 86400
+broadcast_end   : "start_time(79100)"
+final_end_time  : "end_time"
+message         : "传说中的#R大佬兑换商城#n在天墉城 245.185 处上架了，大家赶紧去#P大佬兑换#P处兑换吧~！出售时间为#R00:00-24:00#n，欲购从速。
+channel         : "CHANNEL_SYSTEM | CHANNEL_NO_BROADCAST"
+
+[006]
+name : 一百张兑换神器袋
+card_num : 100
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[007]
+name : 五百张兑换神器袋
+card_num : 500
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[008]
+name : 道具套餐卡包
+card_num : 4
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[009]
+name : 高级道具套餐卡包
+card_num : 10
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[010]
+name : 仙元珠
+card_num : 1500
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[011]
+name : 喇叭
+card_num : 5
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[012]
+name : 一六零版精美称号
+card_num : 1000
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[013]
+name : 一六三版精美称号
+card_num : 1000
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[014]
+name : 特级异兽躯干
+card_num : 500
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[015]
+name : 龙腾盛世礼花
+card_num : 50
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[016]
+name : 吉祥如意太古仙二
+card_num : 3000
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[017]
+name : 吉祥如意太古仙十
+card_num : 3000
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[018]
+name : 万事如意太古仙四
+card_num : 3000
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[019]
+name : 大吉大利太古仙三
+card_num : 3000
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[020]
+name : 吉祥如意太古仙一
+card_num : 3000
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[022]
+name : 龙腾盛1世礼花
+card_num : 50
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[023]
+name : 新疆吐鲁番大切糕
+card_num : 50
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[024]
+name : 盛世鲜花雨
+card_num : 10
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[025]
+name : 一只满属性幻化宠
+card_num : 10
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[026]
+name : 三只满属性幻化宠
+card_num : 30
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[027]
+name : 五只满属性幻化宠
+card_num : 50
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[028]
+name : 精品野生宠物时装
+card_num : 100
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[029]
+name : 精品变异宠物时装
+card_num : 100
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[030]
+name : 精品最新宠物时装
+card_num : 100
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[031]
+name : 极品全满妖石十级
+card_num : 5
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[032]
+name : 极品满妖石十一级
+card_num : 5
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[033]
+name : 极品满妖石十二级
+card_num : 5
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[034]
+name : 极品满妖石十三级
+card_num : 5
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[035]
+name : 极品满妖石十四级
+card_num : 5
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[036]
+name : 极品满妖石十五级
+card_num : 5
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[037]
+name : 极品满妖石十六级
+card_num : 5
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[050]
+name : 极品转世法宝斗子
+card_num : 200
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[051]
+name : 极品转世法宝珠子
+card_num : 200
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[052]
+name : 极品转世法宝沌钟
+card_num : 200
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[053]
+name : 极品转世法宝番天
+card_num : 200
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[054]
+name : 极品转世法宝卸甲
+card_num : 200
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[055]
+name : 极品转世法宝莲台
+card_num : 200
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[076]
+name : 极品转世法宝妙树
+card_num : 200
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[077]
+name : 极品转世法宝九龙
+card_num : 200
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[078]
+name : 极品转世法宝阴阳
+card_num : 200
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[079]
+name : 极品转世法宝金蛟
+card_num : 200
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[080]
+name : 全民活动的宠物鸡
+card_num : 100
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[081]
+name : 全民活动的宠物鬼
+card_num : 100
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[082]
+name : 全民活动的宠物鱼
+card_num : 100
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[083]
+name : 全民活动的宠物剑
+card_num : 100
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[084]
+name : 天空石
+card_num : 10
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[085]
+name : 极品满属金书惊雷
+card_num : 300
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[086]
+name : 极品满属金书青木
+card_num : 300
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[087]
+name : 极品满属金书寒冰
+card_num : 300
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[088]
+name : 极品满属金书烈炎
+card_num : 300
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[089]
+name : 极品满属金书碎石
+card_num : 300
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[090]
+name : 极品满属金书狂暴
+card_num : 300
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[091]
+name : 极品满属金书反击
+card_num : 300
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[092]
+name : 极品满属金书破天
+card_num : 300
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[093]
+name : 极品满属金书怒击
+card_num : 300
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[094]
+name : 极品满属金书修罗
+card_num : 300
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[095]
+name : 极品满属金书魔斩
+card_num : 300
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[096]
+name : 极品满属金书云体
+card_num : 300
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[097]
+name : 极品满属金书仙风
+card_num : 300
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[098]
+name : 极品满属金书尽忠
+card_num : 300
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[201]
+name : 太古十二速坐骑袋
+card_num : 3000
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[202]
+name : 上古召唤材料礼包
+card_num : 1000
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[203]
+name : 屠魔召唤材料礼包
+card_num : 1000
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[204]
+name : 雁翼回翔
+card_num : 50
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[205]
+name : 凤翼燎原
+card_num : 50
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[206]
+name : 神物任化
+card_num : 50
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[207]
+name : 超级巨力卡
+card_num : 2
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[208]
+name : 超级昆仑卡
+card_num : 2
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[209]
+name : 超级苍穹卡
+card_num : 2
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[210]
+name : 超级净瓶卡
+card_num : 2
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[211]
+name : 超级八戒卡
+card_num : 2
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[212]
+name : 超级巨力荒卡
+card_num : 20
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[213]
+name : 超级昆仑荒卡
+card_num : 20
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[214]
+name : 超级苍穹荒卡
+card_num : 20
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[215]
+name : 超级净瓶荒卡
+card_num : 20
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[216]
+name : 超级八戒荒卡
+card_num : 20
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[217]
+name : 玲珑笔·蓝鲁道夫
+card_num : 500
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[218]
+name : 玲珑笔·红鲁道夫
+card_num : 500
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[219]
+name : 玲珑笔·金鲁道夫
+card_num : 500
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[220]
+name : 玲珑笔·幻彩九尾
+card_num : 500
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[221]
+name : 大呲花
+card_num : 50
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[222]
+name : 男金系140套裝·男
+card_num : 200
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+
+[223]
+name : 男木系140套裝·男
+card_num : 200
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[224]
+name : 男水系140套裝·男
+card_num : 200
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[225]
+name : 男火系140套裝·男
+card_num : 200
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[226]
+name : 男土系140套裝·男
+card_num : 200
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[227]
+name : 女金系140套裝·女
+card_num : 200
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[228]
+name : 女木系140套裝·女
+card_num : 200
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[229]
+name : 女水系140套裝·女
+card_num : 200
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[230]
+name : 女火系140套裝·女
+card_num : 200
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[231]
+name : 女土系140套裝·女
+card_num : 200
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+
+[232]
+name : 男金系150套裝·男
+card_num : 200
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[233]
+name : 男木系150套裝·男
+card_num : 200
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[234]
+name : 男水系150套裝·男
+card_num : 200
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[235]
+name : 男火系150套裝·男
+card_num : 200
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[236]
+name : 男土系150套裝·男
+card_num : 200
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[237]
+name : 女金系150套裝·女
+card_num : 200
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[238]
+name : 女木系150套裝·女
+card_num : 200
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[239]
+name : 女水系150套裝·女
+card_num : 200
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[240]
+name : 女火系150套裝·女
+card_num : 200
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[241]
+name : 女土系150套裝·女
+card_num : 200
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[242]
+name : 男金系160套裝·男
+card_num : 200
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[243]
+name : 男木系160套裝·男
+card_num : 200
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[244]
+name : 男水系160套裝·男
+card_num : 200
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[245]
+name : 男火系160套裝·男
+card_num : 200
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[246]
+name : 男土系160套裝·男
+card_num : 200
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[247]
+name : 女金系160套裝·女
+card_num : 200
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[248]
+name : 女木系160套裝·女
+card_num : 200
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+
+[249]
+name : 女水系160套裝·女
+card_num : 200
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[250]
+name : 女火系160套裝·女
+card_num : 200
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[251]
+name : 女土系160套裝·女
+card_num : 200
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[252]
+name : Q版新金服·男
+card_num : 200
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[253]
+name : Q版新木服·男
+card_num : 200
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[254]
+name : Q版新水服·男
+card_num : 200
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[255]
+name : Q版新火服·男
+card_num : 200
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[256]
+name :  Q版新土服·男
+card_num : 200
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[257]
+name : Q版新金服·女
+card_num : 200
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[258]
+name : Q版新木服·女
+card_num : 200
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[259]
+name : Q版新水服·女
+card_num : 200
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[260]
+name : Q版新火服·女
+card_num : 200
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[261]
+name : Q版新土服·女
+card_num : 200
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+
+[262]
+name : 酒葫芦
+card_num : 50
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[263]
+name : 九齿钉耙包
+card_num : 100
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[264]
+name : 形象转换珠
+card_num : 200
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[265]
+name : 爱宠染色丹
+card_num : 200
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[266]
+name : 精品一个魂兽石袋
+card_num : 50
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[267]
+name : 精品一个技能石袋
+card_num : 50
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[268]
+name : 大吉大利太古仙六
+card_num : 200
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[269]
+name : 大吉大利太古仙七
+card_num : 200
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[270]
+name : 技能觉醒符印
+card_num : 10
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[271]
+name : 降妖令
+card_num : 50
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[272]
+name : 九转仙灵露
+card_num : 5
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[273]
+name : 潜金散
+card_num : 5
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[274]
+name : 神木丸
+card_num : 5
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[275]
+name : 柔水丹
+card_num : 5
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[276]
+name : 烈火散
+card_num : 5
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+[277]
+name : 三土丸
+card_num : 5
+give_num : 1
+free_bag : 1
+type : "item"
+can_trade : 1
+sell_start : 0
+sell_end : 24
+show_start : 0
+show_end : 24
+
+
+
+
+
+
+

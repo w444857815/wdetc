@@ -1,0 +1,300 @@
+#FORM2
+#bashuid.list
+#create by caijz 09/18/2006
+#奖励物品        概率
+
+[奖励等级]
+name$: 特等奖
+
+[特等奖]
+超级黑水晶1 : 1500
+超级黑水晶2 : 1000
+超级黑水晶3 : 1000
+超级黑水晶4 : 1000
+超级黑水晶5 : 1000
+
+[超级黑水晶1]
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "超级黑水晶11", "超级黑水晶12", "超级黑水晶13", "超级黑水晶14", "超级黑水晶15", "超级黑水晶16", "超级黑水晶17", "超级黑水晶18", "超级黑水晶19", "超级黑水晶24", "超级黑水晶25", "超级黑水晶26", "超级黑水晶27" })
+
+[超级黑水晶11]
+name      : 超级黑水晶
+min_level : 80
+max_level : 80
+attribs      : ({ "prop/phy_power", 1700 })
+upgrade_type : 1
+
+[超级黑水晶12]
+name      : 超级黑水晶
+min_level : 80
+max_level : 80
+attribs      : ({ "prop/all_skill", 10 })
+upgrade_type : 1
+
+[超级黑水晶13]
+name      : 超级黑水晶
+min_level : 80
+max_level : 80
+attribs      : ({ "prop/all_polar", 5 })
+upgrade_type : 1
+
+[超级黑水晶14]
+name      : 超级黑水晶
+min_level : 80
+max_level : 80
+attribs      : ({ "prop/earth", 5 })
+upgrade_type : 1
+
+[超级黑水晶15]
+name      : 超级黑水晶
+min_level : 80
+max_level : 80
+attribs      : ({ "prop/fire", 5 })
+upgrade_type : 1
+
+[超级黑水晶16]
+name      : 超级黑水晶
+min_level : 80
+max_level : 80
+attribs      : ({ "prop/water", 5 })
+upgrade_type : 1
+
+[超级黑水晶17]
+name      : 超级黑水晶
+min_level : 80
+max_level : 80
+attribs      : ({ "prop/wood", 5 })
+upgrade_type : 1
+
+[超级黑水晶18]
+name      : 超级黑水晶
+min_level : 80
+max_level : 80
+attribs      : ({ "prop/metal", 5 })
+upgrade_type : 1
+
+[超级黑水晶19]
+name      : 超级黑水晶
+min_level : 80
+max_level : 80
+attribs      : ({ "prop/all_polar", 5 })
+upgrade_type : 1
+
+[超级黑水晶24]
+name      : 超级黑水晶
+min_level : 80
+max_level : 80
+attribs      : ({ "prop/double_hit_rate", 30% })
+upgrade_type : 1
+
+[超级黑水晶25]
+name      : 超级黑水晶
+min_level : 80
+max_level : 80
+attribs      : ({ "prop/ignore_all_resist_except", 20% })
+upgrade_type : 1
+
+[超级黑水晶26]
+name      : 超级黑水晶
+min_level : 80
+max_level : 80
+attribs      : ({ "prop/ignore_all_resist_polar", 20% })
+upgrade_type : 1
+
+[超级黑水晶27]
+name      : 超级黑水晶
+min_level : 80
+max_level : 80
+attribs      : ({ "prop/stunt_rate", 30% })
+upgrade_type : 1
+
+
+[超级黑水晶2]
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "超级黑水晶28", "超级黑水晶29", "超级黑水晶30", "超级黑水晶31", "超级黑水晶32" })
+
+[超级黑水晶28]
+name      : 超级黑水晶
+min_level : 80
+max_level : 80
+attribs      : ({ "prop/all_attrib", 14 })
+upgrade_type : 2
+
+[超级黑水晶29]
+name      : 超级黑水晶
+min_level : 80
+max_level : 80
+attribs      : ({ "prop/str", 17 })
+upgrade_type : 2
+
+[超级黑水晶30]
+name      : 超级黑水晶
+min_level : 80
+max_level : 80
+attribs      : ({ "prop/con", 17 })
+upgrade_type : 2
+
+[超级黑水晶31]
+name      : 超级黑水晶
+min_level : 80
+max_level : 80
+attribs      : ({ "prop/wiz", 17 })
+upgrade_type : 2
+
+[超级黑水晶32]
+name      : 超级黑水晶
+min_level : 80
+max_level : 80
+attribs      : ({ "prop/dex", 17 })
+upgrade_type : 2
+
+
+[超级黑水晶3]
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "超级黑水晶33", "超级黑水晶34", "超级黑水晶35", "超级黑水晶36", "超级黑水晶37", "超级黑水晶38", "超级黑水晶39" })
+
+[超级黑水晶33]
+name      : 超级黑水晶
+min_level : 80
+max_level : 80
+attribs      : ({ "prop/all_attrib", 14 })
+upgrade_type : 3
+
+[超级黑水晶34]
+name      : 超级黑水晶
+min_level : 80
+max_level : 80
+attribs      : ({ "prop/str", 17 })
+upgrade_type : 3
+
+[超级黑水晶35]
+name      : 超级黑水晶
+min_level : 80
+max_level : 80
+attribs      : ({ "prop/con", 17 })
+upgrade_type : 3
+
+[超级黑水晶36]
+name      : 超级黑水晶
+min_level : 80
+max_level : 80
+attribs      : ({ "prop/wiz", 17 })
+upgrade_type : 3
+
+[超级黑水晶37]
+name      : 超级黑水晶
+min_level : 80
+max_level : 80
+attribs      : ({ "prop/dex", 17 })
+upgrade_type : 3
+
+[超级黑水晶38]
+name      : 超级黑水晶
+min_level : 80
+max_level : 80
+attribs      : ({ "prop/all_resist_polar", 15 })
+upgrade_type : 3
+
+[超级黑水晶39]
+name      : 超级黑水晶
+min_level : 80
+max_level : 80
+attribs      : ({ "prop/all_resist_except", 15 })
+upgrade_type : 3
+
+
+
+[超级黑水晶4]
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "超级黑水晶40", "超级黑水晶41", "超级黑水晶42", "超级黑水晶43", "超级黑水晶44", "超级黑水晶45", "超级黑水晶46" })
+
+[超级黑水晶40]
+name      : 超级黑水晶
+min_level : 80
+max_level : 80
+attribs      : ({ "prop/all_attrib", 14 })
+upgrade_type : 7
+
+[超级黑水晶41]
+name      : 超级黑水晶
+min_level : 80
+max_level : 80
+attribs      : ({ "prop/str", 17 })
+upgrade_type : 7
+
+[超级黑水晶42]
+name      : 超级黑水晶
+min_level : 80
+max_level : 80
+attribs      : ({ "prop/con", 17 })
+upgrade_type : 7
+
+[超级黑水晶43]
+name      : 超级黑水晶
+min_level : 80
+max_level : 80
+attribs      : ({ "prop/wiz", 17 })
+upgrade_type : 7
+
+[超级黑水晶44]
+name      : 超级黑水晶
+min_level : 80
+max_level : 80
+attribs      : ({ "prop/dex", 17 })
+upgrade_type : 7
+
+[超级黑水晶45]
+name      : 超级黑水晶
+min_level : 80
+max_level : 80
+attribs      : ({ "prop/all_resist_polar", 15 })
+upgrade_type : 7
+
+[超级黑水晶46]
+name      : 超级黑水晶
+min_level : 80
+max_level : 80
+attribs      : ({ "prop/all_resist_except", 15 })
+upgrade_type : 7
+
+
+[超级黑水晶5]
+bonus$: ({ 0, 0, 100, "属性道具", 1, 1, "超级黑水晶47", "超级黑水晶48", "超级黑水晶49", "超级黑水晶50", "超级黑水晶51", "超级黑水晶52" })
+
+[超级黑水晶47]
+name      : 超级黑水晶
+min_level : 80
+max_level : 80
+attribs      : ({ "prop/all_attrib", 14 })
+upgrade_type : 10
+
+[超级黑水晶48]
+name      : 超级黑水晶
+min_level : 80
+max_level : 80
+attribs      : ({ "prop/str", 17 })
+upgrade_type : 10
+
+[超级黑水晶49]
+name      : 超级黑水晶
+min_level : 80
+max_level : 80
+attribs      : ({ "prop/con", 17 })
+upgrade_type : 10
+
+[超级黑水晶50]
+name      : 超级黑水晶
+min_level : 80
+max_level : 80
+attribs      : ({ "prop/wiz", 17 })
+upgrade_type : 10
+
+[超级黑水晶51]
+name      : 超级黑水晶
+min_level : 80
+max_level : 80
+attribs      : ({ "prop/dex", 17 })
+upgrade_type : 10
+
+[超级黑水晶52]
+name      : 超级黑水晶
+min_level : 80
+max_level : 80
+attribs      : ({ "prop/speed", 100 })
+upgrade_type : 10

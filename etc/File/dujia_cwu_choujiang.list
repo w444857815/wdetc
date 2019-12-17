@@ -1,0 +1,221 @@
+#FORM2
+
+#dujiachoujianghuodong.list
+#created by huangw2 Aug/25/2008
+#独家抽奖游戏活动
+
+[task_time]
+start_time : "2008-11-13-12:00:00"
+maf_time$ :  ({ "2008-11-13-12:00:00", "2028-11-13-12:00:00" })
+
+
+[S级仙元]
+rate : 20
+name$ : S级仙元
+log_to_db:  100
+free_pet:   ({ 1, "你携带的宠物数量已到最大，无法领取奖励。" })
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "乾坤八戒·荒", "功夫熊猫·荒", "卸甲力士·荒", "墨脱螳螂·荒", "狱火锤锤·荒", "腾龙蛟王·荒", "黑暗天使·荒"})
+bonus_times : -1
+
+
+[乾坤八戒·荒]
+name$: ({乾坤八戒·荒, 乾坤八戒·荒})
+rank$: 仙元
+level: 60
+life_effect: ({ 125, 125 })
+mana_effect: ({ -40, -40 })
+speed_effect: ({ 70, 70 })
+phy_effect: ({ 200, 200 })
+mag_effect: ({ -55, -55 })
+special_skill$: ({ 8, 翻转乾坤, 100, 神龙罩, 100, 死亡缠绵, 100, 坚韧不拔, 100, 仙云迷雾, 100 })
+channel_msg: "#Y天降鸿福，#L$PLAYER#n#Y与#G极品宠物#n#Y有缘，#Y在专属#R宠物抽奖仙官#n#Y处宠物抽奖中，抽到了一只拥有#G好多天技的#Y$EX_PET#n，#L真是羡煞旁人啊！#23"
+
+[功夫熊猫·荒]
+name$: ({功夫熊猫·荒, 功夫熊猫·荒})
+rank$: 仙元
+level: 60
+life_effect: ({ 125, 125 })
+mana_effect: ({ -40, -40 })
+speed_effect: ({ 70, 70 })
+phy_effect: ({ 200, 200 })
+mag_effect: ({ -55, -55 })
+special_skill$: ({ 8, 神圣之光, 100, 乾坤罩, 100, 死亡缠绵, 100, 坚韧不拔, 100, 仙云迷雾,100 })
+channel_msg: "#Y天降鸿福，#L$PLAYER#n#Y与#G极品宠物#n#Y有缘，#Y在专属#R宠物抽奖仙官#n#Y处宠物抽奖中，抽到了一只拥有#G好多天技的#Y$EX_PET#n，#L真是羡煞旁人啊！#23"
+
+[卸甲力士·荒]
+name$: ({卸甲力士·荒, 卸甲力士·荒})
+rank$: 仙元
+level: 60
+life_effect: ({ 125, 125 })
+mana_effect: ({ -40, -40 })
+speed_effect: ({ 70, 70 })
+phy_effect: ({ 200, 200 })
+mag_effect: ({ -55, -55 })
+special_skill$: ({ 8, 漫天血舞, 100, 神龙罩, 100, 神圣之光, 100, 坚韧不拔, 100, 仙云迷雾, 100 })
+channel_msg: "#Y天降鸿福，#L$PLAYER#n#Y与#G极品宠物#n#Y有缘，#Y在专属#R宠物抽奖仙官#n#Y处宠物抽奖中，抽到了一只拥有#G好多天技的#Y$EX_PET#n，#L真是羡煞旁人啊！#23"
+
+[墨脱螳螂·荒]
+name$: ({墨脱螳螂·荒, 墨脱螳螂·荒})
+rank$: 仙元
+level: 60
+life_effect: ({ 125, 125 })
+mana_effect: ({ -40, -40 })
+speed_effect: ({ 70, 70 })
+phy_effect: ({ 200, 200 })
+mag_effect: ({ -55, -55 })
+special_skill$: ({ 8, 游说之舌, 100, 乾坤罩, 100, 死亡缠绵, 100, 坚韧不拔, 100, 仙云迷雾, 100 })
+channel_msg: "#Y天降鸿福，#L$PLAYER#n#Y与#G极品宠物#n#Y有缘，#Y在专属#R宠物抽奖仙官#n#Y处宠物抽奖中，抽到了一只拥有#G好多天技的#Y$EX_PET#n，#L真是羡煞旁人啊！#23"
+
+[狱火锤锤·荒]
+name$: ({狱火锤锤·荒, 狱火锤锤·荒})
+rank$:仙元
+level: 60
+life_effect: ({ 125, 125 })
+mana_effect: ({ -40, -40 })
+speed_effect: ({ 70, 70 })
+phy_effect: ({ 200, 200 })
+mag_effect: ({ -55, -55 })
+special_skill$: ({ 8, 游说之舌, 100, 如意圈, 100, 漫天血舞, 100, 坚韧不拔, 100, 仙云迷雾, 100 })
+channel_msg: "#Y天降鸿福，#L$PLAYER#n#Y与#G极品宠物#n#Y有缘，#Y在专属#R宠物抽奖仙官#n#Y处宠物抽奖中，抽到了一只拥有#G好多天技的#Y$EX_PET#n，#L真是羡煞旁人啊！#23"
+
+[腾龙蛟王·荒]
+name$: ({腾龙蛟王·荒, 腾龙蛟王·荒})
+rank$:仙元
+level: 60
+life_effect: ({ 125, 125 })
+mana_effect: ({ -40, -40 })
+speed_effect: ({ 70, 70 })
+phy_effect: ({ 200, 200 })
+mag_effect: ({ -55, -55 })
+special_skill$: ({ 8, 漫天血舞, 100, 乾坤罩, 100, 神圣之光, 100, 坚韧不拔, 100, 仙云迷雾, 100 })
+channel_msg: "#Y天降鸿福，#L$PLAYER#n#Y与#G极品宠物#n#Y有缘，#Y在专属#R宠物抽奖仙官#n#Y处宠物抽奖中，抽到了一只拥有#G好多天技的#Y$EX_PET#n，#L真是羡煞旁人啊！#23"
+
+
+[黑暗天使·荒]
+name$: ({黑暗天使·荒, 黑暗天使·荒})
+rank$: 仙元
+level: 60
+life_effect: ({ 125, 125 })
+mana_effect: ({ -40, -40 })
+speed_effect: ({ 70, 70 })
+phy_effect: ({ 200, 200 })
+mag_effect: ({ -55, -55 })
+special_skill$: ({ 8, 游说之舌, 100, 乾坤罩, 100, 死亡缠绵, 100, 坚韧不拔, 100, 仙云迷雾,100 })
+channel_msg: "#Y天降鸿福，#L$PLAYER#n#Y与#G极品宠物#n#Y有缘，#Y在专属#R宠物抽奖仙官#n#Y处宠物抽奖中，抽到了一只拥有#G好多天技的#Y$EX_PET#n，#L真是羡煞旁人啊！#23"
+
+
+
+[C级仙元]
+rate : 500
+name$ : C级仙元
+log_to_db:  100
+free_pet:   ({ 1, "你携带的宠物数量已到最大，无法领取奖励。" })
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "净瓶" })
+bonus_times : -1
+
+
+[净瓶]
+name$: ({净瓶, 净瓶})
+rank$: 仙元
+level: 60
+life_effect: ({ 145, 145 })
+mana_effect: ({ 10, 10 })
+speed_effect: ({ 45, 45 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+special_skill$: ({ 4, 游说之舌, 1, 神龙罩, 1, 舍命一击, 1 ,天旋地转,1 })
+channel_rumor: "#O$PLAYER#n#Y在专属#R宠物抽奖仙官#n#Y处宠物抽奖中，抽到了宠物#R$EX_PET#n#Y奖励！"
+
+
+[B级仙元]
+rate : 500
+name$ : B级仙元
+log_to_db:  100
+free_pet:   ({ 1, "你携带的宠物数量已到最大，无法领取奖励。" })
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "昆仑", "巨力", "无名" })
+bonus_times : -1
+
+[昆仑]
+name$: ({昆仑, 昆仑})
+rank$: 仙元
+level: 60
+life_effect: ({ 75, 75 })
+mana_effect: ({ -30, -30 })
+speed_effect: ({ 40, 40 })
+phy_effect: ({ 125, 125 })
+mag_effect: ({ -50, -50 })
+special_skill$: ({ 4, 游说之舌, 1, 如意圈, 1, 神圣之光, 1,仙云迷雾,1 })
+channel_rumor: #O$PLAYER#n#Y在专属#R宠物抽奖仙官#n#Y处宠物抽奖中，抽到了宠物#R$EX_PET#n#Y奖励！"
+
+
+[巨力]
+name$: ({巨力, 巨力})
+rank$: 仙元
+level: 60
+life_effect: ({ 85, 85 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 40, 40 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 70, 70 })
+special_skill$: ({ 4, 舍命一击, 1, 如意圈, 1, 神圣之光, 1 ,大道无常,1})
+channel_rumor: #O$PLAYER#n#Y在专属#R宠物抽奖仙官#n#Y处宠物抽奖中，抽到了宠物#R$EX_PET#n#Y奖励！"
+
+
+[无名]
+name$: ({无名, 无名})
+rank$: 仙元
+level: 60
+life_effect: ({ 75, 75 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 50, 50 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 65, 65 })
+special_skill$: ({ 4, 游说之舌, 1, 乾坤罩, 1, 舍命一击, 1 ,神圣驱散,1 })
+channel_rumor: #O$PLAYER#n#Y在专属#R宠物抽奖仙官#n#Y处宠物抽奖中，抽到了宠物#R$EX_PET#n#Y奖励！"
+
+[A级仙元]
+rate : 500
+name$ : A级仙元
+log_to_db:  100
+free_pet:   ({ 1, "你携带的宠物数量已到最大，无法领取奖励。" })
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "苍穹", "巨力", "昆仑" })
+bonus_times : -1
+
+
+[苍穹]
+name$: ({苍穹, 苍穹})
+rank$: 仙元
+level: 60
+life_effect: ({ 100, 100 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 90, 90 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 45, 45 })
+special_skill$: ({ 4, 神圣之光, 1, 乾坤罩, 1, 舍命一击, 1 ,缥缈虚幻,1 })
+channel_rumor: #O$PLAYER#n#Y在专属#R宠物抽奖仙官#n#Y处宠物抽奖中，抽到了宠物#R$EX_PET#n#Y奖励！"
+
+
+[巨力]
+name$: ({巨力, 巨力})
+rank$: 仙元
+level: 60
+life_effect: ({ 105, 105 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 40, 40 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 90, 90 })
+special_skill$: ({ 4, 舍命一击, 1, 如意圈, 1, 神圣之光, 1 ,大道无常,1})
+channel_rumor: #O$PLAYER#n#Y在专属#R宠物抽奖仙官#n#Y处宠物抽奖中，抽到了宠物#R$EX_PET#n#Y奖励！"
+
+
+[昆仑]
+name$: ({昆仑, 昆仑})
+rank$: 仙元
+level: 60
+life_effect: ({ 95, 95 })
+mana_effect: ({ -30, -30 })
+speed_effect: ({ 40, 40 })
+phy_effect: ({ 145, 145 })
+mag_effect: ({ -50, -50 })
+special_skill$: ({ 4, 游说之舌, 1, 如意圈, 1, 神圣之光, 1,仙云迷雾,1 })
+channel_rumor: #O$PLAYER#n#Y在专属#R宠物抽奖仙官#n#Y处宠物抽奖中，抽到了宠物#R$EX_PET#n#Y奖励！"

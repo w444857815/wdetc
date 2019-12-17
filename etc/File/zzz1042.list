@@ -1,0 +1,78 @@
+#FORM2
+#wzhuang.list
+#create by caijz 09/18/2006
+#奖励物品        概率
+
+[奖励等级]
+name$: 特等奖
+
+
+[特等奖]
+娃娃装备130-160  :1000
+
+
+[娃娃装备130-160]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "红宝炫铃镯1" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "红宝炫铃镯2" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "红宝炫铃镯3" })
+bonus$:  ({ 0, 0, 100, "属性道具", 2, 2, "在天飞龙环1" })
+bonus$:  ({ 0, 0, 100, "属性道具", 2, 2, "在天飞龙环2" })
+bonus$:  ({ 0, 0, 100, "属性道具", 2, 2, "在天飞龙环3" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "翡翠金甲肚兜1" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "翡翠金甲肚兜2" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "翡翠金甲肚兜3" })
+
+
+[红宝炫铃镯1]
+name      : 红宝炫铃镯
+min_level : 140
+max_level : 140
+attribs      : ({ "prop/child_all_attrib", 28, "prop/child_str", 42, "prop/child_phy_damage", 4800 })
+
+[翡翠金甲肚兜1]
+name      : 翡翠金甲肚兜
+min_level : 140
+max_level : 140
+attribs      : ({ "prop/child_all_attrib", 28, "prop/child_str", 42, "prop/child_ignore_def", 20 })
+
+[在天飞龙环1]
+name      : 在天飞龙环
+min_level : 140
+max_level : 140
+attribs      : ({ "prop/child_all_attrib", 28, "prop/child_str", 42, "prop/child_phy_damage", 4800 })
+
+[红宝炫铃镯2]
+name      : 红宝炫铃镯
+min_level : 140
+max_level : 140
+attribs      : ({ "prop/child_all_attrib", 28, "prop/child_wisdom", 42, "prop/child_mag_damage", 4800 })
+
+[翡翠金甲肚兜2]
+name      : 翡翠金甲肚兜
+min_level : 140
+max_level : 140
+attribs      : ({ "prop/child_all_attrib", 28, "prop/child_wisdom", 42, "prop/child_ignore_def", 20 })
+
+[在天飞龙环2]
+name      : 在天飞龙环
+min_level : 140
+max_level : 140
+attribs      : ({ "prop/child_all_attrib", 28, "prop/child_wisdom", 42, "prop/child_mag_damage", 4800 })
+
+[红宝炫铃镯3]
+name      : 红宝炫铃镯
+min_level : 140
+max_level : 140
+attribs      : ({ "prop/child_all_attrib", 28, "prop/child_physique", 42, "prop/child_damage_reduce", 5000 })
+
+[翡翠金甲肚兜3]
+name      : 翡翠金甲肚兜
+min_level : 140
+max_level : 140
+attribs      : ({ "prop/child_all_attrib", 28, "prop/child_reduce_mag", 15, "prop/child_reduce_phy", 15 })
+
+[在天飞龙环3]
+name      : 在天飞龙环
+min_level : 140
+max_level : 140
+attribs      : ({ "prop/child_all_attrib", 28, "prop/child_physique", 42, "prop/child_damage_reduce", 5000 })

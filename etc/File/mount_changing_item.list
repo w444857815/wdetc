@@ -1,0 +1,10 @@
+key_name, icon, unit, combined, no_float, monster_name, log_action, value, sell_value
+ËÙÁú±ªÓ¡, 1574, ¿Å,   0,        0,        ËÙÁú±ª,       "sulbydj",  500,   0
+
+Ááçç±Ê¡¤À¶Â³µÀ·ò, 9704, ¿Å,   0,        0,        ÖÁ×ğÀ¶Â³µÀ·ò,       "huancai-shenhua",  500,   0
+
+Ááçç±Ê¡¤ºìÂ³µÀ·ò, 9704, ¿Å,   0,        0,        ÖÁ×ğºìÂ³µÀ·ò,       "huancai-shenhub",  500,   0
+
+Ááçç±Ê¡¤½ğÂ³µÀ·ò, 9704, ¿Å,   0,        0,        ÖÁ×ğ½ğÂ³µÀ·ò,       "huancai-shenhuc",  500,   0
+
+Ááçç±Ê¡¤»Ã²Ê¾ÅÎ², 9704, ¿Å,   0,        0,        »Ã²Ê¡ï¾ÅÎ²ÏÉºü,     "huancai-shenhu",   500,   0

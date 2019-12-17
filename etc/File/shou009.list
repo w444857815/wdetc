@@ -1,0 +1,36 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/18/2006
+#奖励物品        概率
+
+[奖励等级]
+name$: 特等奖
+
+[特等奖]
+首饰110 : 1000
+
+[首饰110]
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "流光绝影_灵" })
+bonus$:  ({ 0, 0, 100, "属性道具", 1, 1, "寒玉龙勾_灵" })
+bonus$:  ({ 0, 0, 100, "属性道具", 2, 2, "碎梦涵光_灵" }) 
+
+[流光绝影_灵]
+name      : 流光绝影
+min_level : 110
+max_level : 110
+upgrade_type : 6
+attribs      : ({ "prop/all_polar", 5, "prop/wiz", 29, "prop2/wiz", 29, "prop2/all_skill", 10 })
+
+[寒玉龙勾_灵]
+name      : 寒玉龙勾
+min_level : 110
+max_level : 110
+upgrade_type : 6
+attribs      : ({ "prop/all_polar", 5, "prop/wiz", 29, "prop2/wiz", 29, "prop2/all_skill", 10 })
+
+[碎梦涵光_灵]
+name      : 碎梦涵光
+min_level : 110
+max_level : 110
+upgrade_type : 6
+attribs      : ({ "prop/all_polar", 5, "prop/wiz", 29, "prop2/wiz", 29, "prop2/all_skill", 10 })

@@ -1,0 +1,249 @@
+#FORM2
+#zhuangb.list
+#create by caijz 09/18/2006
+#奖励物品        概率
+
+[奖励等级]
+name$: 特等奖
+
+[特等奖]
+元灵奖励1 : 1
+元灵奖励2 : 1
+元灵奖励3 : 1
+
+[元灵奖励1]
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "笛舞"})
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "混沌"})
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "夫诸" })
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "赤天" })
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "震魃"})
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "降魔"})
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "齐天大圣" })
+
+[元灵奖励2]
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "大力神猪" })
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "祸斗" })
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "碧霄" })
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "哮天犬" })
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "翻羽水" })
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "翻羽火" })
+
+[元灵奖励3]
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "狸力" })
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "玄锋" })
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "旋龟" })
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "胜遇" })
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "角龙" })
+bonus$:  ({ 0, 0, 100, "宠物", 1, 1, "九凤" })
+
+
+
+[笛舞 ]
+name$: ({笛舞, 笛舞})
+rank$: 元灵
+level: 60
+life_effect: ({ 80, 80 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 50, 50 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 45, 45 })
+special_skill$: ({ 3, 游说之舌, 1, 神龙罩, 1, 舍命一击, 1 })
+
+[混沌]
+name$: ({混沌, 混沌})
+rank$: 元灵
+level: 60
+life_effect: ({ 70, 70 })
+mana_effect: ({ -25, -25 })
+speed_effect: ({ 35, 35 })
+phy_effect: ({ 110, 110 })
+mag_effect: ({ -50, -50 })
+special_skill$: ({ 3, 游说之舌, 1, 如意圈, 1, 舍命一击, 1 })
+
+[夫诸]
+name$: ({夫诸, 夫诸})
+rank$: 元灵
+level: 60
+life_effect: ({ 70, 70 })
+mana_effect: ({ 25, 25 })
+speed_effect: ({ 45, 45 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+special_skill$: ({ 3, 游说之舌, 1, 乾坤罩, 1, 神圣之光, 1 })
+
+[赤天]
+name$: ({赤天, 赤天})
+rank$: 元灵
+level: 60
+life_effect: ({ 75, 75 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 40, 40 })
+special_skill$: ({ 3, 神圣之光, 1, 乾坤罩, 1, 舍命一击, 1 })
+
+[震魃]
+name$: ({震魃, 震魃})
+rank$: 元灵
+level: 60
+life_effect: ({ 80, 80 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 35, 35 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 55, 55 })
+special_skill$: ({ 3, 舍命一击, 1, 如意圈, 1, 神圣之光, 1  })
+
+[降魔]
+name$: ({降魔, 降魔})
+rank$: 元灵
+level: 60
+life_effect: ({ 90, 90 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 40, 40 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 45, 45 })
+special_skill$: ({ 3, 游说之舌, 1, 神龙罩, 1, 神圣之光, 1 })
+
+[齐天大圣]
+name$: ({齐天大圣, 齐天大圣})
+rank$: 元灵
+level: 60
+life_effect: ({ 80, 80 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 40, 40 })
+special_skill$: ({ 3, 舍命一击, 1, 游说之舌, 1, 神圣之光, 1  })
+
+[大力神猪]
+name$: ({ 大力神猪, 大力神猪 })
+rank$: 元灵
+level: 60
+life_effect: ({ 85, 85 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 45, 45 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 45, 45 })
+special_skill$: ({ 3, 神圣之光, 1, 游说之舌, 1, 舍命一击, 1})
+
+[祸斗]
+name$: ({ 祸斗, 祸斗 })
+rank$: 元灵
+level: 60
+life_effect: ({ 65, 65 })
+mana_effect: ({ -25, -25 })
+speed_effect: ({ 45, 45 })
+phy_effect: ({ 105, 105 })
+mag_effect: ({ -50, -50 })
+special_skill$: ({ 3, 乾坤罩, 1, 漫天血舞, 1, 舍命一击, 1})
+
+[碧霄]
+name$: ({ 碧霄, 碧霄 })
+rank$: 元灵
+level: 60
+life_effect: ({ 65, 65 })
+mana_effect: ({ -25, -25 })
+speed_effect: ({ 45, 45 })
+phy_effect: ({ 105, 105 })
+mag_effect: ({ -50, -50 })
+special_skill$: ({ 3,神龙罩, 1,游说之舌, 1,漫天血舞, 1})
+
+[哮天犬]
+name$: ({ 哮天犬, 哮天犬 })
+rank$: 元灵
+level: 60
+life_effect: ({ 75, 75 })
+mana_effect: ({ -30, -30 })
+speed_effect: ({ 45, 45 })
+phy_effect: ({ 100, 100 })
+mag_effect: ({ -50, -50 })
+special_skill$: ({ 3,神龙罩, 1,游说之舌, 1,漫天血舞, 1})
+
+[翻羽水]
+name$: ({翻羽水, 翻羽水})
+rank$: 元灵
+level: 60
+life_effect: ({ 80, 80 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 35, 35 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 55, 55 })
+special_skill$: ({ 3, 乾坤罩, 1, 游说之舌, 1, 舍命一击, 1 })
+
+[翻羽火]
+name$: ({翻羽火, 翻羽火})
+rank$: 元灵
+level: 60
+life_effect: ({ 80, 80 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 35, 35 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 55, 55 })
+special_skill$: ({ 3, 乾坤罩, 1, 游说之舌, 1, 舍命一击, 1 })
+
+[狸力]
+name$: ({ 狸力, 狸力 })
+rank$: 元灵
+level: 60
+life_effect: ({ 75, 75 })
+mana_effect: ({ -30, -30 })
+speed_effect: ({ 45, 45 })
+phy_effect: ({ 100, 100 })
+mag_effect: ({ -50, -50 })
+special_skill$: ({ 3,神龙罩, 1,游说之舌, 1,漫天血舞, 1})
+
+[玄锋]
+name$: ({玄锋, 玄锋})
+rank$: 元灵
+level: 60
+life_effect: ({ 75, 75 })
+mana_effect: ({ 20, 20 })
+speed_effect: ({ 55, 55 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 40, 40 })
+special_skill$: ({ 3, 神圣之光, 1, 乾坤罩, 1, 舍命一击, 1 })
+
+[旋龟]
+name$: ({旋龟, 旋龟})
+rank$: 元灵
+level: 60
+life_effect: ({ 90, 90 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 40, 40 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 45, 45 })
+special_skill$: ({ 3, 游说之舌, 1, 神龙罩, 1, 神圣之光, 1 })
+
+[胜遇]
+name$: ({胜遇, 胜遇})
+rank$: 元灵
+level: 60
+life_effect: ({ 70, 70 })
+mana_effect: ({ 25, 25 })
+speed_effect: ({ 45, 45 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 50, 50 })
+special_skill$: ({ 3, 游说之舌, 1, 乾坤罩, 1, 神圣之光, 1 })
+
+[角龙]
+name$: ({ 角龙, 角龙 })
+rank$: 元灵
+level: 60
+life_effect: ({ 75, 75 })
+mana_effect: ({ -30, -30 })
+speed_effect: ({ 45, 45 })
+phy_effect: ({ 100, 100 })
+mag_effect: ({ -50, -50 })
+special_skill$: ({ 3,神龙罩, 1,游说之舌, 1,漫天血舞, 1})
+
+[九凤 ]
+name$: ({九凤, 九凤})
+rank$: 元灵
+level: 60
+life_effect: ({ 80, 80 })
+mana_effect: ({ 15, 15 })
+speed_effect: ({ 50, 50 })
+phy_effect: ({ -50, -50 })
+mag_effect: ({ 45, 45 })
+special_skill$: ({ 3, 游说之舌, 1, 神龙罩, 1, 舍命一击, 1 })
+
